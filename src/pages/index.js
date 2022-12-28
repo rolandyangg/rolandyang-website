@@ -65,25 +65,6 @@ const buttons = [
 	]
 ]
 
-const menuItems = [
-    {
-        name: "Background/Experience",
-        link: "/about"
-    },
-    {
-        name: "Projects",
-        link: "/projects"
-    },
-    {
-        name: "Scenery",
-        link: "/scenery"
-    },
-    {
-        name: "Resume",
-        link: "/resume"
-    },
-]
-
 // https://chakra-ui.com/docs/components/flex
 export default function Home() {
   return (
