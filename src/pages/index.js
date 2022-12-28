@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { ChakraProvider, Icon, Flex, HStack, VStack, Stack, Box, Button, Link, Text, Heading, Image, Center, extendTheme, Spacer } from '@chakra-ui/react'
 import { FaDev, FaGithub, FaEnvelope, FaLinkedin, FaFolderOpen } from 'react-icons/fa'
+import Navbar from '../components/navbar'
 
 const theme = extendTheme({
   initialColorMode: 'dark',
@@ -32,10 +33,43 @@ const theme = extendTheme({
 	},
 })
 
+const buttons = [
+	[
+		{
+			icon: <FaEnvelope/>,
+			link: "mailto:rolandyang@ucla.edu",
+			text: "Email"
+		},
+		{
+			icon: <FaGithub/>,
+			link: "https://github.com/rolandyangg",
+			text: "GitHub"
+		},
+		{
+			icon: <FaLinkedin/>,
+			link: "https://www.linkedin.com/in/yangroland/",
+			text: "LinkedIn"
+		}
+	],
+	[
+		{
+			icon: <FaDev/>,
+			link: "https://devpost.com/rolandyang",
+			text: "DevPost"
+		},
+		{
+			icon: <FaFolderOpen/>,
+			link: "https://drive.google.com/file/d/1_IOzmp8a8JdewSncNE274h6pOH8LVXdL/view?usp=sharing",
+			text: "Resume"
+		}
+	]
+]
+
 // https://chakra-ui.com/docs/components/flex
 export default function Home() {
   return (
     <ChakraProvider theme={theme}>
+	<Navbar/>
       <Center p="50px" justify="center" h="100vh">
 		<VStack>
         <Flex direction={{ base: "column", md: "row"}} justify="center" align="center" flexWarp="wrap">
@@ -50,20 +84,20 @@ export default function Home() {
             <Text fontSize="xl">i’m an undergraduate student studying computer science at ucla (go bwuins! 🐻). i like to code and do a bunch of other stuff 👨‍💻🥁🎥🏐🎮.</Text>
 			<Flex direction={{ base: "column", lg: "row"}} justify="center" align="center" flexWarp="wrap" fontSize="lg" py="10px">
 				<Flex>
-					<Link _hover={{ }} href="mailto:rolandyang@ucla.edu"><Button _hover={{ borderColor: "blue.300" }} variant='outline' mx="5px" my="5px" leftIcon={<FaEnvelope/>}>Email</Button></Link>
-					<Link _hover={{ }} href="https://github.com/rolandyangg"><Button _hover={{ borderColor: "blue.300" }} variant='outline' mx="5px" my="5px" leftIcon={<FaGithub/>}>GitHub</Button></Link>
-					<Link _hover={{ }} href="https://www.linkedin.com/in/yangroland/"><Button _hover={{ borderColor: "blue.300" }} variant='outline' mx="5px" my="5px" leftIcon={<FaLinkedin/>}>LinkedIn</Button></Link>
+					{buttons[0].map((button, i) => {
+						return <Link _hover={{ }} key={i} href={button.link}><Button _hover={{ borderColor: "blue.300" }} variant='outline' mx="5px" my="5px" leftIcon={button.icon}>{button.text}</Button></Link>
+					})}
 				</Flex>
 				<Flex>
-					<Link _hover={{ }} href="https://devpost.com/rolandyang"><Button _hover={{ borderColor: "blue.300" }} variant='outline' mx="5px" my="5px" leftIcon={<FaDev/>}>DevPost</Button></Link>
-					<Link _hover={{ }} href="https://drive.google.com/file/d/1_IOzmp8a8JdewSncNE274h6pOH8LVXdL/view?usp=sharing"><Button _hover={{ borderColor: "blue.300" }} variant='outline' mx="5px" my="5px" leftIcon={<FaFolderOpen/>}>Resume</Button></Link>
+					{buttons[1].map((button, i) => {
+						return <Link _hover={{ }} key={i} href={button.link}><Button _hover={{ borderColor: "blue.300" }} variant='outline' mx="5px" my="5px" leftIcon={button.icon}>{button.text}</Button></Link>
+					})}
 				</Flex>
 			</Flex>
 		  </VStack>
         </Flex>
 		<Text justify="center" align="center" maxW="790px">currently i am seeking internships in software engineering, however all opportunities are greatly appreciated!</Text>
-		<Text justify="center" align="center">feel free to reach out via any of my provided socials!
-</Text>
+		<Text justify="center" align="center">feel free to reach out via any of my provided socials!</Text>
 		</VStack>
       </Center>
     </ChakraProvider>
