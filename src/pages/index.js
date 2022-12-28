@@ -65,15 +65,34 @@ const buttons = [
 	]
 ]
 
+const menuItems = [
+    {
+        name: "Background/Experience",
+        link: "/about"
+    },
+    {
+        name: "Projects",
+        link: "/projects"
+    },
+    {
+        name: "Scenery",
+        link: "/scenery"
+    },
+    {
+        name: "Resume",
+        link: "/resume"
+    },
+]
+
 // https://chakra-ui.com/docs/components/flex
 export default function Home() {
   return (
     <ChakraProvider theme={theme}>
 	<Navbar/>
-      <Center p="50px" justify="center" h="100vh">
-		<VStack>
+      <Center justify="center" p={{base: 0, md: "100px"}}>
+		<VStack spacing={3}>
         <Flex direction={{ base: "column", md: "row"}} justify="center" align="center" flexWarp="wrap">
-          <Center my="25px" mx="30px">
+          <Center mx="30px" my="20px">
             <Image alt='Roland Yang' src="/hsgradpic.jpeg" borderRadius="lg" maxW="350px"/>
           </Center>
           <VStack mx="30px" align="left" maxW="600px">
@@ -95,9 +114,9 @@ export default function Home() {
 				</Flex>
 			</Flex>
 		  </VStack>
-        </Flex>
-		<Text justify="center" align="center" maxW="790px">currently i am seeking internships in software engineering, however all opportunities are greatly appreciated!</Text>
-		<Text justify="center" align="center">feel free to reach out via any of my provided socials!</Text>
+        	</Flex>
+			<Text maxW="90%" justify="center" align="center" pt={5}>currently i am seeking internships in software engineering, however all opportunities are greatly appreciated!</Text>
+			<Text maxW="90%" justify="center" align="center">feel free to reach out via any of my provided socials!</Text>
 		</VStack>
       </Center>
     </ChakraProvider>
