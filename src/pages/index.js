@@ -2,8 +2,9 @@ import * as React from 'react'
 import { ChakraProvider, Icon, Flex, HStack, VStack, Stack, Box, Button, Link, Text, Heading, Image, Center, extendTheme, Spacer, Divider } from '@chakra-ui/react'
 import { FaDev, FaGithub, FaEnvelope, FaLinkedin, FaFolderOpen } from 'react-icons/fa'
 import Navbar from '../components/navbar'
-import theme from '../theme'
+import Footer from '../components/footer'
 import ProjectCard from '../components/projectcard'
+import theme from '../theme'
 import { Link as GatsbyLink } from 'gatsby'
 
 const buttons = [
@@ -87,84 +88,76 @@ const featuredProjects = [
 export default function Home() {
   return (
     <ChakraProvider theme={theme}>
-	<Navbar/>
-      <Center justify="center" p={{base: 0, md: "100px"}}>
-		<VStack spacing={3}>
-        <Flex direction={{ base: "column", md: "row"}} justify="center" align="center" flexWarp="wrap">
-          <Center mx="30px" my="20px">
-            <Image alt='Roland Yang' src="/hsgradpic.jpeg" borderRadius="lg" maxW="350px"/>
-          </Center>
-          <VStack mx="30px" align="left" maxW="600px">
-            <Heading fontSize="5xl">hey 👋</Heading>
-			<Heading fontSize="4xl">my name is <Text bgGradient='linear(to-l, #1ccbe2, #e96dff)'
-  bgClip='text' as="span" >roland yang</Text></Heading>
-            <Text fontSize="xl">welcome to my little website 💻</Text>
-            <Text fontSize="xl">i’m an undergraduate student studying computer science at ucla 🐻👨‍💻. </Text>
-			<Flex direction={{ base: "column", lg: "row"}} justify="center" align="center" flexWarp="wrap" fontSize="lg" py="10px">
-				<Flex>
-					{buttons[0].map((button, i) => {
-						return <Link _hover={{ }} key={i} href={button.link}><Button _hover={{ backgroundColor: "blue.800", borderColor: "blue.300" }} variant='outline' mx="5px" my="5px" leftIcon={button.icon}>{button.text}</Button></Link>
-					})}
+
+		<Navbar/>
+
+		<Center justify="center" p={{base: 0, md: "100px"}}>
+			<VStack spacing={3}>
+			<Flex direction={{ base: "column", md: "row"}} justify="center" align="center" flexWarp="wrap">
+			<Center mx="30px" my="20px">
+				<Image alt='Roland Yang' src="/hsgradpic.jpeg" borderRadius="lg" maxW="350px"/>
+			</Center>
+			<VStack mx="30px" align="left" maxW="600px">
+				<Heading fontSize="5xl">hey 👋</Heading>
+				<Heading fontSize="4xl">my name is <Text bgGradient='linear(to-l, #1ccbe2, #e96dff)'
+	bgClip='text' as="span" >roland yang</Text></Heading>
+				<Text fontSize="xl">welcome to my little website 💻</Text>
+				<Text fontSize="xl">i’m an undergraduate student studying computer science at ucla 🐻👨‍💻. </Text>
+				<Flex direction={{ base: "column", lg: "row"}} justify="center" align="center" flexWarp="wrap" fontSize="lg" py="10px">
+					<Flex>
+						{buttons[0].map((button, i) => {
+							return <Link _hover={{ }} key={i} href={button.link}><Button _hover={{ backgroundColor: "blue.800", borderColor: "blue.300" }} variant='outline' mx="5px" my="5px" leftIcon={button.icon}>{button.text}</Button></Link>
+						})}
+					</Flex>
+					<Flex>
+						{buttons[1].map((button, i) => {
+							return <Link _hover={{ }} key={i} href={button.link}><Button _hover={{ backgroundColor: "blue.800", borderColor: "blue.300" }} variant='outline' mx="5px" my="5px" leftIcon={button.icon}>{button.text}</Button></Link>
+						})}
+					</Flex>
 				</Flex>
-				<Flex>
-					{buttons[1].map((button, i) => {
-						return <Link _hover={{ }} key={i} href={button.link}><Button _hover={{ backgroundColor: "blue.800", borderColor: "blue.300" }} variant='outline' mx="5px" my="5px" leftIcon={button.icon}>{button.text}</Button></Link>
-					})}
+			</VStack>
 				</Flex>
-			</Flex>
-		  </VStack>
-        	</Flex>
-			<Text maxW="90%" justify="center" align="center" pt={5}>currently i am seeking internships in software engineering, however all opportunities are greatly appreciated!</Text>
-			<Text maxW="90%" justify="center" align="center">feel free to reach out via any of my provided socials!</Text>
-		</VStack>
-      </Center>
-
-	<Center>
-		<Divider p="30px" borderColor="whiteAlpha.500" w="1300px"/>
-	</Center>
-
-	  <Center justify="center" p={{base: "25px", md: "100px"}}>
-	  <VStack>
-	  	<Heading mb="15px">featured projects</Heading>
-		<Flex justify="center" align="center" flexWrap="wrap" maxW="1200px">
-			{featuredProjects.map((project, i) => {
-				return <ProjectCard title={project.title} link={project.link} image={project.image} tech={project.tech} award={project.award} key={i}/>
-			})}
-		</Flex>
-		<GatsbyLink to="/projects"><Text fontSize="xl" color="whiteAlpha.700" _hover={{color: "white"}}>view all</Text></GatsbyLink>
-	  </VStack>
-	  </Center>
-
-	<Center>
-		<Divider p="30px" borderColor="whiteAlpha.500" w="1300px"/>
-	</Center>
-
-	<Center justify="center" p={{base: "50px", md: "100px"}}>
-		<Flex direction={{ base: "column", md: "row"}} justify="space-between" align="center" flexWarp="wrap" w="100%" maxW="800px">
-			<VStack my="10px">
-				<Heading>contact</Heading>
-				<Text>i promise i'm a nice person 🥺</Text>
+				<Text maxW="90%" justify="center" align="center" pt={5}>currently i am seeking internships in software engineering, however all opportunities are greatly appreciated!</Text>
+				<Text maxW="90%" justify="center" align="center">feel free to reach out via any of my provided socials!</Text>
 			</VStack>
-			<VStack align="start" fontSize="xl" my="10px" flexWrap="nowrap">
-				<Link href="mailto:rolandyang@gmail.com"><Icon as={FaEnvelope} mx="5px"/>rolandyang@gmail.com</Link>
-				<Link href="https://github.com/rolandyangg" isExternal><Icon as={FaGithub} mx="5px"/>github.com/rolandyangg</Link>
-				<Link href="https://www.linkedin.com/in/yangroland/" isExternal isTruncated><Icon as={FaLinkedin} mx="5px"/>www.linkedin.com/in/yangroland</Link>
-			</VStack>
-		</Flex>
-	</Center>
+		</Center>
 
-	<Center>
-		<Divider p="10px" borderColor="whiteAlpha.500" w="1300px"/>
-	</Center>
+		<Center>
+			<Divider p="30px" borderColor="whiteAlpha.500" w="1300px"/>
+		</Center>
 
-	<Center justify="center" p="50px" color="whiteAlpha.700">
+		<Center justify="center" p={{base: "25px", md: "100px"}}>
 		<VStack>
-		<Text>❤️ made by roland yang ❤️</Text>
-		<Link href="https://github.com/rolandyangg/rolandyang-website" isExternal><Icon as={FaGithub}/></Link>
+			<Heading mb="15px">featured projects</Heading>
+			<Flex justify="center" align="center" flexWrap="wrap" maxW="1200px">
+				{featuredProjects.map((project, i) => {
+					return <ProjectCard title={project.title} link={project.link} image={project.image} tech={project.tech} award={project.award} key={i}/>
+				})}
+			</Flex>
+			<GatsbyLink to="/projects"><Text fontSize="xl" color="whiteAlpha.700" _hover={{color: "white"}}>view all</Text></GatsbyLink>
 		</VStack>
-	</Center>
-	
+		</Center>
 
+		<Center>
+			<Divider p="30px" borderColor="whiteAlpha.500" w="1300px"/>
+		</Center>
+
+		<Center justify="center" p={{base: "50px", md: "100px"}}>
+			<Flex direction={{ base: "column", md: "row"}} justify="space-between" align="center" flexWarp="wrap" w="100%" maxW="800px">
+				<VStack my="10px">
+					<Heading>contact</Heading>
+					<Text>i promise i'm a nice person 🥺</Text>
+				</VStack>
+				<VStack align="start" fontSize="xl" my="10px" flexWrap="nowrap">
+					<Link href="mailto:rolandyang@gmail.com"><Icon as={FaEnvelope} mx="5px"/>rolandyang@gmail.com</Link>
+					<Link href="https://github.com/rolandyangg" isExternal><Icon as={FaGithub} mx="5px"/>github.com/rolandyangg</Link>
+					<Link href="https://www.linkedin.com/in/yangroland/" isExternal isTruncated><Icon as={FaLinkedin} mx="5px"/>www.linkedin.com/in/yangroland</Link>
+				</VStack>
+			</Flex>
+		</Center>
+
+		<Footer/>
+	
     </ChakraProvider>
   );
 }
