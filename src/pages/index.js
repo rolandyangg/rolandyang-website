@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { ChakraProvider, Icon, Flex, HStack, VStack, Stack, Box, Button, Link, Text, Heading, Image, Center, extendTheme, Spacer, Divider } from '@chakra-ui/react'
+import { ChakraProvider, Icon, Flex, VStack, Button, Link, Text, Heading, Image, Center, Divider } from '@chakra-ui/react'
 import { FaDev, FaGithub, FaEnvelope, FaLinkedin, FaFolderOpen } from 'react-icons/fa'
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
