@@ -11,7 +11,7 @@ function Award({award}) {
 export default function ProjectCard({title, link, image, tech, award}) {
     const awardExists = award != null;
     return (<>
-        <Card mx="10px" my="10px"  overflow='hidden' variant='outline' maxW="350px" bgColor="blackAlpha.300">
+        <Card mx="10px" my="10px" overflow='hidden' variant='outline' w="350px" bgColor="blackAlpha.300">
                 <Image
                     w="350px"
                     h="200px"
@@ -21,7 +21,7 @@ export default function ProjectCard({title, link, image, tech, award}) {
             <CardBody mt="-7px">
                 <VStack align="start" h="90px">
                     <Flex align="center" justify="space-between" w="100%">
-                        <Link color="white" fontWeight="semibold" fontSize="lg" href={link}>
+                        <Link color="white" fontWeight="semibold" fontSize="lg" href={link} isExternal>
                             {title}
                         </Link>
                         <Award award={award}/>

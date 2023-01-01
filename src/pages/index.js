@@ -2,43 +2,15 @@ import * as React from 'react'
 import { ChakraProvider, Icon, Flex, HStack, VStack, Stack, Box, Button, Link, Text, Heading, Image, Center, extendTheme, Spacer, Divider } from '@chakra-ui/react'
 import { FaDev, FaGithub, FaEnvelope, FaLinkedin, FaFolderOpen } from 'react-icons/fa'
 import Navbar from '../components/navbar'
+import theme from '../theme'
 import ProjectCard from '../components/projectcard'
-
-const theme = extendTheme({
-  initialColorMode: 'dark',
-  useSystemColorMode: false,
-  colors: {
-		secondary: "#171a23",
-		primary: "#ffffff",
-	},
-	styles: {
-		global: () => ({
-			body: {
-				fontFamily:
-					"-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif",
-				color: "white",
-				backgroundColor: "secondary",
-			},
-			"&::-webkit-scrollbar": {
-				width: "0.6em",
-			},
-			"&::-webkit-scrollbar-track": {
-				borderRadius: "0px",
-				background: "transparent",
-			},
-			"&::-webkit-scrollbar-thumb": {
-				background: "primary",
-				borderRadius: "50px",
-			},
-		}),
-	},
-})
+import { Link as GatsbyLink } from 'gatsby'
 
 const buttons = [
 	[
 		{
 			icon: <FaEnvelope/>,
-			link: "mailto:rolandyang@ucla.edu",
+			link: "mailto:rolandyang@gmail.com",
 			text: "Email"
 		},
 		{
@@ -151,16 +123,48 @@ export default function Home() {
 		<Divider p="30px" borderColor="whiteAlpha.500" w="1300px"/>
 	</Center>
 
-	  <Center justify="center" p={{base: "50px", md: "100px"}}>
+	  <Center justify="center" p={{base: "25px", md: "100px"}}>
 	  <VStack>
-	  	<Heading>featured projects</Heading>
+	  	<Heading mb="15px">featured projects</Heading>
 		<Flex justify="center" align="center" flexWrap="wrap" maxW="1200px">
 			{featuredProjects.map((project, i) => {
 				return <ProjectCard title={project.title} link={project.link} image={project.image} tech={project.tech} award={project.award} key={i}/>
 			})}
 		</Flex>
+		<GatsbyLink to="/projects"><Text fontSize="xl" color="whiteAlpha.700" _hover={{color: "white"}}>view all</Text></GatsbyLink>
 	  </VStack>
 	  </Center>
+
+	<Center>
+		<Divider p="30px" borderColor="whiteAlpha.500" w="1300px"/>
+	</Center>
+
+	<Center justify="center" p={{base: "50px", md: "100px"}}>
+		<Flex direction={{ base: "column", md: "row"}} justify="space-between" align="center" flexWarp="wrap" w="100%" maxW="800px">
+			<VStack my="10px">
+				<Heading>contact</Heading>
+				<Text>i promise i'm a nice person 🥺</Text>
+			</VStack>
+			<VStack align="start" fontSize="xl" my="10px" flexWrap="nowrap">
+				<Link href="mailto:rolandyang@gmail.com"><Icon as={FaEnvelope} mx="5px"/>rolandyang@gmail.com</Link>
+				<Link href="https://github.com/rolandyangg" isExternal><Icon as={FaGithub} mx="5px"/>github.com/rolandyangg</Link>
+				<Link href="https://www.linkedin.com/in/yangroland/" isExternal isTruncated><Icon as={FaLinkedin} mx="5px"/>www.linkedin.com/in/yangroland</Link>
+			</VStack>
+		</Flex>
+	</Center>
+
+	<Center>
+		<Divider p="10px" borderColor="whiteAlpha.500" w="1300px"/>
+	</Center>
+
+	<Center justify="center" p="50px" color="whiteAlpha.700">
+		<VStack>
+		<Text>❤️ made by roland yang ❤️</Text>
+		<Link href="https://github.com/rolandyangg/rolandyang-website" isExternal><Icon as={FaGithub}/></Link>
+		</VStack>
+	</Center>
+	
+
     </ChakraProvider>
   );
 }

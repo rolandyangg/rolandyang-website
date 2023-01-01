@@ -1,5 +1,6 @@
 import * as React from 'react'
-import { Text, Center, Flex, Link, HStack, Box, Image, Heading } from '@chakra-ui/react'
+import { Text, Center, Flex, HStack, Box, Image, Heading } from '@chakra-ui/react'
+import { Link } from 'gatsby'
 
 const menuItems = [
     {
@@ -10,13 +11,13 @@ const menuItems = [
         name: "projects",
         link: "/projects"
     },
-    {
-        name: "scenery",
-        link: "/scenery"
-    },
+    // {
+    //     name: "scenery",
+    //     link: "/scenery"
+    // },
     {
         name: "resume",
-        link: "/resume"
+        link: "https://drive.google.com/file/d/1_IOzmp8a8JdewSncNE274h6pOH8LVXdL/view?usp=sharing"
     },
 ]
 
@@ -27,11 +28,11 @@ export default function Navbar() {
             <Flex align="center" justify="space-between" flexDir={{ base: "column", md: "row" }} p="20px">
                 <Flex>
                     <Image/>
-                    <Heading fontSize="3xl">roland yang</Heading>
+                    <Link to="/"><Heading fontSize="3xl">roland yang</Heading></Link>
                 </Flex>
                 <HStack spacing={6} flexWrap="wrap" justify="center">
                     {menuItems.map((menuItem, i) => {
-                        return <Link color="whiteAlpha.700" fontSize="xl" key={i}>{menuItem.name}</Link>;
+                        return <Link to={menuItem.link}><Text color="whiteAlpha.700" fontSize="xl" _hover={{color: "white"}} key={i}>{menuItem.name}</Text></Link>;
                     })}
                 </HStack>
             </Flex>
