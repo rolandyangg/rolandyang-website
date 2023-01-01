@@ -1,7 +1,8 @@
 import * as React from 'react'
-import { ChakraProvider, Icon, Flex, HStack, VStack, Stack, Box, Button, Link, Text, Heading, Image, Center, extendTheme, Spacer } from '@chakra-ui/react'
+import { ChakraProvider, Icon, Flex, HStack, VStack, Stack, Box, Button, Link, Text, Heading, Image, Center, extendTheme, Spacer, Divider } from '@chakra-ui/react'
 import { FaDev, FaGithub, FaEnvelope, FaLinkedin, FaFolderOpen } from 'react-icons/fa'
 import Navbar from '../components/navbar'
+import ProjectCard from '../components/projectcard'
 
 const theme = extendTheme({
   initialColorMode: 'dark',
@@ -65,6 +66,51 @@ const buttons = [
 	]
 ]
 
+const featuredProjects = [
+	{
+		title: "Sorting Algorithm Visualizer",
+		link: "https://github.com/rolandyangg/sorting-algorithm-visualizer",
+		image: "projects/bubblesortsample.gif",
+		tech: ["C++", "SFML"],
+		award: null
+	},
+	{
+		title: "Coding Interview CLI",
+		link: "https://github.com/rolandyangg/interview-cli",
+		image: "projects/codinginterviewsample.png",
+		tech: ["Javascript", "Node.js", "Firebase"],
+		award: null
+	},
+	{
+		title: "vizAsianHate",
+		link: "https://devpost.com/software/stop-aapi-hate-dashboard",
+		image: "projects/vizasianhatesample.jpg",
+		tech: ["React", "Next.js", "ChakraUI", "Vercel", "APIs"],
+		award: "Most Interactive @ Vizathon '22"
+	},
+	{
+		title: "NoMoAcne",
+		link: "https://devpost.com/software/nomoacne",
+		image: "projects/nomoacnesample.png",
+		tech: ["HTML/CSS", "Bootstrap", "Express", "Node.js", "Google Cloud Platform", "Clarifai"],
+		award: "2nd Overall @ GunnHacks 7.0"
+	},
+	{
+		title: "SecureTheTag",
+		link: "https://devpost.com/software/securethetag",
+		image: "projects/securethetagsample.jpg",
+		tech: ["HTML/CSS", "Bootstrap", "Express", "Node.js", "Google Cloud Platform", "Webscraping"],
+		award: "1st Overall @ RevolutionUC '21"
+	},
+	{
+		title: "Swing Tic Tac Toe",
+		link: "https://github.com/rolandyangg/tic-tac-toe",
+		image: "projects/tictactoegif.gif",
+		tech: ["Java", "Swing"],
+		award: null
+	}
+]
+
 // https://chakra-ui.com/docs/components/flex
 export default function Home() {
   return (
@@ -81,7 +127,7 @@ export default function Home() {
 			<Heading fontSize="4xl">my name is <Text bgGradient='linear(to-l, #1ccbe2, #e96dff)'
   bgClip='text' as="span" >roland yang</Text></Heading>
             <Text fontSize="xl">welcome to my little website 💻</Text>
-            <Text fontSize="xl">i’m an undergraduate student studying computer science at ucla (go bwuins! 🐻). i like to code and do a bunch of other stuff 👨‍💻🥁🎥🏐🎮.</Text>
+            <Text fontSize="xl">i’m an undergraduate student studying computer science at ucla 🐻👨‍💻. </Text>
 			<Flex direction={{ base: "column", lg: "row"}} justify="center" align="center" flexWarp="wrap" fontSize="lg" py="10px">
 				<Flex>
 					{buttons[0].map((button, i) => {
@@ -100,6 +146,21 @@ export default function Home() {
 			<Text maxW="90%" justify="center" align="center">feel free to reach out via any of my provided socials!</Text>
 		</VStack>
       </Center>
+
+	<Center>
+		<Divider p="30px" borderColor="whiteAlpha.500" w="1300px"/>
+	</Center>
+
+	  <Center justify="center" p={{base: "50px", md: "100px"}}>
+	  <VStack>
+	  	<Heading>featured projects</Heading>
+		<Flex justify="center" align="center" flexWrap="wrap" maxW="1200px">
+			{featuredProjects.map((project, i) => {
+				return <ProjectCard title={project.title} link={project.link} image={project.image} tech={project.tech} award={project.award} key={i}/>
+			})}
+		</Flex>
+	  </VStack>
+	  </Center>
     </ChakraProvider>
   );
 }

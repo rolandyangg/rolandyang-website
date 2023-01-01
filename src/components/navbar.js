@@ -29,7 +29,7 @@ export default function Navbar() {
                     <Image/>
                     <Heading fontSize="3xl">roland yang</Heading>
                 </Flex>
-                <HStack spacing={5} flexWrap="wrap" justify="center">
+                <HStack spacing={6} flexWrap="wrap" justify="center">
                     {menuItems.map((menuItem, i) => {
                         return <Link color="whiteAlpha.700" fontSize="xl" key={i}>{menuItem.name}</Link>;
                     })}
