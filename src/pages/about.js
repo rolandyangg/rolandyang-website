@@ -99,6 +99,16 @@ export default function About() {
             </Center>
 
             {/** WORK EXPERIENCE */}
+            <Center m={{base: "25px", md: "100px"}}>
+                <VStack border="1px" p="20px" rounded={7} w="90%" maxW="1100px">
+                    <Heading pt="10px">work experience 💼</Heading>
+                    <Text pb="10px">the big boy stuff</Text>
+                    <Divider/>
+                    <Box justify="center" py="10px" fontSize="xl" w="80%">
+                        
+                    </Box>
+                </VStack>
+            </Center>
 
             {/** ODD JOBS */}
             <Center m={{base: "25px", md: "100px"}}>
@@ -107,38 +117,22 @@ export default function About() {
                     <Text pb="10px">other "professional" experiences unrelated to cs</Text>
                     <Divider/>
                     <Box justify="center" py="10px" fontSize="xl" w="80%">
-                        <Box>
-                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
-                                <Text fontWeight="bold" fontSize="2xl">University of California - Los Angeles (UCLA) 🐻</Text>
-                                <Text as='i'>Expected Graduation 2026</Text>
-                            </Flex>
-                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
-                                <Text>Bachelors of Science in Computer Science</Text>
-                                <Text>Los Angeles, CA</Text>
-                            </Flex>
-                            <Text mb="10px">(GPA: 4.0/4.0)</Text>
-                            <Text fontSize="lg">DevX (onCampus Developer), Association for Computing Machinery (ACM), Centennial Hall Resident Government (Community Representative), Marching Band, Assocation of Chinese Americans (ACA)</Text>
-                        </Box>
                         
-                        <Divider m="20px"/>
-
-                        <Box>
-                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
-                                <Text fontWeight="bold" fontSize="2xl">Bridgewater-Raritan High School 🐾</Text>
-                                <Text>2018 - 2022</Text>
-                            </Flex>
-                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
-                                <Text>High School Diploma</Text>
-                                <Text>Bridgewater, NJ</Text>
-                            </Flex>
-                            <Text mb="10px">(GPA: 4.7677)</Text>
-                            <Text fontSize="lg">eSports Club (President), C.O.D.E. Club (Secretary), Tri-M Music Honor Society (President), Marching Band & Indoor Percussion (Drumline Captain), Varsity Boys Volleyball, Student Council, National Chinese Honor Society</Text>
-                        </Box>
                     </Box>
                 </VStack>
             </Center>
 
             {/** VOLUNTEERING */}
+            <Center m={{base: "25px", md: "100px"}}>
+                <VStack border="1px" p="20px" rounded={7} w="90%" maxW="1100px">
+                    <Heading pt="10px">odd jobs 👷</Heading>
+                    <Text pb="10px">unpaid initiatives and experiences</Text>
+                    <Divider/>
+                    <Box justify="center" py="10px" fontSize="xl" w="80%">
+                        
+                    </Box>
+                </VStack>
+            </Center>
 
             {/** ACHIEVEMENTS/AWARDS */}
             <Center m={{base: "25px", md: "100px"}}>
@@ -166,8 +160,27 @@ export default function About() {
             </Center>
 
             {/** HOBBIES */}
+            <Center m={{base: "25px", md: "100px"}}>
+                <VStack border="1px" p="20px" rounded={7} w="90%" maxW="1100px">
+                    <Heading pt="10px">hobbies 🎨</Heading>
+                    <Text pb="10px">bonus</Text>
+                    <Divider/>
+                    <Box justify="center" py="10px" fontSize="xl" w="80%">
+                        
+                    </Box>
+                </VStack>
+            </Center>
 
             {/** SOCIALS */}
+            <Center m={{base: "25px", md: "100px"}}>
+                <VStack border="1px" p="20px" rounded={7} w="90%" maxW="1100px">
+                    <Heading p="10px">socials 📱</Heading>
+                    <Divider/>
+                    <Box justify="center" py="10px" fontSize="xl" w="80%">
+                        
+                    </Box>
+                </VStack>
+            </Center>
 
             <Footer/>
 
