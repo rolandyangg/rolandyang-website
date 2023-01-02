@@ -11,14 +11,27 @@ export default function About() {
             <Navbar/>
 
             {/** ABOUT */}
+            <Center m={{base: "25px", md: "100px"}}>
+                <VStack>
+                    <Heading>about me 😼</Heading>
+                    <Flex justify="center" flexWrap="wrap" align="center">
+                        <Center mx="20px" mb="20px" mt="10px" maxW="650px">
+                            <Text fontSize={{base: "xl", lg: "2xl"}}>
+                                Hi, my name is Roland Yang! I’m a first-year (sophomore by credits 🤓) undergraduate student studying computer science at the University of California-Los Angeles (UCLA) based from New Jersey.
+                                I'm interested in leveraging computing to create a difference.
+                                In my free time, I enjoy drumming, volleyball, video editing, gaming, and creation. 🥁🏐🎥🎮👨‍💻
+                            </Text>
+                        </Center>
+                        <Center mx="20px" my="10px">
+                            <Image alt='Roland Yang' src="rolandpromcrop.jpg" borderRadius="lg" maxW="350px"/>
+                        </Center>
+                    </Flex>
+                </VStack>
+            </Center>
 
-            {/** EDUCATION */}
-
-            {/** WORK EXPERIENCE */}
-
-            {/** ODD JOBS */}
-
-            {/** VOLUNTEERING */}
+            <Center>
+                <Divider borderColor="whiteAlpha.500" w="1300px"/>
+            </Center>
 
             {/** RELEVANT COURSEWORK */}
             <Center m={{base: "25px", md: "100px"}}>
@@ -48,6 +61,85 @@ export default function About() {
                 </VStack>
             </Center>
 
+            {/** EDUCATION */}
+            <Center m={{base: "25px", md: "100px"}}>
+                <VStack border="1px" p="20px" rounded={7} w="90%" maxW="1100px">
+                    <Heading py="10px">education 🎓</Heading>
+                    <Divider/>
+                    <Box justify="center" py="10px" fontSize="xl" w="80%">
+                        <Box>
+                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
+                                <Text fontWeight="bold" fontSize="2xl">University of California - Los Angeles (UCLA) 🐻</Text>
+                                <Text as='i'>Expected Graduation 2026</Text>
+                            </Flex>
+                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
+                                <Text>Bachelors of Science in Computer Science</Text>
+                                <Text>Los Angeles, CA</Text>
+                            </Flex>
+                            <Text mb="10px">(GPA: 4.0/4.0)</Text>
+                            <Text fontSize="lg">DevX (onCampus Developer), Association for Computing Machinery (ACM), Centennial Hall Resident Government (Community Representative), Marching Band, Assocation of Chinese Americans (ACA)</Text>
+                        </Box>
+                        
+                        <Divider m="20px"/>
+
+                        <Box>
+                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
+                                <Text fontWeight="bold" fontSize="2xl">Bridgewater-Raritan High School 🐾</Text>
+                                <Text>2018 - 2022</Text>
+                            </Flex>
+                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
+                                <Text>High School Diploma</Text>
+                                <Text>Bridgewater, NJ</Text>
+                            </Flex>
+                            <Text mb="10px">(GPA: 4.7677)</Text>
+                            <Text fontSize="lg">eSports Club (President), C.O.D.E. Club (Secretary), Tri-M Music Honor Society (President), Marching Band & Indoor Percussion (Drumline Captain), Varsity Boys Volleyball, Student Council, National Chinese Honor Society</Text>
+                        </Box>
+                    </Box>
+                </VStack>
+            </Center>
+
+            {/** WORK EXPERIENCE */}
+
+            {/** ODD JOBS */}
+            <Center m={{base: "25px", md: "100px"}}>
+                <VStack border="1px" p="20px" rounded={7} w="90%" maxW="1100px">
+                    <Heading pt="10px">odd jobs 👷</Heading>
+                    <Text pb="10px">other "professional" experiences unrelated to cs</Text>
+                    <Divider/>
+                    <Box justify="center" py="10px" fontSize="xl" w="80%">
+                        <Box>
+                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
+                                <Text fontWeight="bold" fontSize="2xl">University of California - Los Angeles (UCLA) 🐻</Text>
+                                <Text as='i'>Expected Graduation 2026</Text>
+                            </Flex>
+                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
+                                <Text>Bachelors of Science in Computer Science</Text>
+                                <Text>Los Angeles, CA</Text>
+                            </Flex>
+                            <Text mb="10px">(GPA: 4.0/4.0)</Text>
+                            <Text fontSize="lg">DevX (onCampus Developer), Association for Computing Machinery (ACM), Centennial Hall Resident Government (Community Representative), Marching Band, Assocation of Chinese Americans (ACA)</Text>
+                        </Box>
+                        
+                        <Divider m="20px"/>
+
+                        <Box>
+                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
+                                <Text fontWeight="bold" fontSize="2xl">Bridgewater-Raritan High School 🐾</Text>
+                                <Text>2018 - 2022</Text>
+                            </Flex>
+                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
+                                <Text>High School Diploma</Text>
+                                <Text>Bridgewater, NJ</Text>
+                            </Flex>
+                            <Text mb="10px">(GPA: 4.7677)</Text>
+                            <Text fontSize="lg">eSports Club (President), C.O.D.E. Club (Secretary), Tri-M Music Honor Society (President), Marching Band & Indoor Percussion (Drumline Captain), Varsity Boys Volleyball, Student Council, National Chinese Honor Society</Text>
+                        </Box>
+                    </Box>
+                </VStack>
+            </Center>
+
+            {/** VOLUNTEERING */}
+
             {/** ACHIEVEMENTS/AWARDS */}
             <Center m={{base: "25px", md: "100px"}}>
                 <VStack border="1px" p="20px" rounded={7} w="90%" maxW="1100px">
@@ -67,7 +159,7 @@ export default function About() {
                                 <ListItem>Prudential Alexa Prize @ hackMCST VI</ListItem>
                             </UnorderedList>
                             <ListItem>american computer science league intermediate division gold 2021</ListItem>
-                            <ListItem>voted best gamer by the brhs class of 2022</ListItem>
+                            <ListItem>voted best gamer by the brhs class of 2022 🎮</ListItem>
                         </UnorderedList>
                     </Box>
                 </VStack>
