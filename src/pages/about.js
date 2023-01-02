@@ -17,8 +17,8 @@ export default function About() {
                     <Flex justify="center" flexWrap="wrap" align="center">
                         <Center mx="20px" mb="20px" mt="10px" maxW="650px">
                             <Text fontSize={{base: "xl", lg: "2xl"}}>
-                                Hi, my name is Roland Yang! I’m a first-year (sophomore by credits 🤓) undergraduate student studying computer science at the University of California-Los Angeles (UCLA) based from New Jersey.
-                                I'm interested in leveraging computing to create a difference.
+                                Hi, my name is Roland Yang! I’m a first-year (sophomore by credits 🤓) undergraduate student studying computer science at the University of California, Los Angeles (UCLA) based from New Jersey.
+                                I'm interested in leveraging computing to create a difference whether it be expanding the field of knowledge or contributing to projects.
                                 In my free time, I enjoy drumming, volleyball, video editing, gaming, and creation. 🥁🏐🎥🎮👨‍💻
                             </Text>
                         </Center>
@@ -105,7 +105,9 @@ export default function About() {
                     <Text pb="10px">the big boy stuff</Text>
                     <Divider/>
                     <Box justify="center" py="10px" fontSize="xl" w="80%">
-                        
+                        <Center>
+                            <Heading>WIP</Heading>
+                        </Center>
                     </Box>
                 </VStack>
             </Center>
@@ -117,7 +119,9 @@ export default function About() {
                     <Text pb="10px">other "professional" experiences unrelated to cs</Text>
                     <Divider/>
                     <Box justify="center" py="10px" fontSize="xl" w="80%">
-                        
+                        <Center>
+                            <Heading>WIP</Heading>
+                        </Center>
                     </Box>
                 </VStack>
             </Center>
@@ -129,7 +133,9 @@ export default function About() {
                     <Text pb="10px">unpaid initiatives and experiences</Text>
                     <Divider/>
                     <Box justify="center" py="10px" fontSize="xl" w="80%">
-                        
+                        <Center>
+                            <Heading>WIP</Heading>
+                        </Center>
                     </Box>
                 </VStack>
             </Center>
@@ -166,7 +172,9 @@ export default function About() {
                     <Text pb="10px">bonus</Text>
                     <Divider/>
                     <Box justify="center" py="10px" fontSize="xl" w="80%">
-                        
+                        <Center>
+                            <Heading>WIP</Heading>
+                        </Center>
                     </Box>
                 </VStack>
             </Center>
@@ -177,7 +185,9 @@ export default function About() {
                     <Heading p="10px">socials 📱</Heading>
                     <Divider/>
                     <Box justify="center" py="10px" fontSize="xl" w="80%">
-                        
+                        <Center>
+                            <Heading>WIP</Heading>
+                        </Center>
                     </Box>
                 </VStack>
             </Center>
