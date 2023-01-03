@@ -10,7 +10,18 @@
 
 // gatsby-config.js
 
+// METADATA TUTORIAL
+// https://www.digitalocean.com/community/tutorials/how-to-boost-seo-using-gatsby-s-seo-component-and-gatsby-react-helmet
+
 module.exports = {
+  siteMetadata: {
+    title: "Roland Yang",
+    description: "Roland Yang's personal website and project portfolio!",
+    author: "Roland Yang",
+    copyright: "© 2023 Roland Yang",
+    siteUrl: "https://rolandyang.dev",
+    siteName: "Roland Yang"
+  },
   plugins: [
     {
       resolve: '@chakra-ui/gatsby-plugin',
