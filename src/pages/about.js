@@ -19,7 +19,7 @@ export default function About() {
                             <Text fontSize={{base: "xl", lg: "2xl"}}>
                                 Hi, my name is Roland Yang! I’m a first-year (sophomore by credits 🤓) undergraduate student studying computer science at the University of California, Los Angeles (UCLA) based from New Jersey.
                                 I'm interested in leveraging computing to create a difference whether it be expanding the field of knowledge or contributing to projects.
-                                In my free time, I enjoy drumming, volleyball, video editing, gaming, and creation. 🥁🏐🎥🎮👨‍💻
+                                In my free time, I enjoy drumming, volleyball, video editing, gaming, and just creating things in general. 🥁🏐🎥🎮👨‍💻
                             </Text>
                         </Center>
                         <Center mx="20px" my="10px">
