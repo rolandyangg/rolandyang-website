@@ -117,7 +117,7 @@ export default function Home() {
 				</Flex>
 			</VStack>
 				</Flex>
-				<Text maxW="90%" justify="center" align="center" pt={5}>currently i am seeking internships in software engineering, however all opportunities are greatly appreciated!</Text>
+				<Text maxW="90%" justify="center" align="center" pt={5}>currently i am seeking internships related to technology, however all opportunities are greatly appreciated!</Text>
 				<Text maxW="90%" justify="center" align="center">feel free to reach out via any of my provided socials!</Text>
 			</VStack>
 		</Center>
