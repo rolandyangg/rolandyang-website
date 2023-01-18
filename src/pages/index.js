@@ -90,7 +90,7 @@ export default function Home() {
   return (
 	<>
 	<Helmet>
-		<title>roland yang</title>
+		<title>roland yang | personal website</title>
 	</Helmet>
     <ChakraProvider theme={theme}>
 
