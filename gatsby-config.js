@@ -38,5 +38,11 @@ module.exports = {
         isUsingColorMode: true,
       },
     },
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        icon: 'static/icon.png',
+      },
+    }
   ],
 }

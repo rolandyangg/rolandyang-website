@@ -6,6 +6,7 @@ import Footer from '../components/footer'
 import ProjectCard from '../components/projectcard'
 import theme from '../theme'
 import { Link as GatsbyLink } from 'gatsby'
+import { Helmet } from 'react-helmet'
 
 const buttons = [
 	[
@@ -87,6 +88,10 @@ const featuredProjects = [
 // https://chakra-ui.com/docs/components/flex
 export default function Home() {
   return (
+	<>
+	<Helmet>
+		<title>roland yang</title>
+	</Helmet>
     <ChakraProvider theme={theme}>
 
 		<Navbar/>
@@ -159,5 +164,6 @@ export default function Home() {
 		<Footer/>
 	
     </ChakraProvider>
+	</>
   );
 }
