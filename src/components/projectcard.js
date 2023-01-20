@@ -28,7 +28,7 @@ export default function ProjectCard({title, link, image, tech, award}) {
                     </Flex>
                     <Flex flexWrap="wrap">
                         {tech.map((tag, i) => {
-                            return <Tag fontSize='0.83em' variant="outline" color="white" borderRadius='full' mx="2px" my="2px" key={i}>{tag}</Tag>
+                            return <Tag fontSize='0.80em' variant="outline" color="white" borderRadius='full' mx="2px" my="2px" key={i}>{tag}</Tag>
                         })}
                     </Flex>
                 </VStack>
