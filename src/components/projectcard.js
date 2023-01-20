@@ -3,7 +3,7 @@ import { Card, Tag, Flex, VStack, Image, CardBody, Link } from '@chakra-ui/react
 
 function Award({award}) {
     if (award != null)
-        return <Tag size="sm" variant="outline" >{award}</Tag>;
+        return <Tag fontSize='0.7em' variant="outline" >{award}</Tag>;
     else
         return;
 }
@@ -28,7 +28,7 @@ export default function ProjectCard({title, link, image, tech, award}) {
                     </Flex>
                     <Flex flexWrap="wrap">
                         {tech.map((tag, i) => {
-                            return <Tag variant="outline" color="white" borderRadius='full' mx="2px" my="2px" key={i}>{tag}</Tag>
+                            return <Tag fontSize='0.83em' variant="outline" color="white" borderRadius='full' mx="2px" my="2px" key={i}>{tag}</Tag>
                         })}
                     </Flex>
                 </VStack>

@@ -43,6 +43,7 @@ module.exports = {
       options: {
         icon: 'static/icon.png',
       },
-    }
+    },
+    'gatsby-plugin-react-helmet',
   ],
 }

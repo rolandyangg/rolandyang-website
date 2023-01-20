@@ -1,6 +1,19 @@
 import { extendTheme } from "@chakra-ui/react"
 
+const breakpoints = {
+	ssm: '27em', // small minus
+	sm: '30em',
+	mmd: '44em', // medium minus
+	md: '48em',
+	mdd: '52em', // medium plus
+	lg: '62em',
+	lgg: '68em', // large plus
+	xl: '80em',
+	'2xl': '96em',
+  }
+
 const theme = extendTheme({
+  breakpoints,
   initialColorMode: 'dark',
   useSystemColorMode: false,
   colors: {

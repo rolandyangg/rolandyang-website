@@ -96,9 +96,9 @@ export default function Home() {
 
 		<Navbar/>
 
-		<Center justify="center" p={{base: 0, md: "100px"}}>
+		<Center justify="center" p={{base: 0, mdd: "100px"}}>
 			<VStack spacing={3}>
-			<Flex direction={{ base: "column", md: "row"}} justify="center" align="center" flexWarp="wrap">
+			<Flex direction={{ base: "column", mdd: "row"}} justify="center" align="center" flexWarp="wrap">
 			<Center mx="30px" my="20px">
 				<Image alt='Roland Yang' src="/hsgradpic.jpeg" borderRadius="lg" maxW="350px"/>
 			</Center>
@@ -108,7 +108,7 @@ export default function Home() {
 	bgClip='text' as="span" >roland yang</Text></Heading>
 				<Text fontSize="xl">welcome to my little website 💻</Text>
 				<Text fontSize="xl">i’m an undergraduate student studying computer science at ucla 🐻👨‍💻. </Text>
-				<Flex direction={{ base: "column", lg: "row"}} justify="center" align="center" flexWarp="wrap" fontSize="lg" py="10px">
+				<Flex direction={{ base: "column", lgg: "row"}} justify="center" align="center" flexWarp="wrap" fontSize="lg" py="10px">
 					<Flex>
 						{buttons[0].map((button, i) => {
 							return <Link _hover={{ }} key={i} href={button.link}><Button _hover={{ backgroundColor: "blue.800", borderColor: "blue.300" }} variant='outline' mx="5px" my="5px" leftIcon={button.icon}>{button.text}</Button></Link>
@@ -131,7 +131,7 @@ export default function Home() {
 			<Divider p="30px" borderColor="whiteAlpha.500" w="1300px"/>
 		</Center>
 
-		<Center justify="center" p={{base: "25px", md: "100px"}}>
+		<Center justify="center" p={{base: "25px", mdd: "100px"}}>
 		<VStack>
 			<Heading mb="15px">featured projects</Heading>
 			<Flex justify="center" align="center" flexWrap="wrap" maxW="1200px">
@@ -147,7 +147,7 @@ export default function Home() {
 			<Divider p="30px" borderColor="whiteAlpha.500" w="1300px"/>
 		</Center>
 
-		<Center justify="center" p={{base: "50px", md: "100px"}}>
+		<Center justify="center" p={{base: "50px", mdd: "100px"}}>
 			<Flex direction={{ base: "column", md: "row"}} justify="space-between" align="center" flexWarp="wrap" w="100%" maxW="800px">
 				<VStack my="10px">
 					<Heading>contact</Heading>
