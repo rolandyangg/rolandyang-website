@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { ChakraProvider, Icon, Box, Flex, VStack, Button, Link, Text, Heading, Image, Center, Divider, List, UnorderedList, ListItem } from '@chakra-ui/react'
-import { FaDev, FaGithub, FaEnvelope, FaLinkedin, FaFolderOpen } from 'react-icons/fa'
+import { ChakraProvider, Icon, Box, Flex, VStack, Accordion, AccordionItem, AccordionButton, AccordionIcon, AccordionPanel, Button, Link, Text, Heading, Image, Center, Divider, List, UnorderedList, ListItem } from '@chakra-ui/react'
+import { FaDev, FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa'
 import theme from "../theme"
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
@@ -38,7 +38,7 @@ export default function About() {
 
             {/** RELEVANT COURSEWORK */}
             <Center m={{base: "25px", md: "100px"}}>
-                <VStack border="1px" p="20px" rounded={7} w="90%" maxW="1100px">
+                <VStack border="1px" p="20px" rounded={7} w="95%" maxW="1100px">
                     <Heading py="10px">relevant coursework 📚</Heading>
                     <Divider/>
                     <Box justify="center" py="10px" fontSize="xl">
@@ -66,10 +66,10 @@ export default function About() {
 
             {/** EDUCATION */}
             <Center m={{base: "25px", md: "100px"}}>
-                <VStack border="1px" p="20px" rounded={7} w="90%" maxW="1100px">
+                <VStack border="1px" p="20px" rounded={7} w="95%" maxW="1100px">
                     <Heading py="10px">education 🎓</Heading>
                     <Divider/>
-                    <Box justify="center" py="10px" fontSize="xl" w="80%">
+                    <Box justify="center" py="10px" fontSize="xl" w="90%">
                         <Box>
                             <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
                                 <Text fontWeight="bold" fontSize="2xl">University of California - Los Angeles (UCLA) 🐻</Text>
@@ -88,7 +88,7 @@ export default function About() {
                         <Box>
                             <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
                                 <Text fontWeight="bold" fontSize="2xl">Bridgewater-Raritan High School 🐾</Text>
-                                <Text>2018 - 2022</Text>
+                                <Text as='i'>2018 - 2022</Text>
                             </Flex>
                             <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
                                 <Text>High School Diploma</Text>
@@ -103,11 +103,11 @@ export default function About() {
 
             {/** WORK EXPERIENCE */}
             <Center m={{base: "25px", md: "100px"}}>
-                <VStack border="1px" p="20px" rounded={7} w="90%" maxW="1100px">
+                <VStack border="1px" p="20px" rounded={7} w="95%" maxW="1100px">
                     <Heading pt="10px">work experience 💼</Heading>
                     <Text pb="10px">the big boy stuff</Text>
                     <Divider/>
-                    <Box justify="center" py="10px" fontSize="xl" w="80%">
+                    <Box justify="center" py="10px" fontSize="xl" w="90%">
                         <Center>
                             <Heading>WIP</Heading>
                         </Center>
@@ -117,25 +117,111 @@ export default function About() {
 
             {/** ODD JOBS */}
             <Center m={{base: "25px", md: "100px"}}>
-                <VStack border="1px" p="20px" rounded={7} w="90%" maxW="1100px">
+                <VStack border="1px" p="20px" rounded={7} w="95%" maxW="1100px">
                     <Heading pt="10px">odd jobs 👷</Heading>
                     <Text pb="10px">other "professional" experiences unrelated to cs</Text>
                     <Divider/>
-                    <Box justify="center" py="10px" fontSize="xl" w="80%">
-                        <Center>
-                            <Heading>WIP</Heading>
-                        </Center>
+                    <Box justify="center" py="10px" fontSize="xl" w="90%">
+
+                        <Box>
+                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
+                                <Text fontWeight="bold" fontSize="2xl">Flaming Grill & Supreme Buffet 🍽️</Text>
+                                <Text as='i'>Aug. 2022 - Jan. 2023</Text>
+                            </Flex>
+                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
+                                <Text>Host</Text>
+                                <Text>Manville, NJ</Text>
+                            </Flex>
+                            <Text mt="10px" fontSize="lg">Greeted and seated guests at designated tables. Took beverage orders. Handled front-desk duties such as take-out, cashier transactions, and phone calls.</Text>
+                            {/**
+                             * • Warmly greeted guests and escorted them to designated tables in a professional manner.
+• Managed the distribution of customers across the restaurant for waiters to have equal chances at tips and handled monetary transactions.
+• Provided excellent customer service with friendliness and efficiency in a fast‑paced changing environment.
+• Answered phone calls and listened to customer questions/concerns and directed them to the appropriate resources.
+                             */}
+                             <Accordion border="transparent" allowToggle>
+                                <AccordionItem>
+                                    <AccordionButton>
+                                        <Box as="span" flex='1' textAlign='right'>
+                                            more...
+                                        </Box>
+                                        <AccordionIcon />
+                                    </AccordionButton>
+                                    <AccordionPanel p={2}>
+                                        <Flex justify="center" flexWrap="wrap" align="center">
+                                            <Center mx="10px" mb="10px" maxW="525px">
+                                            <UnorderedList fontSize="lg">
+                                                <ListItem>Warmly greeted guests and escorted them to designated tables in a professional manner.</ListItem>
+                                                <ListItem>Managed the distribution of customers across the restaurant for waiters to have equal chances at tips and handled monetary transactions.</ListItem>
+                                                <ListItem>Provided excellent customer service with friendliness and efficiency in a fast‑paced changing environment.</ListItem>
+                                                <ListItem>Answered phone calls and listened to customer questions/concerns and directed them to the appropriate resources.</ListItem>
+                                            </UnorderedList>
+                                            </Center>
+                                            <Center mx="10px" my="10px">
+                                                <Image alt='Roland Yang' src="flaminggrill1.jpeg" borderRadius="lg" maxW="250px"/>
+                                            </Center>
+                                        </Flex>
+                                    </AccordionPanel>
+                                </AccordionItem>
+                            </Accordion>
+                        </Box>
+                        
+                        <Divider m="20px"/>
+
+                        <Box>
+                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
+                                <Text fontWeight="bold" fontSize="2xl">Oak Crest Day Camp 🏕️</Text>
+                                <Text as='i'>Jun. 2019 - Aug. 2019</Text>
+                            </Flex>
+                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
+                                <Text>Camp Counselor (in Training)</Text>
+                                <Text>Somerset, NJ</Text>
+                            </Flex>
+                            <Text mt="10px" fontSize="lg">Participated in Oak Crest Day Camp's Leaders in Training program (LIT), in which I assisted and worked a counselor with a different camp group, consisting of elementary-aged kids, about every week.</Text>
+                            {/**
+                             * • Assisted in cultivating safe, supportive, and enjoyable summer experiences for a group of a dozen elementary‑aged campers.
+• Planned and executed camp programming while guiding campers through personal growth and acting as a positive role model.
+• Identify and responded to camper conflicts and behavioral issues, reporting to the appropriate leadership and facilitating the resolution process.
+• Applied weekly feedback acquired from counselor mentorship program to improve interpersonal skills and performance of camp duties.
+                             */}
+                             <Accordion border="transparent" allowToggle>
+                                <AccordionItem>
+                                    <AccordionButton>
+                                        <Box as="span" flex='1' textAlign='right'>
+                                            more...
+                                        </Box>
+                                        <AccordionIcon />
+                                    </AccordionButton>
+                                    <AccordionPanel p={2}>
+                                        <Flex justify="center" flexWrap="wrap" align="center">
+                                            <Center mx="10px" mb="10px" maxW="525px">
+                                            <UnorderedList fontSize="lg">
+                                                <ListItem>Assisted in cultivating safe, supportive, and enjoyable summer experiences for a group of a dozen elementary‑aged campers.</ListItem>
+                                                <ListItem>Planned and executed camp programming while guiding campers through personal growth and acting as a positive role model.</ListItem>
+                                                <ListItem>Identify and responded to camper conflicts and behavioral issues, reporting to the appropriate leadership and facilitating the resolution process.</ListItem>
+                                                <ListItem>Applied weekly feedback acquired from counselor mentorship program to improve interpersonal skills and performance of camp duties.</ListItem>
+                                            </UnorderedList>
+                                            </Center>
+                                            <Center mx="10px" my="10px">
+                                                <Image alt='Roland Yang' src="oakcrestleadershipwilderness.jpeg" borderRadius="lg" maxW="250px"/>
+                                            </Center>
+                                        </Flex>
+                                    </AccordionPanel>
+                                </AccordionItem>
+                            </Accordion>
+                        </Box>
+
                     </Box>
                 </VStack>
             </Center>
 
             {/** VOLUNTEERING */}
             <Center m={{base: "25px", md: "100px"}}>
-                <VStack border="1px" p="20px" rounded={7} w="90%" maxW="1100px">
-                    <Heading pt="10px">odd jobs 👷</Heading>
+                <VStack border="1px" p="20px" rounded={7} w="95%" maxW="1100px">
+                    <Heading pt="10px">volunteering 🤝</Heading>
                     <Text pb="10px">unpaid initiatives and experiences</Text>
                     <Divider/>
-                    <Box justify="center" py="10px" fontSize="xl" w="80%">
+                    <Box justify="center" py="10px" fontSize="xl" w="90%">
                         <Center>
                             <Heading>WIP</Heading>
                         </Center>
@@ -145,7 +231,7 @@ export default function About() {
 
             {/** ACHIEVEMENTS/AWARDS */}
             <Center m={{base: "25px", md: "100px"}}>
-                <VStack border="1px" p="20px" rounded={7} w="90%" maxW="1100px">
+                <VStack border="1px" p="20px" rounded={7} w="95%" maxW="1100px">
                     <Heading py="10px">awards/achievements 🏆</Heading>
                     <Divider/>
                     <Box justify="center" py="10px" fontSize={{base: "md", lg: "xl"}}>
@@ -169,7 +255,7 @@ export default function About() {
             </Center>
 
             {/** HOBBIES */}
-            <Center m={{base: "25px", md: "100px"}}>
+            {/* <Center m={{base: "25px", md: "100px"}}>
                 <VStack border="1px" p="20px" rounded={7} w="90%" maxW="1100px">
                     <Heading pt="10px">hobbies 🎨</Heading>
                     <Text pb="10px">bonus</Text>
@@ -180,14 +266,14 @@ export default function About() {
                         </Center>
                     </Box>
                 </VStack>
-            </Center>
+            </Center> */}
 
             {/** SOCIALS */}
             <Center m={{base: "25px", md: "100px"}}>
-                <VStack border="1px" p="20px" rounded={7} w="90%" maxW="1100px">
+                <VStack border="1px" p="20px" rounded={7} w="95%" maxW="1100px">
                     <Heading p="10px">socials 📱</Heading>
                     <Divider/>
-                    <Box justify="center" py="10px" fontSize="xl" w="80%">
+                    <Box justify="center" py="10px" fontSize="xl" w="90%">
                         <Center>
                         <VStack align="start" fontSize="xl" my="10px" flexWrap="nowrap">
                             <Link href="mailto:rolandyang@gmail.com"><Icon as={FaEnvelope} mx="5px"/>rolandyang@gmail.com</Link>
