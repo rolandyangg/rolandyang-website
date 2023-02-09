@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { ChakraProvider, Icon, Box, Flex, VStack, Button, Link, Text, Heading, Image, Center, Divider, List, UnorderedList, ListItem } from '@chakra-ui/react'
+import { FaDev, FaGithub, FaEnvelope, FaLinkedin, FaFolderOpen } from 'react-icons/fa'
 import theme from "../theme"
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
@@ -16,14 +17,16 @@ export default function About() {
                     <Heading>about me 😼</Heading>
                     <Flex justify="center" flexWrap="wrap" align="center">
                         <Center mx="20px" mb="20px" mt="10px" maxW="650px">
-                            <Text fontSize={{base: "xl", lg: "2xl"}}>
-                                Hi, my name is Roland Yang! I’m a first-year (sophomore by credits 🤓) undergraduate student studying computer science at the University of California, Los Angeles (UCLA) based from New Jersey.
-                                I'm interested in leveraging computing to create a difference whether it be expanding the field of knowledge or contributing to projects.
-                                In my free time, I enjoy drumming, volleyball, video editing, gaming, and just creating things in general. 🥁🏐🎥🎮👨‍💻
+                            <Text fontSize="xl">
+                                Hi, my name is Roland Yang! I’m a first-year (sophomore by credits 🤓) undergradate student studying computer science at UCLA.
+                                I'm interested in leveraging computing to create a difference whether it be contributing to projects or expanding the field of knowledge.
+                                <br></br>
+                                <br></br>
+                                I was born and raised in central New Jersey. In my free time, I enjoy drumming, playing volleyball, video editing, gaming, and just creating things in general. 🥁🏐🎥🎮👨‍💻
                             </Text>
                         </Center>
                         <Center mx="20px" my="10px">
-                            <Image alt='Roland Yang' src="rolandpromcrop.jpg" borderRadius="lg" maxW="350px"/>
+                            <Image alt='Roland Yang' src="rolandpromcrop.jpg" borderRadius="lg" maxW="325px"/>
                         </Center>
                     </Flex>
                 </VStack>
@@ -145,7 +148,7 @@ export default function About() {
                 <VStack border="1px" p="20px" rounded={7} w="90%" maxW="1100px">
                     <Heading py="10px">awards/achievements 🏆</Heading>
                     <Divider/>
-                    <Box justify="center" py="10px" fontSize="xl">
+                    <Box justify="center" py="10px" fontSize={{base: "md", lg: "xl"}}>
                         <UnorderedList>
                             <ListItem>8x hackathon project wins</ListItem>
                             <UnorderedList>
@@ -186,7 +189,12 @@ export default function About() {
                     <Divider/>
                     <Box justify="center" py="10px" fontSize="xl" w="80%">
                         <Center>
-                            <Heading>WIP</Heading>
+                        <VStack align="start" fontSize="xl" my="10px" flexWrap="nowrap">
+                            <Link href="mailto:rolandyang@gmail.com"><Icon as={FaEnvelope} mx="5px"/>rolandyang@gmail.com</Link>
+                            <Link href="https://github.com/rolandyangg" isExternal><Icon as={FaGithub} mx="5px"/>github.com/rolandyangg</Link>
+                            <Link href="https://www.linkedin.com/in/yangroland/" isExternal isTruncated><Icon as={FaLinkedin} mx="5px"/>www.linkedin.com/in/yangroland</Link>
+                            <Link href="https://devpost.com/rolandyang" isExternal isTruncated><Icon as={FaDev} mx="5px"/>https://devpost.com/rolandyang</Link>
+				        </VStack>
                         </Center>
                     </Box>
                 </VStack>
