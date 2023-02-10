@@ -288,8 +288,8 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                     <Heading pt="10px">misc. stuff 🎨</Heading>
                     <Text pb="10px">im not robot! i have personality!</Text>
                     <Divider/>
-                    <Box justify="center" py="10px" fontSize={{base: "md", lg: "xl"}}>
-                        <UnorderedList maxW="800px">
+                    <Box justify="center" py="10px" fontSize={{base: "md", lg: "xl"}} maxW="800px">
+                        <UnorderedList>
                             <ListItem>some video games i play: valorant, fall guys, roblox, slime rancher, minecraft, osu 🎮</ListItem>
                             <ListItem>random artists i have been listening to and enjoying recently: kendrick lamar, weston estate, rex orange county 🎵</ListItem>
                             <ListItem>favorite web games to play in class: sexaginta~quattuordle, bongo cat, 2048, shellshock.io, contexto, surviv.io 💻</ListItem>
@@ -307,7 +307,7 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                                         <AccordionIcon />
                                     </AccordionButton>
                                     <AccordionPanel p={2}>
-                                        <Flex justify="center" flexWrap="wrap" align="center" maxW="800px">
+                                        <Flex justify="center" flexWrap="wrap" align="center">
                                             <Center mx="7px" my="10px">
                                                 <Image alt='Roland Yang' src="quadsphoto.jpeg" borderRadius="lg" maxW="225px"/>
                                             </Center>
