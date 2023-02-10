@@ -244,7 +244,7 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
             </Center>
 
             {/** VOLUNTEERING */}
-            <Center m={{base: "25px", md: "100px"}}>
+            {/* <Center m={{base: "25px", md: "100px"}}>
                 <VStack border="1px" p="20px" rounded={7} w="95%" maxW="1100px">
                     <Heading pt="10px">volunteering 🤝</Heading>
                     <Text pb="10px">unpaid initiatives and experiences</Text>
@@ -255,7 +255,7 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                         </Center>
                     </Box>
                 </VStack>
-            </Center>
+            </Center> */}
 
             {/** ACHIEVEMENTS/AWARDS */}
             <Center m={{base: "25px", md: "100px"}}>
@@ -283,18 +283,47 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
             </Center>
 
             {/** HOBBIES */}
-            {/* <Center m={{base: "25px", md: "100px"}}>
-                <VStack border="1px" p="20px" rounded={7} w="90%" maxW="1100px">
-                    <Heading pt="10px">hobbies 🎨</Heading>
-                    <Text pb="10px">bonus</Text>
+            <Center m={{base: "25px", md: "100px"}}>
+                <VStack border="1px" p="20px" rounded={7} w="95%" maxW="1100px">
+                    <Heading pt="10px">misc. stuff 🎨</Heading>
+                    <Text pb="10px">im not robot! i have personality!</Text>
                     <Divider/>
-                    <Box justify="center" py="10px" fontSize="xl" w="80%">
-                        <Center>
-                            <Heading>WIP</Heading>
-                        </Center>
+                    <Box justify="center" py="10px" fontSize={{base: "md", lg: "xl"}}>
+                        <UnorderedList maxW="800px">
+                            <ListItem>some video games i play: valorant, fall guys, roblox, slime rancher, minecraft, osu 🎮</ListItem>
+                            <ListItem>random artists i have been listening to and enjoying recently: kendrick lamar, weston estate, rex orange county 🎵</ListItem>
+                            <ListItem>favorite web games to play in class: sexaginta~quattuordle, bongo cat, 2048, shellshock.io, contexto, surviv.io 💻</ListItem>
+                            {/** https://64ordle.au/ https://bongo.cat/ https://play2048.co/ https://shellshock.io/ https://contexto.me/*/}
+                            <ListItem>sony vegas > premiere (because i'm too lazy to learn premiere) 🎥</ListItem>
+                            <ListItem>the best flavor of ice cream is mint chocolate chip (this is a statement) 🍦</ListItem>
+                            <ListItem>i enjoy doing marching percussion, and have played bass, snare, and quads! in addition to doing the ucla marching band, this indoor season im marching with elan percussion and recently got offered a contract for pacific crest drum corps on bass drum 🥁</ListItem>
+                        </UnorderedList>
+                        <Accordion border="transparent" allowToggle>
+                                <AccordionItem>
+                                    <AccordionButton>
+                                        <Box as="span" flex='1' textAlign='right'>
+                                         💂 click to see some band nerd photos of me...
+                                        </Box>
+                                        <AccordionIcon />
+                                    </AccordionButton>
+                                    <AccordionPanel p={2}>
+                                        <Flex justify="center" flexWrap="wrap" align="center">
+                                            <Center mx="10px" my="10px">
+                                                <Image alt='Roland Yang' src="quadsphoto.jpeg" borderRadius="lg" maxW="225px"/>
+                                            </Center>
+                                            <Center mx="10px" my="10px">
+                                                <Image alt='Roland Yang' src="hsband.jpeg" borderRadius="lg" maxW="300px"/>
+                                            </Center>
+                                            <Center mx="10px" my="10px">
+                                                <Image alt='Roland Yang' src="bass1photo.jpeg" borderRadius="lg" maxW="250px"/>
+                                            </Center>
+                                        </Flex>
+                                    </AccordionPanel>
+                                </AccordionItem>
+                            </Accordion>
                     </Box>
                 </VStack>
-            </Center> */}
+            </Center>
 
             {/** SOCIALS */}
             <Center m={{base: "25px", md: "100px"}}>
