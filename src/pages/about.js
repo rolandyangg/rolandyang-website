@@ -108,9 +108,46 @@ export default function About() {
                     <Text pb="10px">the big boy stuff</Text>
                     <Divider/>
                     <Box justify="center" py="10px" fontSize="xl" w="90%">
-                        <Center>
-                            <Heading>WIP</Heading>
-                        </Center>
+                    <Box>
+                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
+                                <Text fontWeight="bold" fontSize="2xl">AdSkate Inc 📈</Text>
+                                <Text as='i'>Jun. 2021 - Oct. 2021 & Apr. 2022 - Sep. 2022</Text>
+                            </Flex>
+                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
+                                <Text>Software Engineer Intern</Text>
+                                <Text>Remote</Text>
+                            </Flex>
+                            <Text mt="10px" fontSize="lg">As a Slingshot Fellow, worked on a variety of projects helping out a CMU-based Startup. Most of my work involved using Python to analyze & process data and/or automate numerous different tasks. Still informally help out on the side from time to time.</Text>
+                             <Accordion border="transparent" allowToggle>
+                                <AccordionItem>
+                                    <AccordionButton>
+                                        <Box as="span" flex='1' textAlign='right'>
+                                            click for more specific stuff of what I did at AdSkate...
+                                        </Box>
+                                        <AccordionIcon />
+                                    </AccordionButton>
+                                    <AccordionPanel p={2}>
+                                        <Flex justify="center" flexWrap="wrap" align="center">
+                                            <Center mx="10px" mb="10px">
+                                                <VStack>
+                                                    <UnorderedList fontSize="lg" mb="10px">
+                                                        <ListItem>Automated data collection and preprocessing in BERT model data pipeline reducing projected time by 5 months
+and expanded amount of classifiable IAB categories by 3x by writing several Python scripts incorporating ScreamingFrog
+SEO and Google’s APIs</ListItem>
+                                                        <ListItem>Used Selenium and BeautifulSoup to automatically scape and convert
+content from HTML and VAST creative tags into downloadable files</ListItem>
+                                                        <ListItem>Searched for potentially useful data sources by playing with several APIs including Twitter
+API, Reddit API, Google Ads API, and Zyte API</ListItem>
+                                                        <ListItem><b>Currently working on using Dash/Plotly to transform data reports for clients to instead be interactive visualizations/dashboards</b></ListItem>
+                                                    </UnorderedList>
+                                                    <Text fontSize="lg" as='i'>Actually ended up getting this internship junior year of high school after winning a hackathon and finding out about Slingshot. I applied for their fellowship and was matched with AdSkate!</Text>
+                                                </VStack>
+                                            </Center>
+                                        </Flex>
+                                    </AccordionPanel>
+                                </AccordionItem>
+                            </Accordion>
+                        </Box>
                     </Box>
                 </VStack>
             </Center>
@@ -133,12 +170,6 @@ export default function About() {
                                 <Text>Manville, NJ</Text>
                             </Flex>
                             <Text mt="10px" fontSize="lg">Greeted and seated guests at designated tables. Took beverage orders. Handled front-desk duties such as take-out, cashier transactions, and phone calls.</Text>
-                            {/**
-                             * • Warmly greeted guests and escorted them to designated tables in a professional manner.
-• Managed the distribution of customers across the restaurant for waiters to have equal chances at tips and handled monetary transactions.
-• Provided excellent customer service with friendliness and efficiency in a fast‑paced changing environment.
-• Answered phone calls and listened to customer questions/concerns and directed them to the appropriate resources.
-                             */}
                              <Accordion border="transparent" allowToggle>
                                 <AccordionItem>
                                     <AccordionButton>
@@ -150,12 +181,15 @@ export default function About() {
                                     <AccordionPanel p={2}>
                                         <Flex justify="center" flexWrap="wrap" align="center">
                                             <Center mx="10px" mb="10px" maxW="525px">
-                                            <UnorderedList fontSize="lg">
-                                                <ListItem>Warmly greeted guests and escorted them to designated tables in a professional manner.</ListItem>
-                                                <ListItem>Managed the distribution of customers across the restaurant for waiters to have equal chances at tips and handled monetary transactions.</ListItem>
-                                                <ListItem>Provided excellent customer service with friendliness and efficiency in a fast‑paced changing environment.</ListItem>
-                                                <ListItem>Answered phone calls and listened to customer questions/concerns and directed them to the appropriate resources.</ListItem>
-                                            </UnorderedList>
+                                                <VStack>
+                                                <UnorderedList fontSize="lg">
+                                                    <ListItem>Warmly greeted guests and escorted them to designated tables in a professional manner.</ListItem>
+                                                    <ListItem>Managed the distribution of customers across the restaurant for waiters to have equal chances at tips and handled monetary transactions.</ListItem>
+                                                    <ListItem>Provided excellent customer service with friendliness and efficiency in a fast‑paced changing environment.</ListItem>
+                                                    <ListItem>Answered phone calls and listened to customer questions/concerns and directed them to the appropriate resources.</ListItem>
+                                                </UnorderedList>
+                                                <Text fontSize="lg" as='i'>fun fact: I got this job 30 minutes after watching the minions movie in a suit!</Text>
+                                                </VStack>
                                             </Center>
                                             <Center mx="10px" my="10px">
                                                 <Image alt='Roland Yang' src="flaminggrill1.jpeg" borderRadius="lg" maxW="250px"/>
@@ -178,12 +212,6 @@ export default function About() {
                                 <Text>Somerset, NJ</Text>
                             </Flex>
                             <Text mt="10px" fontSize="lg">Participated in Oak Crest Day Camp's Leaders in Training program (LIT), in which I assisted and worked a counselor with a different camp group, consisting of elementary-aged kids, about every week.</Text>
-                            {/**
-                             * • Assisted in cultivating safe, supportive, and enjoyable summer experiences for a group of a dozen elementary‑aged campers.
-• Planned and executed camp programming while guiding campers through personal growth and acting as a positive role model.
-• Identify and responded to camper conflicts and behavioral issues, reporting to the appropriate leadership and facilitating the resolution process.
-• Applied weekly feedback acquired from counselor mentorship program to improve interpersonal skills and performance of camp duties.
-                             */}
                              <Accordion border="transparent" allowToggle>
                                 <AccordionItem>
                                     <AccordionButton>
