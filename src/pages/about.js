@@ -307,14 +307,14 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                                         <AccordionIcon />
                                     </AccordionButton>
                                     <AccordionPanel p={2}>
-                                        <Flex justify="center" flexWrap="wrap" align="center">
-                                            <Center mx="10px" my="10px">
+                                        <Flex justify="center" flexWrap="wrap" align="center" maxW="800px">
+                                            <Center mx="7px" my="10px">
                                                 <Image alt='Roland Yang' src="quadsphoto.jpeg" borderRadius="lg" maxW="225px"/>
                                             </Center>
-                                            <Center mx="10px" my="10px">
-                                                <Image alt='Roland Yang' src="hsband.jpeg" borderRadius="lg" maxW="300px"/>
+                                            <Center mx="7px" my="10px">
+                                                <Image alt='Roland Yang' src="hsband.jpeg" borderRadius="lg" maxW="260px"/>
                                             </Center>
-                                            <Center mx="10px" my="10px">
+                                            <Center mx="7px" my="10px">
                                                 <Image alt='Roland Yang' src="bass1photo.jpeg" borderRadius="lg" maxW="250px"/>
                                             </Center>
                                         </Flex>
