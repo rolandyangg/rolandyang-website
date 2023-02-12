@@ -111,12 +111,12 @@ export default function Home() {
 				<Flex direction={{ base: "column", lgg: "row"}} justify="center" align="center" flexWarp="wrap" fontSize="lg" py="10px">
 					<Flex>
 						{buttons[0].map((button, i) => {
-							return <Link _hover={{ }} key={i} href={button.link}><Button _hover={{ backgroundColor: "blue.800", borderColor: "blue.300" }} variant='outline' mx="5px" my="5px" leftIcon={button.icon}>{button.text}</Button></Link>
+							return <Link _hover={{ }} key={i} href={button.link} isExternal><Button _hover={{ backgroundColor: "blue.800", borderColor: "blue.300" }} variant='outline' mx="5px" my="5px" leftIcon={button.icon}>{button.text}</Button></Link>
 						})}
 					</Flex>
 					<Flex>
 						{buttons[1].map((button, i) => {
-							return <Link _hover={{ }} key={i} href={button.link}><Button _hover={{ backgroundColor: "blue.800", borderColor: "blue.300" }} variant='outline' mx="5px" my="5px" leftIcon={button.icon}>{button.text}</Button></Link>
+							return <Link _hover={{ }} key={i} href={button.link} isExternal><Button _hover={{ backgroundColor: "blue.800", borderColor: "blue.300" }} variant='outline' mx="5px" my="5px" leftIcon={button.icon}>{button.text}</Button></Link>
 						})}
 					</Flex>
 				</Flex>

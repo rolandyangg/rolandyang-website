@@ -1,6 +1,6 @@
 import * as React from 'react'
-import { Text, Center, Flex, HStack, Box, Image, Heading } from '@chakra-ui/react'
-import { Link } from 'gatsby'
+import { Link as GatsbyLink } from 'gatsby'
+import { Text, Center, Flex, HStack, Box, Image, Heading, Link } from '@chakra-ui/react'
 
 const menuItems = [
     {
@@ -15,10 +15,10 @@ const menuItems = [
     //     name: "scenery",
     //     link: "/scenery"
     // },
-    {
-        name: "resume",
-        link: "https://drive.google.com/file/d/1_IOzmp8a8JdewSncNE274h6pOH8LVXdL/view?usp=sharing"
-    },
+    // {
+    //     name: "resume",
+    //     link: "https://drive.google.com/file/d/1_IOzmp8a8JdewSncNE274h6pOH8LVXdL/view?usp=sharing"
+    // },
 ]
 
 export default function Navbar() {
@@ -32,8 +32,9 @@ export default function Navbar() {
                 </Flex>
                 <HStack spacing={6} flexWrap="wrap" justify="center">
                     {menuItems.map((menuItem, i) => {
-                        return <Link to={menuItem.link}><Text color="whiteAlpha.700" fontSize="xl" _hover={{color: "white"}} key={i}>{menuItem.name}</Text></Link>;
+                        return <GatsbyLink to={menuItem.link}><Text color="whiteAlpha.700" fontSize="xl" _hover={{color: "white"}} key={i}>{menuItem.name}</Text></GatsbyLink>;
                     })}
+                    <Link href="https://drive.google.com/file/d/1_IOzmp8a8JdewSncNE274h6pOH8LVXdL/view?usp=sharing" isExternal _hover={{color: "white"}}><Text color="whiteAlpha.700" fontSize="xl" _hover={{color: "white"}}>resume</Text></Link>
                 </HStack>
             </Flex>
         </Box>
