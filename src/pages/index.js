@@ -76,13 +76,13 @@ const featuredProjects = [
 		tech: ["HTML/CSS", "Bootstrap", "Express", "Node.js", "Google Cloud Platform", "Webscraping"],
 		award: "1st Overall @ RevolutionUC '21"
 	},
-	{
-		title: "Swing Tic Tac Toe",
-		link: "https://github.com/rolandyangg/tic-tac-toe",
-		image: "projects/tictactoegif.gif",
-		tech: ["Java", "Swing"],
-		award: null
-	}
+	// {
+	// 	title: "Swing Tic Tac Toe",
+	// 	link: "https://github.com/rolandyangg/tic-tac-toe",
+	// 	image: "projects/tictactoegif.gif",
+	// 	tech: ["Java", "Swing"],
+	// 	award: null
+	// }
 ]
 
 // https://chakra-ui.com/docs/components/flex

@@ -28,7 +28,7 @@ export default function Navbar() {
             <Flex align="center" justify="space-between" flexDir={{ base: "column", md: "row" }} p="20px">
                 <Flex>
                     <Image/>
-                    <Link to="/"><Heading fontSize="3xl">roland yang</Heading></Link>
+                    <GatsbyLink to="/"><Heading fontSize="3xl">roland yang</Heading></Link>
                 </Flex>
                 <HStack spacing={6} flexWrap="wrap" justify="center">
                     {menuItems.map((menuItem, i) => {

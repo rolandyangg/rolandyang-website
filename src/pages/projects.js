@@ -44,20 +44,20 @@ let projects = [
 		tech: ["HTML/CSS", "Bootstrap", "Express", "Node.js", "Google Cloud Platform", "Webscraping"],
 		award: "1st Overall @ RevolutionUC '21"
 	},
-	{
-		title: "Swing Tic Tac Toe",
-		link: "https://github.com/rolandyangg/tic-tac-toe",
-		image: "tictactoegif.gif",
-		tech: ["Java", "Swing"],
-		award: null
-	},
-    {
-		title: "Trie CLI",
-		link: "https://github.com/rolandyangg/trie-system",
-		image: "trie_example.png",
-		tech: ["Javascript", "Node.js", "Express"],
-		award: null
-	},
+	// {
+	// 	title: "Swing Tic Tac Toe",
+	// 	link: "https://github.com/rolandyangg/tic-tac-toe",
+	// 	image: "tictactoegif.gif",
+	// 	tech: ["Java", "Swing"],
+	// 	award: null
+	// },
+    // {
+	// 	title: "Trie CLI",
+	// 	link: "https://github.com/rolandyangg/trie-system",
+	// 	image: "trie_example.png",
+	// 	tech: ["Javascript", "Node.js", "Express"],
+	// 	award: null
+	// },
     {
 		title: "ProfessorAI",
 		link: "https://devpost.com/software/name-xazq3o",
