@@ -286,7 +286,7 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
             <Center m={{base: "25px", md: "100px"}}>
                 <VStack border="1px" p="20px" rounded={7} w="95%" maxW="1100px">
                     <Heading pt="10px">misc. stuff 🎨</Heading>
-                    <Text pb="10px">im not robot! i have personality!</Text>
+                    <Text pb="10px">diversity</Text>
                     <Divider/>
                     <Box justify="center" py="10px" fontSize={{base: "md", lg: "xl"}} maxW="800px">
                         <UnorderedList>
