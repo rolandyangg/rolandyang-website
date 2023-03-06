@@ -302,7 +302,7 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                                 <AccordionItem>
                                     <AccordionButton>
                                         <Box as="span" flex='1' textAlign='right'>
-                                         💂 click to see some band nerd photos of me...
+                                         💂 click to see some band photos...
                                         </Box>
                                         <AccordionIcon />
                                     </AccordionButton>
@@ -315,7 +315,7 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                                                 <Image alt='Roland Yang' src="hsband.jpeg" borderRadius="lg" maxW="260px"/>
                                             </Center>
                                             <Center mx="7px" my="10px">
-                                                <Image alt='Roland Yang' src="bass1photo.jpeg" borderRadius="lg" maxW="250px"/>
+                                                <Image alt='Roland Yang' src="bass1photo.jpg" borderRadius="lg" maxW="230px"/>
                                             </Center>
                                         </Flex>
                                     </AccordionPanel>

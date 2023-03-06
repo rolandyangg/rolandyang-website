@@ -86,6 +86,13 @@ let projects = [
 		tech: ["Python"],
 		award: null
 	},
+	{
+		title: "Peach Party",
+		link: "https://github.com/rolandyangg/peach-party",
+		image: "peachpartyscreenshot.png",
+		tech: ["C++"],
+		award: null
+	},
 ]
 
 projects = shuffle(projects); 
