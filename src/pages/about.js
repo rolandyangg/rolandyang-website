@@ -1,6 +1,7 @@
 import * as React from 'react'
-import { ChakraProvider, Icon, Box, Flex, VStack, Accordion, AccordionItem, AccordionButton, AccordionIcon, AccordionPanel, Button, Link, Text, Heading, Image, Center, Divider, List, UnorderedList, ListItem } from '@chakra-ui/react'
+import { ChakraProvider, Icon, Box, Flex, VStack, Accordion, AccordionItem, AccordionButton, AccordionIcon, AccordionPanel, ListIcon, Link, Text, Heading, Image, Center, Divider, List, UnorderedList, ListItem } from '@chakra-ui/react'
 import { FaDev, FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa'
+import { BsFillGearFill, BsCalendar } from 'react-icons/bs'
 import theme from "../theme"
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
@@ -44,15 +45,24 @@ export default function About() {
                     <Box justify="center" py="10px" fontSize="xl">
                         <Text fontWeight="bold" fontSize="2xl">computer science</Text>
                         <UnorderedList>
-                            <ListItem>data structures in c++ (CS 32)</ListItem>
+                            <ListItem><ListIcon as={BsCalendar}/>software construction lab (CS 35)</ListItem>
+                            <ListItem><ListIcon as={BsCalendar}/>introduction to computer architecture (CS 33)</ListItem>
+                            <ListItem><ListIcon as={BsFillGearFill}/>data structures in c++ (CS 32)</ListItem>
                             <ListItem>object-oriented programming in c++ (CS 31)</ListItem>
+                            <ListItem><ListIcon as={BsCalendar}/>introduction to machine learning (ENG96A)</ListItem>
                         </UnorderedList>
                         <br/>
                         <Text fontWeight="bold" fontSize="2xl">math</Text>
                         <UnorderedList>
-                            <ListItem>introduction to discrete structures (MATH 61)</ListItem>
-                            <ListItem>differential equations (MATH 33B)</ListItem>
-                            <ListItem>multivariable calculus (MATH 32A/B)</ListItem>    
+                            <ListItem><ListIcon as={BsFillGearFill}/>discrete structures (MATH 61)</ListItem>
+                            <ListItem><ListIcon as={BsCalendar}/>linear algebra and applications (MATH 33A)</ListItem>
+                            <ListItem><ListIcon as={BsFillGearFill}/>differential equations (MATH 33B)</ListItem>
+                            <ListItem><ListIcon as={BsFillGearFill}/>multivariable calculus (MATH 32A/B)</ListItem>    
+                        </UnorderedList>
+                        <br/>
+                        <Text fontWeight="bold" fontSize="2xl">science</Text>
+                        <UnorderedList>
+                            <ListItem><ListIcon as={BsCalendar}/>mechanics physics lab (PHYSICS 4AL)</ListItem>
                         </UnorderedList>   
                         <br/>                
                         <Text fontWeight="bold" fontSize="2xl">miscellaneous</Text>
@@ -296,7 +306,7 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                             {/** https://64ordle.au/ https://bongo.cat/ https://play2048.co/ https://shellshock.io/ https://contexto.me/*/}
                             <ListItem>sony vegas > premiere (because i'm too lazy to learn premiere) 🎥</ListItem>
                             <ListItem>the best flavor of ice cream is mint chocolate chip (this is a statement) 🍦</ListItem>
-                            <ListItem>i enjoy doing marching percussion, and have played bass, snare, and quads! in addition to doing the ucla marching band, this indoor season im marching with elan percussion and recently got offered a contract for pacific crest drum corps on bass drum 🥁</ListItem>
+                            <ListItem>i enjoy doing marching percussion, and have played bass, snare, and quads! in addition to doing the ucla marching band, this winter im marching with elan percussion and will be marching with the pacific crest drum and bugle corps this summer on bass drum 🥁</ListItem>
                         </UnorderedList>
                         <Accordion border="transparent" allowToggle>
                                 <AccordionItem>
