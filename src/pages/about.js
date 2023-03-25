@@ -45,24 +45,23 @@ export default function About() {
                     <Box justify="center" py="10px" fontSize="xl">
                         <Text fontWeight="bold" fontSize="2xl">computer science</Text>
                         <UnorderedList>
-                            <ListItem><ListIcon as={BsCalendar}/>software construction lab (CS 35)</ListItem>
-                            <ListItem><ListIcon as={BsCalendar}/>introduction to computer architecture (CS 33)</ListItem>
-                            <ListItem><ListIcon as={BsFillGearFill}/>data structures in c++ (CS 32)</ListItem>
+                            <ListItem><ListIcon as={BsFillGearFill}/>software construction lab (CS 35)</ListItem>
+                            <ListItem><ListIcon as={BsFillGearFill}/>introduction to computer architecture (CS 33)</ListItem>
+                            <ListItem>data structures in c++ (CS 32)</ListItem>
                             <ListItem>object-oriented programming in c++ (CS 31)</ListItem>
-                            <ListItem><ListIcon as={BsCalendar}/>introduction to machine learning (ENG96A)</ListItem>
                         </UnorderedList>
                         <br/>
                         <Text fontWeight="bold" fontSize="2xl">math</Text>
                         <UnorderedList>
-                            <ListItem><ListIcon as={BsFillGearFill}/>discrete structures (MATH 61)</ListItem>
-                            <ListItem><ListIcon as={BsCalendar}/>linear algebra and applications (MATH 33A)</ListItem>
-                            <ListItem><ListIcon as={BsFillGearFill}/>differential equations (MATH 33B)</ListItem>
-                            <ListItem><ListIcon as={BsFillGearFill}/>multivariable calculus (MATH 32A/B)</ListItem>    
+                            <ListItem>discrete structures (MATH 61)</ListItem>
+                            <ListItem><ListIcon as={BsFillGearFill}/>linear algebra and applications (MATH 33A)</ListItem>
+                            <ListItem>differential equations (MATH 33B)</ListItem>
+                            <ListItem>multivariable calculus (MATH 32A/B)</ListItem>    
                         </UnorderedList>
                         <br/>
                         <Text fontWeight="bold" fontSize="2xl">science</Text>
                         <UnorderedList>
-                            <ListItem><ListIcon as={BsCalendar}/>mechanics physics lab (PHYSICS 4AL)</ListItem>
+                            <ListItem><ListIcon as={BsFillGearFill}/>mechanics physics lab (PHYSICS 4AL)</ListItem>
                         </UnorderedList>   
                         <br/>                
                         <Text fontWeight="bold" fontSize="2xl">miscellaneous</Text>
@@ -148,7 +147,6 @@ SEO and Google’s APIs</ListItem>
 content from HTML and VAST creative tags into downloadable files</ListItem>
                                                         <ListItem>Searched for potentially useful data sources by playing with several APIs including Twitter
 API, Reddit API, Google Ads API, and Zyte API</ListItem>
-                                                        <ListItem><b>Currently working on using Dash/Plotly to transform data reports for clients to instead be interactive visualizations/dashboards</b></ListItem>
                                                     </UnorderedList>
                                                     <Text fontSize="lg" as='i'>Actually ended up getting this internship junior year of high school after winning a hackathon and finding out about Slingshot. I applied for their fellowship and was matched with AdSkate!</Text>
                                                 </VStack>
