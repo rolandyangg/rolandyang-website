@@ -76,6 +76,13 @@ const featuredProjects = [
 		tech: ["HTML/CSS", "Bootstrap", "Express", "Node.js", "Google Cloud Platform", "Webscraping"],
 		award: "1st Overall @ RevolutionUC '21"
 	},
+	{
+		title: "Peach Party",
+		link: "https://github.com/rolandyangg/peach-party",
+		image: "peachpartyscreenshot.png",
+		tech: ["C++"],
+		award: null
+	},
 	// {
 	// 	title: "Swing Tic Tac Toe",
 	// 	link: "https://github.com/rolandyangg/tic-tac-toe",
