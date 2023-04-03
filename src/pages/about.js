@@ -88,7 +88,7 @@ export default function About() {
                                 <Text>Bachelors of Science in Computer Science</Text>
                                 <Text>Los Angeles, CA</Text>
                             </Flex>
-                            <Text mb="10px">(GPA: 3.882/4.0)</Text>
+                            <Text mb="10px">(GPA: 3.965/4.0)</Text>
                             <Text fontSize="lg">DevX (onCampus Developer), Association for Computing Machinery (ACM), Centennial Hall Resident Government (Community Representative), Marching Band, Assocation of Chinese Americans (ACA)</Text>
                         </Box>
                         
