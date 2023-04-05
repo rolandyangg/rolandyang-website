@@ -79,7 +79,7 @@ const featuredProjects = [
 	{
 		title: "Peach Party",
 		link: "https://github.com/rolandyangg/peach-party",
-		image: "peachpartyscreenshot.png",
+		image: "projects/peachpartyscreenshot.png",
 		tech: ["C++"],
 		award: null
 	},

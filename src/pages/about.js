@@ -66,6 +66,7 @@ export default function About() {
                         <br/>                
                         <Text fontWeight="bold" fontSize="2xl">miscellaneous</Text>
                         <UnorderedList>
+                            <ListItem><ListIcon as={BsFillGearFill}/>intro machine learning (ENGR 96)</ListItem>
                             <ListItem>introduction to architectural studies (ARCH&UD 30)</ListItem>
                             <ListItem>symphonic band (MUSC 185F)</ListItem>  
                         </UnorderedList>
