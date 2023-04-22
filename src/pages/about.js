@@ -19,15 +19,15 @@ export default function About() {
                     <Flex justify="center" flexWrap="wrap" align="center">
                         <Center mx="20px" mb="20px" mt="10px" maxW="650px">
                             <Text fontSize="xl">
-                                Hi, my name is Roland Yang! I’m a first-year (sophomore by credits 🤓) undergradate student studying computer science at UCLA.
-                                I'm interested in leveraging computing to create a difference whether it be contributing to projects or expanding the field of knowledge.
+                                Hi, my name is Roland Yang! I’m a first-year (junior by credits 🤓) undergradate student studying computer science at UCLA.
+                                I'm interested in leveraging computing to create a difference.
                                 <br></br>
                                 <br></br>
-                                I was born and raised in central New Jersey. In my free time, I enjoy drumming, playing volleyball, video editing, gaming, and just creating things in general. 🥁🏐🎥🎮👨‍💻
+                                I was born and raised in central New Jersey. In my free time, I enjoy drumming, playing volleyball, video editing, gaming, and building meaningful projects. 🥁🏐🎥🎮👨‍💻
                             </Text>
                         </Center>
                         <Center mx="20px" my="10px">
-                            <Image alt='Roland Yang' src="rolandpromcrop.jpg" borderRadius="lg" maxW="325px"/>
+                            <Image alt='Roland Yang' src="rolanduclaprofphoto.jpeg" borderRadius="lg" maxW="325px"/>
                         </Center>
                     </Flex>
                 </VStack>
@@ -90,7 +90,7 @@ export default function About() {
                                 <Text>Los Angeles, CA</Text>
                             </Flex>
                             <Text mb="10px">(GPA: 3.965/4.0)</Text>
-                            <Text fontSize="lg">DevX (onCampus Developer), Association for Computing Machinery (ACM), Centennial Hall Resident Government (Community Representative), Marching Band, Assocation of Chinese Americans (ACA)</Text>
+                            <Text fontSize="lg">DevX (onCampus Developer), Association for Computing Machinery (ACM), Marching Band, Assocation of Chinese Americans (ACA)</Text>
                         </Box>
                         
                         <Divider m="20px"/>
@@ -305,7 +305,7 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                             {/** https://64ordle.au/ https://bongo.cat/ https://play2048.co/ https://shellshock.io/ https://contexto.me/*/}
                             <ListItem>sony vegas > premiere (because i'm too lazy to learn premiere) 🎥</ListItem>
                             <ListItem>the best flavor of ice cream is mint chocolate chip (this is a statement) 🍦</ListItem>
-                            <ListItem>i enjoy doing marching percussion, and have played bass, snare, and quads! in addition to doing the ucla marching band, this winter im marching with elan percussion and will be marching with the pacific crest drum and bugle corps this summer on bass drum 🥁</ListItem>
+                            <ListItem>i enjoy doing marching percussion, and have played bass, snare, and quads! in addition to doing the ucla marching band, this winter i did elan percussion and will be marching with the pacific crest drum and bugle corps this summer on bass drum 🥁</ListItem>
                         </UnorderedList>
                         <Accordion border="transparent" allowToggle>
                                 <AccordionItem>
@@ -324,7 +324,7 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                                                 <Image alt='Roland Yang' src="hsband.jpeg" borderRadius="lg" maxW="260px"/>
                                             </Center>
                                             <Center mx="7px" my="10px">
-                                                <Image alt='Roland Yang' src="bass1photo.jpg" borderRadius="lg" maxW="230px"/>
+                                                <Image alt='Roland Yang' src="bass1photo.jpeg" borderRadius="lg" maxW="230px"/>
                                             </Center>
                                         </Flex>
                                     </AccordionPanel>
