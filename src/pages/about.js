@@ -1,7 +1,7 @@
 import * as React from 'react'
-import { ChakraProvider, Icon, Box, Flex, VStack, Accordion, AccordionItem, AccordionButton, AccordionIcon, AccordionPanel, ListIcon, Link, Text, Heading, Image, Center, Divider, List, UnorderedList, ListItem } from '@chakra-ui/react'
+import { ChakraProvider, Icon, Box, Flex, VStack, Accordion, AccordionItem, AccordionButton, AccordionIcon, AccordionPanel, ListIcon, Link, Text, Heading, Image, Center, Divider, UnorderedList, ListItem } from '@chakra-ui/react'
 import { FaDev, FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa'
-import { BsFillGearFill, BsCalendar } from 'react-icons/bs'
+import { BsFillGearFill } from 'react-icons/bs' // BsCalendar for planned classes
 import theme from "../theme"
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
@@ -90,7 +90,7 @@ export default function About() {
                                 <Text>Los Angeles, CA</Text>
                             </Flex>
                             <Text mb="10px">(GPA: 3.965/4.0)</Text>
-                            <Text fontSize="lg">DevX (onCampus Developer), Association for Computing Machinery (ACM), Marching Band, Assocation of Chinese Americans (ACA)</Text>
+                            <Text fontSize="lg">DevX (Developer), Upsilon Pi Epsilon, Association for Computing Machinery (ACM), Marching Band, Assocation of Chinese Americans (ACA)</Text>
                         </Box>
                         
                         <Divider m="20px"/>
@@ -273,8 +273,9 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                     <Divider/>
                     <Box justify="center" py="10px" fontSize={{base: "md", lg: "xl"}}>
                         <UnorderedList>
-                            <ListItem>8x hackathon project wins</ListItem>
+                            <ListItem>9x hackathon project wins</ListItem>
                             <UnorderedList>
+                                <ListItem>Gode Chain Challenge @ LA Hacks 2023</ListItem>
                                 <ListItem>Most Interactive Project & Top 12 Overall @ Vizathon 2021</ListItem>
                                 <ListItem>3rd Place Overall @ LinkHacks III</ListItem>
                                 <ListItem>2nd Place Overall & Best Domain @ GunnHacks 7.0</ListItem>
@@ -300,7 +301,7 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                     <Box justify="center" py="10px" fontSize={{base: "md", lg: "xl"}} maxW="800px">
                         <UnorderedList>
                             <ListItem>some video games i play: valorant, fall guys, roblox, slime rancher, minecraft, osu 🎮</ListItem>
-                            <ListItem>random artists i have been listening to and enjoying recently: kendrick lamar, weston estate, rex orange county 🎵</ListItem>
+                            <ListItem>random artists i have been listening to and enjoying recently: kendrick lamar, weston estate, rex orange county, polyphia, beabadoobee 🎵</ListItem>
                             <ListItem>favorite web games to play in class: sexaginta~quattuordle, bongo cat, 2048, shellshock.io, contexto, surviv.io 💻</ListItem>
                             {/** https://64ordle.au/ https://bongo.cat/ https://play2048.co/ https://shellshock.io/ https://contexto.me/*/}
                             <ListItem>sony vegas > premiere (because i'm too lazy to learn premiere) 🎥</ListItem>

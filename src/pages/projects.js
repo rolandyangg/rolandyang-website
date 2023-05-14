@@ -98,6 +98,13 @@ let projects = [
 		link: "https://github.com/rolandyangg/chainchimp",
 		image: "chainchimplanding.png",
 		tech: ["React", "Solidity", "Blockchain", "Web3"],
+		award: "Gode Challenge @ LA Hacks 2023"
+	},
+	{
+		title: "Pnetphlix",
+		link: "https://github.com/rolandyangg/pnetphlix",
+		image: "pnetphlixphoto.png",
+		tech: ["C++", "Data Structures"],
 		award: null
 	},
 ]
