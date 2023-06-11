@@ -107,6 +107,12 @@ let projects = [
 		tech: ["C++", "Data Structures"],
 		award: null
 	},
+	{
+		title: "BruinShare",
+		link: "https://github.com/rolandyangg/BruinShare",
+		image: "bruinsharepreview.png",
+		tech: ["FERN", "Firebase", "Express.js", "React", "Node.js", "AWS", "MaterialUI", "Next.js"]
+	}
 ]
 
 projects = shuffle(projects); 

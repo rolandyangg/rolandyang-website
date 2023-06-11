@@ -42,11 +42,10 @@ const buttons = [
 
 const featuredProjects = [
 	{
-		title: "Sorting Algorithm Visualizer",
-		link: "https://github.com/rolandyangg/sorting-algorithm-visualizer",
-		image: "projects/bubblesortsample.gif",
-		tech: ["C++", "SFML"],
-		award: null
+		title: "BruinShare",
+		link: "https://github.com/rolandyangg/BruinShare",
+		image: "projects/bruinsharepreview.png",
+		tech: ["FERN", "Firebase", "Express.js", "React", "Node.js", "AWS", "MaterialUI", "Next.js"]
 	},
 	{
 		title: "Coding Interview CLI",
