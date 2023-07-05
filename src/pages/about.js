@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { ChakraProvider, Icon, Box, Flex, VStack, Accordion, AccordionItem, AccordionButton, AccordionIcon, AccordionPanel, ListIcon, Link, Text, Heading, Image, Center, Divider, UnorderedList, ListItem } from '@chakra-ui/react'
 import { FaDev, FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa'
-import { BsFillGearFill } from 'react-icons/bs' // BsCalendar for planned classes
+import { BsFillGearFill, BsCalendar } from 'react-icons/bs' // BsCalendar for planned classes
 import theme from "../theme"
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
@@ -45,8 +45,9 @@ export default function About() {
                     <Box justify="center" py="10px" fontSize="xl">
                         <Text fontWeight="bold" fontSize="2xl">computer science</Text>
                         <UnorderedList>
-                            <ListItem><ListIcon as={BsFillGearFill}/>software construction lab (CS 35)</ListItem>
-                            <ListItem><ListIcon as={BsFillGearFill}/>introduction to computer architecture (CS 33)</ListItem>
+                            <ListItem><ListIcon as={BsCalendar}/>operating systems principles (CS 111)</ListItem>
+                            <ListItem>software construction lab (CS 35)</ListItem>
+                            <ListItem>introduction to computer architecture (CS 33)</ListItem>
                             <ListItem>data structures in c++ (CS 32)</ListItem>
                             <ListItem>object-oriented programming in c++ (CS 31)</ListItem>
                         </UnorderedList>
@@ -54,20 +55,26 @@ export default function About() {
                         <Text fontWeight="bold" fontSize="2xl">math</Text>
                         <UnorderedList>
                             <ListItem>discrete structures (MATH 61)</ListItem>
-                            <ListItem><ListIcon as={BsFillGearFill}/>linear algebra and applications (MATH 33A)</ListItem>
+                            <ListItem>linear algebra and applications (MATH 33A)</ListItem>
                             <ListItem>differential equations (MATH 33B)</ListItem>
                             <ListItem>multivariable calculus (MATH 32A/B)</ListItem>    
                         </UnorderedList>
                         <br/>
+                        <Text fontWeight="bold" fontSize="2xl">engineering</Text>
+                        <UnorderedList>
+                            <ListItem><ListIcon as={BsCalendar}/>intro to technology management and economics (ENGR 110)</ListItem>
+                            <ListItem>intro machine learning (ENGR 96)</ListItem>
+                        </UnorderedList>
+                        <br/>
                         <Text fontWeight="bold" fontSize="2xl">science</Text>
                         <UnorderedList>
-                            <ListItem><ListIcon as={BsFillGearFill}/>mechanics physics lab (PHYSICS 4AL)</ListItem>
+                            <ListItem>mechanics physics lab (PHYSICS 4AL)</ListItem>
                         </UnorderedList>   
                         <br/>                
                         <Text fontWeight="bold" fontSize="2xl">miscellaneous</Text>
                         <UnorderedList>
-                            <ListItem><ListIcon as={BsFillGearFill}/>intro machine learning (ENGR 96)</ListItem>
                             <ListItem>introduction to architectural studies (ARCH&UD 30)</ListItem>
+                            <ListItem><ListIcon as={BsCalendar}/>nature of the universe (ASTR 3)</ListItem>
                             <ListItem>symphonic band (MUSC 185F)</ListItem>  
                         </UnorderedList>
                     </Box>
@@ -89,7 +96,7 @@ export default function About() {
                                 <Text>Bachelors of Science in Computer Science</Text>
                                 <Text>Los Angeles, CA</Text>
                             </Flex>
-                            <Text mb="10px">(GPA: 3.965/4.0)</Text>
+                            <Text mb="10px">(GPA: 3.935/4.0)</Text>
                             <Text fontSize="lg">DevX (Developer), Upsilon Pi Epsilon, Association for Computing Machinery (ACM), Marching Band, Assocation of Chinese Americans (ACA)</Text>
                         </Box>
                         
