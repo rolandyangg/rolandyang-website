@@ -19,7 +19,7 @@ export default function About() {
                     <Flex justify="center" flexWrap="wrap" align="center">
                         <Center mx="20px" mb="20px" mt="10px" maxW="650px">
                             <Text fontSize="xl">
-                                Hi, my name is Roland Yang! I’m a first-year (junior by credits 🤓) undergradate student studying computer science at UCLA.
+                                Hi, my name is Roland Yang! I’m a second-year (junior by credits 🤓) undergradate student studying computer science at UCLA.
                                 I'm interested in leveraging computing to create a difference.
                                 <br></br>
                                 <br></br>
@@ -308,12 +308,12 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                     <Box justify="center" py="10px" fontSize={{base: "md", lg: "xl"}} maxW="800px">
                         <UnorderedList>
                             <ListItem>some video games i play: valorant, fall guys, roblox, slime rancher, minecraft, osu 🎮</ListItem>
-                            <ListItem>random artists i have been listening to and enjoying recently: kendrick lamar, weston estate, rex orange county, polyphia, beabadoobee 🎵</ListItem>
+                            <ListItem>random artists i have been listening to and enjoying recently: kendrick lamar, weston estate, sza, rex orange county, polyphia, beabadoobee, new jeans 🎵</ListItem>
                             <ListItem>favorite web games to play in class: sexaginta~quattuordle, bongo cat, 2048, shellshock.io, contexto, surviv.io 💻</ListItem>
                             {/** https://64ordle.au/ https://bongo.cat/ https://play2048.co/ https://shellshock.io/ https://contexto.me/*/}
                             <ListItem>sony vegas > premiere (because i'm too lazy to learn premiere) 🎥</ListItem>
                             <ListItem>the best flavor of ice cream is mint chocolate chip (this is a statement) 🍦</ListItem>
-                            <ListItem>i enjoy doing marching percussion, and have played bass, snare, and quads! in addition to doing the ucla marching band, this winter i did elan percussion and will be marching with the pacific crest drum and bugle corps this summer on bass drum 🥁</ListItem>
+                            <ListItem>i enjoy doing marching percussion, and have played bass, snare, and quads! some of my experiences include the ucla marching band, élan percussion, and pacific crest drum and bugle corps! 🥁</ListItem>
                         </UnorderedList>
                         <Accordion border="transparent" allowToggle>
                                 <AccordionItem>
@@ -332,7 +332,7 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                                                 <Image alt='Roland Yang' src="hsband.jpeg" borderRadius="lg" maxW="260px"/>
                                             </Center>
                                             <Center mx="7px" my="10px">
-                                                <Image alt='Roland Yang' src="bass1photo.jpeg" borderRadius="lg" maxW="230px"/>
+                                                <Image alt='Roland Yang' src="bassbreakaftercropped.jpg" borderRadius="lg" maxW="250px"/>
                                             </Center>
                                         </Flex>
                                     </AccordionPanel>
