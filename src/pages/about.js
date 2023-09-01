@@ -23,7 +23,10 @@ export default function About() {
                                 I'm interested in leveraging computing to create a difference.
                                 <br></br>
                                 <br></br>
-                                I was born and raised in central New Jersey. In my free time, I enjoy drumming, playing volleyball, video editing, gaming, and building meaningful projects. 🥁🏐🎥🎮👨‍💻
+                                I was born and raised in central New Jersey. In my free time, I enjoy drumming, playing volleyball, playing video games (no surprise, REAL unique for a CS major), and video editing. 🥁🏐🎮🎥👨‍💻
+                                <br></br>
+                                <br></br>
+                                Feel free to connect with me on any platform!
                             </Text>
                         </Center>
                         <Center mx="20px" my="10px">
