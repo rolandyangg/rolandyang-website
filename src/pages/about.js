@@ -19,7 +19,7 @@ export default function About() {
                     <Flex justify="center" flexWrap="wrap" align="center">
                         <Center mx="20px" mb="20px" mt="10px" maxW="650px">
                             <Text fontSize="xl">
-                                Hi, my name is Roland Yang! I’m a second-year (junior by credits 🤓) undergradate student studying computer science at UCLA.
+                                Hi, my name is Roland Yang! I’m a second-year (junior by credits 🤓) undergraduate student studying computer science at UCLA.
                                 I'm interested in leveraging computing to create a difference.
                                 <br></br>
                                 <br></br>
