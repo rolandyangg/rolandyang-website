@@ -19,11 +19,11 @@ export default function About() {
                     <Flex justify="center" flexWrap="wrap" align="center">
                         <Center mx="20px" mb="20px" mt="10px" maxW="650px">
                             <Text fontSize="xl">
-                                Hi, my name is Roland Yang! I’m a second-year (junior by credits 🤓) undergraduate student studying computer science at UCLA.
+                                Hi, my name is Roland Yang! I’m a Junior studying computer science at UCLA.
                                 I'm interested in leveraging computing to create a difference.
                                 <br></br>
                                 <br></br>
-                                I was born and raised in central New Jersey. In my free time, I enjoy drumming, playing volleyball, playing video games (no surprise, REAL unique for a CS major), and video editing. 🥁🏐🎮🎥👨‍💻
+                                I was born and raised in central New Jersey. In my free time, I enjoy drumming, playing volleyball, playing video games (no surprise, REAL unique for a CS major), video editing, and chilling with my cats! 🥁🏐🎮🎥👨‍💻🐱
                                 <br></br>
                                 <br></br>
                                 Feel free to connect with me on any platform!
@@ -48,7 +48,7 @@ export default function About() {
                     <Box justify="center" py="10px" fontSize="xl">
                         <Text fontWeight="bold" fontSize="2xl">computer science</Text>
                         <UnorderedList>
-                            <ListItem><ListIcon as={BsCalendar}/>operating systems principles (CS 111)</ListItem>
+                            <ListItem><ListIcon as={BsFillGearFill}/>operating systems principles (CS 111)</ListItem>
                             <ListItem>software construction lab (CS 35)</ListItem>
                             <ListItem>introduction to computer architecture (CS 33)</ListItem>
                             <ListItem>data structures in c++ (CS 32)</ListItem>
@@ -65,7 +65,7 @@ export default function About() {
                         <br/>
                         <Text fontWeight="bold" fontSize="2xl">engineering</Text>
                         <UnorderedList>
-                            <ListItem><ListIcon as={BsCalendar}/>intro to technology management and economics (ENGR 110)</ListItem>
+                            <ListItem><ListIcon as={BsFillGearFill}/>intro to technology management and economics (ENGR 110)</ListItem>
                             <ListItem>intro machine learning (ENGR 96)</ListItem>
                         </UnorderedList>
                         <br/>
@@ -77,7 +77,7 @@ export default function About() {
                         <Text fontWeight="bold" fontSize="2xl">miscellaneous</Text>
                         <UnorderedList>
                             <ListItem>introduction to architectural studies (ARCH&UD 30)</ListItem>
-                            <ListItem><ListIcon as={BsCalendar}/>nature of the universe (ASTR 3)</ListItem>
+                            <ListItem><ListIcon as={BsFillGearFill}/>nature of the universe (ASTR 3)</ListItem>
                             <ListItem>symphonic band (MUSC 185F)</ListItem>  
                         </UnorderedList>
                     </Box>
@@ -93,14 +93,14 @@ export default function About() {
                         <Box>
                             <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
                                 <Text fontWeight="bold" fontSize="2xl">University of California - Los Angeles (UCLA) 🐻</Text>
-                                <Text as='i'>Expected Graduation 2026</Text>
+                                <Text as='i'>Expected Graduation 2025</Text>
                             </Flex>
                             <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
                                 <Text>Bachelors of Science in Computer Science</Text>
                                 <Text>Los Angeles, CA</Text>
                             </Flex>
                             <Text mb="10px">(GPA: 3.935/4.0)</Text>
-                            <Text fontSize="lg">DevX (Developer), Upsilon Pi Epsilon, Association for Computing Machinery (ACM), Marching Band, Assocation of Chinese Americans (ACA)</Text>
+                            <Text fontSize="lg">DevX (Developer), Upsilon Pi Epsilon, LA Hacks (Sponsorships Team Organizer), Association for Computing Machinery (ACM), Marching Band, Assocation of Chinese Americans (ACA), Intramural Volleyball</Text>
                         </Box>
                         
                         <Divider m="20px"/>
@@ -127,6 +127,24 @@ export default function About() {
                     <Heading pt="10px">work experience 💼</Heading>
                     <Text pb="10px">the big boy stuff</Text>
                     <Divider/>
+
+                    <Box justify="center" py="10px" fontSize="xl" w="90%">
+                        <Box>
+                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
+                                <Text fontWeight="bold" fontSize="2xl">UCLA Smart Grid Energy Research Center 🔬</Text>
+                                <Text as='i'>Aug. 2023 - Present</Text>
+                            </Flex>
+                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
+                                <Text>Undergraduate Research Assistant</Text>
+                                <Text>Los Angeles, CA</Text>
+                            </Flex>
+                            <Text mt="10px" fontSize="lg">Part-time research assistant for lab, worked on performing literature review on prior papers to determine best reinforcement learning algorithm(s) to use to solve electric vehicle charging grid problems.</Text>
+                        </Box>
+                    </Box>
+
+                    <Divider m="20px"/>
+
+
                     <Box justify="center" py="10px" fontSize="xl" w="90%">
                     <Box>
                             <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
@@ -182,7 +200,7 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                         <Box>
                             <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
                                 <Text fontWeight="bold" fontSize="2xl">Flaming Grill & Supreme Buffet 🍽️</Text>
-                                <Text as='i'>Aug. 2022 - Jan. 2023</Text>
+                                <Text as='i'>Aug. 2022 - Jan. 2023 & Sep. 2023</Text>
                             </Flex>
                             <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
                                 <Text>Host</Text>
@@ -316,7 +334,7 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                             {/** https://64ordle.au/ https://bongo.cat/ https://play2048.co/ https://shellshock.io/ https://contexto.me/*/}
                             <ListItem>sony vegas > premiere (because i'm too lazy to learn premiere) 🎥</ListItem>
                             <ListItem>the best flavor of ice cream is mint chocolate chip (this is a statement) 🍦</ListItem>
-                            <ListItem>i enjoy doing marching percussion, and have played bass, snare, and quads! some of my experiences include the ucla marching band, élan percussion, and pacific crest drum and bugle corps! 🥁</ListItem>
+                            <ListItem>i enjoy doing marching percussion, and have played bass, snare, and quads! some of my experiences include the ucla marching band, pow percussion, élan percussion, and pacific crest drum and bugle corps! 🥁</ListItem>
                         </UnorderedList>
                         <Accordion border="transparent" allowToggle>
                                 <AccordionItem>
