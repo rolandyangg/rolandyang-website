@@ -29,9 +29,10 @@ export default function About() {
                                 Feel free to connect with me on any platform!
                             </Text>
                         </Center>
-                        <Center mx="20px" my="10px">
-                            <Image alt='Roland Yang' src="rolanduclaprofphoto.jpeg" borderRadius="lg" maxW="325px"/>
-                        </Center>
+                        <Box mx="20px" my="10px" justify="center" align="center">
+                            <Image mb="10px" alt='Roland Yang' src="film_camera_squarephoto.jpeg" borderRadius="lg" maxW="325px"/>
+                            <Text as='i' fontSize="xs">this is a polaroid of me on a trip in taiwan!</Text>
+                        </Box>
                     </Flex>
                 </VStack>
             </Center>
@@ -49,8 +50,9 @@ export default function About() {
                         <Text fontWeight="bold" fontSize="2xl">computer science</Text>
                         <UnorderedList>
                             <ListItem><ListIcon as={BsFillGearFill}/>operating systems principles (CS 111)</ListItem>
+                            <ListItem><ListIcon as={BsCalendar}/>intro to computer graphics (CS 174A)</ListItem>
                             <ListItem>software construction lab (CS 35)</ListItem>
-                            <ListItem>introduction to computer architecture (CS 33)</ListItem>
+                            <ListItem>intro to computer organization (CS 33)</ListItem>
                             <ListItem>data structures in c++ (CS 32)</ListItem>
                             <ListItem>object-oriented programming in c++ (CS 31)</ListItem>
                         </UnorderedList>
@@ -77,7 +79,8 @@ export default function About() {
                         <Text fontWeight="bold" fontSize="2xl">miscellaneous</Text>
                         <UnorderedList>
                             <ListItem>introduction to architectural studies (ARCH&UD 30)</ListItem>
-                            <ListItem><ListIcon as={BsFillGearFill}/>nature of the universe (ASTR 3)</ListItem>
+                            <ListItem><ListIcon as={BsCalendar}/>languages and cultures of asia (ASIA 30)</ListItem>
+                            <ListItem><ListIcon as={BsCalendar}/>mathematics for life scientists (LIFSCI 30A)</ListItem>
                             <ListItem>symphonic band (MUSC 185F)</ListItem>  
                         </UnorderedList>
                     </Box>
@@ -199,6 +202,20 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
 
                         <Box>
                             <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
+                                <Text fontWeight="bold" fontSize="2xl">Kryos AI 👨‍🏫</Text>
+                                <Text as='i'>Oct. 2023 - Present</Text>
+                            </Flex>
+                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
+                                <Text>Educator</Text>
+                                <Text>Remote</Text>
+                            </Flex>
+                            <Text mt="10px" fontSize="lg">Edited and peer-reviewed college admission essays. Helped present workshops on the college application process.</Text>
+                        </Box>
+
+                        <Divider m="20px"/>
+
+                        <Box>
+                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
                                 <Text fontWeight="bold" fontSize="2xl">Flaming Grill & Supreme Buffet 🍽️</Text>
                                 <Text as='i'>Aug. 2022 - Jan. 2023 & Sep. 2023</Text>
                             </Flex>
@@ -206,7 +223,7 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                                 <Text>Host</Text>
                                 <Text>Manville, NJ</Text>
                             </Flex>
-                            <Text mt="10px" fontSize="lg">Greeted and seated guests at designated tables. Took beverage orders. Handled front-desk duties such as take-out, cashier transactions, and phone calls.</Text>
+                            <Text mt="10px" fontSize="lg">Greeted and seated guests at designated tables. Took beverage orders. Handled front-desk duties such as take-out, cashier transactions, and phone calls. (all with the goat manager jeff 🐐)</Text>
                              <Accordion border="transparent" allowToggle>
                                 <AccordionItem>
                                     <AccordionButton>
@@ -328,13 +345,13 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                     <Divider/>
                     <Box justify="center" py="10px" fontSize={{base: "md", lg: "xl"}} maxW="800px">
                         <UnorderedList>
-                            <ListItem>some video games i play: valorant, fall guys, roblox, slime rancher, minecraft, osu 🎮</ListItem>
-                            <ListItem>random artists i have been listening to and enjoying recently: kendrick lamar, weston estate, sza, rex orange county, polyphia, beabadoobee, new jeans 🎵</ListItem>
+                            <ListItem>some video games i play: fortnite, valorant, fall guys, roblox, slime rancher, minecraft, osu 🎮</ListItem>
+                            <ListItem>random artists i have been listening to and enjoying recently: drake, laufey, sza, new jeans, rex orange county 🎵</ListItem>
                             <ListItem>favorite web games to play in class: sexaginta~quattuordle, bongo cat, 2048, shellshock.io, contexto, surviv.io 💻</ListItem>
                             {/** https://64ordle.au/ https://bongo.cat/ https://play2048.co/ https://shellshock.io/ https://contexto.me/*/}
                             <ListItem>sony vegas > premiere (because i'm too lazy to learn premiere) 🎥</ListItem>
                             <ListItem>the best flavor of ice cream is mint chocolate chip (this is a statement) 🍦</ListItem>
-                            <ListItem>i enjoy doing marching percussion, and have played bass, snare, and quads! some of my experiences include the ucla marching band, pow percussion, élan percussion, and pacific crest drum and bugle corps! 🥁</ListItem>
+                            <ListItem>i enjoy doing marching percussion! some of my experiences include the ucla marching band, pow percussion, élan percussion, and pacific crest drum and bugle corps! 🥁</ListItem>
                         </UnorderedList>
                         <Accordion border="transparent" allowToggle>
                                 <AccordionItem>
