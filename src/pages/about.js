@@ -322,7 +322,7 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                             <UnorderedList>
                                 <ListItem>Gode Chain Challenge @ LA Hacks 2023</ListItem>
                                 <ListItem>Most Interactive Project & Top 12 Overall @ Vizathon 2021</ListItem>
-                                <ListItem>3rd Place Overall @ LinkHacks III</ListItem>
+                                <ListItem>3rd Place Overall @ LingHacks III</ListItem>
                                 <ListItem>2nd Place Overall & Best Domain @ GunnHacks 7.0</ListItem>
                                 <ListItem>Best Design Hack @ HackTJ 8.0</ListItem>
                                 <ListItem>Best Social Good Hack @ Hack-2-Connect 3.0</ListItem>
