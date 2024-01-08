@@ -49,8 +49,9 @@ export default function About() {
                     <Box justify="center" py="10px" fontSize="xl">
                         <Text fontWeight="bold" fontSize="2xl">computer science</Text>
                         <UnorderedList>
-                            <ListItem><ListIcon as={BsFillGearFill}/>operating systems principles (CS 111)</ListItem>
-                            <ListItem><ListIcon as={BsCalendar}/>intro to computer graphics (CS 174A)</ListItem>
+                            <ListItem><ListIcon as={BsFillGearFill}/>data management systems (CS 143)</ListItem>
+                            <ListItem><ListIcon as={BsFillGearFill}/>programming languages (CS 131)</ListItem>
+                            <ListItem>operating systems principles (CS 111)</ListItem>
                             <ListItem>software construction lab (CS 35)</ListItem>
                             <ListItem>intro to computer organization (CS 33)</ListItem>
                             <ListItem>data structures in c++ (CS 32)</ListItem>
@@ -59,6 +60,7 @@ export default function About() {
                         <br/>
                         <Text fontWeight="bold" fontSize="2xl">math</Text>
                         <UnorderedList>
+                            <ListItem><ListIcon as={BsFillGearFill}/>statistics and probability (STATS 100A)</ListItem>
                             <ListItem>discrete structures (MATH 61)</ListItem>
                             <ListItem>linear algebra and applications (MATH 33A)</ListItem>
                             <ListItem>differential equations (MATH 33B)</ListItem>
@@ -67,7 +69,7 @@ export default function About() {
                         <br/>
                         <Text fontWeight="bold" fontSize="2xl">engineering</Text>
                         <UnorderedList>
-                            <ListItem><ListIcon as={BsFillGearFill}/>intro to technology management and economics (ENGR 110)</ListItem>
+                            <ListItem>intro to technology management and economics (ENGR 110)</ListItem>
                             <ListItem>intro machine learning (ENGR 96)</ListItem>
                         </UnorderedList>
                         <br/>
@@ -79,8 +81,7 @@ export default function About() {
                         <Text fontWeight="bold" fontSize="2xl">miscellaneous</Text>
                         <UnorderedList>
                             <ListItem>introduction to architectural studies (ARCH&UD 30)</ListItem>
-                            <ListItem><ListIcon as={BsCalendar}/>languages and cultures of asia (ASIA 30)</ListItem>
-                            <ListItem><ListIcon as={BsCalendar}/>mathematics for life scientists (LIFSCI 30A)</ListItem>
+                            <ListItem><ListIcon as={BsFillGearFill}/>languages and cultures of asia (ASIA 30)</ListItem>
                             <ListItem>symphonic band (MUSC 185F)</ListItem>  
                         </UnorderedList>
                     </Box>
@@ -318,9 +319,10 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                     <Divider/>
                     <Box justify="center" py="10px" fontSize={{base: "md", lg: "xl"}}>
                         <UnorderedList>
-                            <ListItem>9x hackathon project wins</ListItem>
+                            <ListItem>10x hackathon project wins</ListItem>
                             <UnorderedList>
                                 <ListItem>Gode Chain Challenge @ LA Hacks 2023</ListItem>
+                                <ListItem>1st Place Overall, Best Design & Best use of Google Cloud @ RevolutionUC 2021</ListItem>
                                 <ListItem>Most Interactive Project & Top 12 Overall @ Vizathon 2021</ListItem>
                                 <ListItem>3rd Place Overall @ LingHacks III</ListItem>
                                 <ListItem>2nd Place Overall & Best Domain @ GunnHacks 7.0</ListItem>
@@ -330,7 +332,7 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                                 <ListItem>1st Place Overall & Best Hardware @ MLH CorgiHacks</ListItem>
                                 <ListItem>Prudential Alexa Prize @ hackMCST VI</ListItem>
                             </UnorderedList>
-                            <ListItem>american computer science league intermediate division gold 2021</ListItem>
+                            <ListItem>american computer science league intermediate division gold 2021 (perfect score)</ListItem>
                             <ListItem>voted best gamer by the brhs class of 2022 🎮</ListItem>
                         </UnorderedList>
                     </Box>
