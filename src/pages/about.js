@@ -135,6 +135,22 @@ export default function About() {
                     <Box justify="center" py="10px" fontSize="xl" w="90%">
                         <Box>
                             <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
+                                <Text fontWeight="bold" fontSize="2xl">TodayTixGroup</Text>
+                                <Text as='i'>Jun. 2024 - Aug. 2024</Text>
+                            </Flex>
+                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
+                                <Text>Software Engineer Intern</Text>
+                                <Text>New York City, NYC</Text>
+                            </Flex>
+                            <Text mt="10px" fontSize="lg">Incoming Backend Developer Intern. Summer 2024 Internship.</Text>
+                        </Box>
+                    </Box>
+
+                    <Divider m="20px"/>
+
+                    <Box justify="center" py="10px" fontSize="xl" w="90%">
+                        <Box>
+                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
                                 <Text fontWeight="bold" fontSize="2xl">UCLA Smart Grid Energy Research Center 🔬</Text>
                                 <Text as='i'>Aug. 2023 - Present</Text>
                             </Flex>
@@ -147,7 +163,6 @@ export default function About() {
                     </Box>
 
                     <Divider m="20px"/>
-
 
                     <Box justify="center" py="10px" fontSize="xl" w="90%">
                     <Box>
