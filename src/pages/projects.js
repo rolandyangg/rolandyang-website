@@ -112,6 +112,12 @@ let projects = [
 		link: "https://github.com/rolandyangg/BruinShare",
 		image: "bruinsharepreview.png",
 		tech: ["FERN", "Firebase", "Express.js", "React", "Node.js", "AWS", "MaterialUI", "Next.js"]
+	},
+	{
+		title: "Pigzj",
+		link: "https://github.com/rolandyangg/Pigzj",
+		image: "PigzjUsage.png",
+		tech: ["Java", "Multithreading", "Compression"]
 	}
 ]
 

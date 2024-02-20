@@ -62,11 +62,10 @@ const featuredProjects = [
 		award: "Most Interactive @ Vizathon '22"
 	},
 	{
-		title: "NoMoAcne",
-		link: "https://devpost.com/software/nomoacne",
-		image: "projects/nomoacnesample.png",
-		tech: ["HTML/CSS", "Bootstrap", "Express", "Node.js", "Google Cloud Platform", "Clarifai"],
-		award: "2nd Overall @ GunnHacks 7.0"
+		title: "Pigzj",
+		link: "https://github.com/rolandyangg/Pigzj",
+		image: "projects/PigzjUsage.png",
+		tech: ["Java", "Multithreading", "Compression"]
 	},
 	{
 		title: "SecureTheTag",
