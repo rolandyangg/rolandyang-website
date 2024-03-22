@@ -49,10 +49,12 @@ export default function About() {
                     <Box justify="center" py="10px" fontSize="xl">
                         <Text fontWeight="bold" fontSize="2xl">computer science</Text>
                         <UnorderedList>
-                            <ListItem><ListIcon as={BsFillGearFill}/>data management systems (CS 143)</ListItem>
-                            <ListItem><ListIcon as={BsFillGearFill}/>programming languages (CS 131)</ListItem>
-                            <ListItem>operating systems principles (CS 111)</ListItem>
-                            <ListItem>software construction lab (CS 35)</ListItem>
+                            <ListItem><ListIcon as={BsCalendar}/>data mining (CS 145)</ListItem>
+                            <ListItem><ListIcon as={BsCalendar}/>web applications (CS 144)</ListItem>
+                            <ListItem>data management systems (CS 143)</ListItem>
+                            <ListItem>programming languages (CS 131)</ListItem>
+                            <Link href="https://github.com/rolandyangg/CS111" textDecoration="underline" isExternal><ListItem>operating systems principles (CS 111)</ListItem></Link>
+                            <Link href="https://github.com/rolandyangg/CS35L" textDecoration="underline" isExternal><ListItem>software construction lab (CS 35)</ListItem></Link>
                             <ListItem>intro to computer organization (CS 33)</ListItem>
                             <ListItem>data structures in c++ (CS 32)</ListItem>
                             <ListItem>object-oriented programming in c++ (CS 31)</ListItem>
@@ -60,17 +62,17 @@ export default function About() {
                         <br/>
                         <Text fontWeight="bold" fontSize="2xl">math</Text>
                         <UnorderedList>
-                            <ListItem><ListIcon as={BsFillGearFill}/>statistics and probability (STATS 100A)</ListItem>
+                            <ListItem>statistics and probability (STATS 100A)</ListItem>
                             <ListItem>discrete structures (MATH 61)</ListItem>
                             <ListItem>linear algebra and applications (MATH 33A)</ListItem>
                             <ListItem>differential equations (MATH 33B)</ListItem>
                             <ListItem>multivariable calculus (MATH 32A/B)</ListItem>    
                         </UnorderedList>
                         <br/>
-                        <Text fontWeight="bold" fontSize="2xl">engineering</Text>
+                        <Text fontWeight="bold" fontSize="2xl">business</Text>
                         <UnorderedList>
+                            <ListItem><ListIcon as={BsCalendar}/>real estate finance and investments (MGMT 170)</ListItem>
                             <ListItem>intro to technology management and economics (ENGR 110)</ListItem>
-                            <ListItem>intro machine learning (ENGR 96)</ListItem>
                         </UnorderedList>
                         <br/>
                         <Text fontWeight="bold" fontSize="2xl">science</Text>
@@ -80,8 +82,10 @@ export default function About() {
                         <br/>                
                         <Text fontWeight="bold" fontSize="2xl">miscellaneous</Text>
                         <UnorderedList>
+                            <ListItem><ListIcon as={BsCalendar}/>intro to geographic information systems (GEO 7)</ListItem>
+                            <ListItem>languages and cultures of asia (ASIA 30)</ListItem>
                             <ListItem>introduction to architectural studies (ARCH&UD 30)</ListItem>
-                            <ListItem><ListIcon as={BsFillGearFill}/>languages and cultures of asia (ASIA 30)</ListItem>
+                            <ListItem>intro machine learning (ENGR 96)</ListItem>
                             <ListItem>symphonic band (MUSC 185F)</ListItem>  
                         </UnorderedList>
                     </Box>
@@ -104,7 +108,7 @@ export default function About() {
                                 <Text>Los Angeles, CA</Text>
                             </Flex>
                             <Text mb="10px">(GPA: 3.935/4.0)</Text>
-                            <Text fontSize="lg">DevX (Developer), Upsilon Pi Epsilon, LA Hacks (Sponsorships Team Organizer), Association for Computing Machinery (ACM), Marching Band, Assocation of Chinese Americans (ACA), Intramural Volleyball</Text>
+                            <Text fontSize="lg">DevX (Developer), Upsilon Pi Epsilon, LA Hacks (Sponsorships Team Organizer), Marching Band, Assocation of Chinese Americans (ACA), Association for Computing Machinery (ACM) Intramural Volleyball & Dodgeball</Text>
                         </Box>
                         
                         <Divider m="20px"/>
@@ -202,14 +206,14 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
 
                         <Box>
                             <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
-                                <Text fontWeight="bold" fontSize="2xl">Kryos AI 👨‍🏫</Text>
-                                <Text as='i'>Oct. 2023 - Present</Text>
+                                <Text fontWeight="bold" fontSize="2xl">American Young Coder (AYC) Coding School 👨‍🏫</Text>
+                                <Text as='i'>Jan. 2024 - Present</Text>
                             </Flex>
                             <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
-                                <Text>Educator</Text>
+                                <Text>Coding Instructor</Text>
                                 <Text>Remote</Text>
                             </Flex>
-                            <Text mt="10px" fontSize="lg">Edited and peer-reviewed college admission essays. Helped present workshops on the college application process.</Text>
+                            <Text mt="10px" fontSize="lg">Instructed classes and gave private tutoring to middle school students on Intro to Python, Object-Oriented Programming in Python, and Intro to Java.</Text>
                         </Box>
 
                         <Divider m="20px"/>
@@ -347,12 +351,12 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                     <Box justify="center" py="10px" fontSize={{base: "md", lg: "xl"}} maxW="800px">
                         <UnorderedList>
                             <ListItem>some video games i play: fortnite, valorant, fall guys, roblox, slime rancher, minecraft, osu 🎮</ListItem>
-                            <ListItem>random artists i have been listening to and enjoying recently: drake, laufey, sza, new jeans, rex orange county 🎵</ListItem>
-                            <ListItem>favorite web games to play in class: sexaginta~quattuordle, bongo cat, 2048, shellshock.io, contexto, surviv.io 💻</ListItem>
+                            <ListItem>random artists i have been listening to and enjoying recently: ive, tyler the creator, porter robinson, laufey 🎵</ListItem>
+                            <ListItem>favorite web games to play in class: connections, sexaginta~quattuordle, 2048, shellshock.io, contexto, surviv.io 💻</ListItem>
                             {/** https://64ordle.au/ https://bongo.cat/ https://play2048.co/ https://shellshock.io/ https://contexto.me/*/}
                             <ListItem>sony vegas > premiere (because i'm too lazy to learn premiere) 🎥</ListItem>
                             <ListItem>the best flavor of ice cream is mint chocolate chip (this is a statement) 🍦</ListItem>
-                            <ListItem>i enjoy doing marching percussion! some of my experiences include the ucla marching band, pow percussion, élan percussion, and pacific crest drum and bugle corps! 🥁</ListItem>
+                            <ListItem>i enjoy doing marching percussion! some of my experiences include the ucla marching band, pow percussion, pacific crest drum and bugle corps, and élan percussion! 🥁</ListItem>
                         </UnorderedList>
                         <Accordion border="transparent" allowToggle>
                                 <AccordionItem>
