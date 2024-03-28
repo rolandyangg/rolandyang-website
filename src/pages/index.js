@@ -45,41 +45,47 @@ const featuredProjects = [
 		title: "BruinShare",
 		link: "https://github.com/rolandyangg/BruinShare",
 		image: "projects/bruinsharepreview.png",
-		tech: ["FERN", "Firebase", "Express.js", "React", "Node.js", "AWS", "MaterialUI", "Next.js"]
+		tech: ["FERN", "Firebase", "Express.js", "React", "Node.js", "AWS", "MaterialUI", "Next.js"],
+		description: "Full-stack centralized ridesharing platform designed for UCLA students"
 	},
 	{
 		title: "Coding Interview CLI",
 		link: "https://github.com/rolandyangg/interview-cli",
 		image: "projects/codinginterviewsample.png",
 		tech: ["Javascript", "Node.js", "Firebase"],
-		award: null
+		award: null,
+		description: "Command Line Interface designed for creating, designing, assigning, and taking live coding interviews"
 	},
 	{
 		title: "vizAsianHate",
 		link: "https://devpost.com/software/stop-aapi-hate-dashboard",
 		image: "projects/vizasianhatesample.jpg",
 		tech: ["React", "Next.js", "ChakraUI", "Vercel", "APIs"],
-		award: "Most Interactive @ Vizathon '22"
+		award: "Most Interactive @ Vizathon '22",
+		description: "Dynamic website containing interactive data visualizations displaying AAPI hate crime data"
 	},
 	{
 		title: "Pigzj",
 		link: "https://github.com/rolandyangg/Pigzj",
 		image: "projects/PigzjUsage.png",
-		tech: ["Java", "Multithreading", "Compression"]
+		tech: ["Java", "Multithreading", "Compression"],
+		description: "Multithreaded Java implementation of popular gzip compressor (~3x faster compression speed)"
 	},
 	{
 		title: "SecureTheTag",
 		link: "https://devpost.com/software/securethetag",
 		image: "projects/securethetagsample.jpg",
 		tech: ["HTML/CSS", "Bootstrap", "Express", "Node.js", "Google Cloud Platform", "Webscraping"],
-		award: "1st Overall @ RevolutionUC '21"
+		award: "1st Overall @ RevolutionUC '21",
+		description: "Web application that provides trending Instagram hashtags directly based on user-uploaded images with webscraping and machine learning"
 	},
 	{
 		title: "Peach Party",
 		link: "https://github.com/rolandyangg/peach-party",
 		image: "projects/peachpartyscreenshot.png",
 		tech: ["C++"],
-		award: null
+		award: null,
+		description: "2D two-player video game clone of Mario Party made in C++ exercising OOP Design Principles including Polymorphism and Inheritance"
 	},
 	// {
 	// 	title: "Swing Tic Tac Toe",
@@ -141,7 +147,7 @@ export default function Home() {
 			<Heading mb="15px">featured projects</Heading>
 			<Flex justify="center" align="center" flexWrap="wrap" maxW="1200px">
 				{featuredProjects.map((project, i) => {
-					return <ProjectCard title={project.title} link={project.link} image={project.image} tech={project.tech} award={project.award} key={i}/>
+					return <ProjectCard title={project.title} link={project.link} image={project.image} tech={project.tech} award={project.award} description={project.description} key={i}/>
 				})}
 			</Flex>
 			<GatsbyLink to="/projects"><Text fontSize="xl" color="whiteAlpha.700" _hover={{color: "white"}}>view all</Text></GatsbyLink>
