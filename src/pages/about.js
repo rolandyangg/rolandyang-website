@@ -107,7 +107,7 @@ export default function About() {
                                 <Text>Bachelors of Science in Computer Science</Text>
                                 <Text>Los Angeles, CA</Text>
                             </Flex>
-                            <Text mb="10px">(GPA: 3.935/4.0)</Text>
+                            <Text mb="10px">(GPA: 3.882/4.0)</Text>
                             <Text fontSize="lg">DevX (Developer), Upsilon Pi Epsilon, LA Hacks (Sponsorships Team Organizer), Marching Band, Assocation of Chinese Americans (ACA), Association for Computing Machinery (ACM) Intramural Volleyball & Dodgeball</Text>
                         </Box>
                         
