@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { ChakraProvider, Icon, Box, Flex, VStack, Accordion, AccordionItem, AccordionButton, AccordionIcon, AccordionPanel, ListIcon, Link, Text, Heading, Image, Center, Divider, UnorderedList, ListItem } from '@chakra-ui/react'
 import { FaDev, FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa'
-import { BsFillGearFill, BsCalendar } from 'react-icons/bs' // BsCalendar for planned classes
+import { BsFillGearFill, BsCalendar, BsGearFill } from 'react-icons/bs' // BsCalendar for planned classes
 import theme from "../theme"
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
@@ -49,8 +49,8 @@ export default function About() {
                     <Box justify="center" py="10px" fontSize="xl">
                         <Text fontWeight="bold" fontSize="2xl">computer science</Text>
                         <UnorderedList>
-                            <ListItem><ListIcon as={BsCalendar}/>data mining (CS 145)</ListItem>
-                            <ListItem><ListIcon as={BsCalendar}/>web applications (CS 144)</ListItem>
+                            <ListItem><ListIcon as={BsFillGearFill}/>data mining (CS 145)</ListItem>
+                            <ListItem><ListIcon as={BsFillGearFill}/>web applications (CS 144)</ListItem>
                             <ListItem>data management systems (CS 143)</ListItem>
                             <ListItem>programming languages (CS 131)</ListItem>
                             <Link href="https://github.com/rolandyangg/CS111" textDecoration="underline" isExternal><ListItem>operating systems principles (CS 111)</ListItem></Link>
@@ -71,7 +71,7 @@ export default function About() {
                         <br/>
                         <Text fontWeight="bold" fontSize="2xl">business</Text>
                         <UnorderedList>
-                            <ListItem><ListIcon as={BsCalendar}/>real estate finance and investments (MGMT 170)</ListItem>
+                            <ListItem><ListIcon as={BsFillGearFill}/>real estate finance and investments (MGMT 170)</ListItem>
                             <ListItem>intro to technology management and economics (ENGR 110)</ListItem>
                         </UnorderedList>
                         <br/>
@@ -82,7 +82,7 @@ export default function About() {
                         <br/>                
                         <Text fontWeight="bold" fontSize="2xl">miscellaneous</Text>
                         <UnorderedList>
-                            <ListItem><ListIcon as={BsCalendar}/>intro to geographic information systems (GEO 7)</ListItem>
+                            <ListItem><ListIcon as={BsFillGearFill}/>intro to geographic information systems (GEO 7)</ListItem>
                             <ListItem>languages and cultures of asia (ASIA 30)</ListItem>
                             <ListItem>introduction to architectural studies (ARCH&UD 30)</ListItem>
                             <ListItem>intro machine learning (ENGR 96)</ListItem>
@@ -136,11 +136,44 @@ export default function About() {
                     <Text pb="10px">the big boy stuff</Text>
                     <Divider/>
 
+                    {/* Hiding this for a little... 👀 */}
+                    {/* <Box justify="center" py="10px" fontSize="xl" w="90%">
+                        <Box>
+                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
+                                <Text fontWeight="bold" fontSize="2xl">Amazon 📦</Text>
+                                <Text as='i'>Jun. 2024 - Sep. 2024</Text>
+                            </Flex>
+                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
+                                <Text>Software Development Engineer Intern</Text>
+                                <Text>Sunnyvale, CA</Text>
+                            </Flex>
+                            <Text mt="10px" fontSize="lg">Incoming 2024 Summer Intern.</Text>
+                        </Box>
+                    </Box>
+
+                    <Divider m="20px"/> */}
+
+                    <Box justify="center" py="10px" fontSize="xl" w="90%">
+                        <Box>
+                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
+                                <Text fontWeight="bold" fontSize="2xl">Golshani Lab 🧠</Text>
+                                <Text as='i'>Mar. 2024 - Present</Text>
+                            </Flex>
+                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
+                                <Text>Undergraduate Research Assistant</Text>
+                                <Text>Los Angeles, CA</Text>
+                            </Flex>
+                            <Text mt="10px" fontSize="lg">Designing and implementing a user-friendly GUI using PyQt5 in Python for Voltage Image Processing. Enhances the current data pipeline process of neuron activation detection including registration, segementation, and extraction.</Text>
+                        </Box>
+                    </Box>
+
+                    <Divider m="20px"/>
+
                     <Box justify="center" py="10px" fontSize="xl" w="90%">
                         <Box>
                             <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
                                 <Text fontWeight="bold" fontSize="2xl">UCLA Smart Grid Energy Research Center 🔬</Text>
-                                <Text as='i'>Aug. 2023 - Present</Text>
+                                <Text as='i'>Aug. 2023 - Nov. 2023</Text>
                             </Flex>
                             <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
                                 <Text>Undergraduate Research Assistant</Text>
