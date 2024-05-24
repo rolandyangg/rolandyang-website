@@ -5,6 +5,7 @@ import theme from "../theme"
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
 import ProjectCard from '../components/projectcard'
+import { Helmet } from 'react-helmet'
 
 const shuffle = arr => [...arr].sort(() => Math.random() - 0.5);
 
@@ -139,6 +140,9 @@ projects = shuffle(projects);
 
 export default function Projects() {
     return (<>
+		<Helmet>
+			<title>roland yang | projects</title>
+		</Helmet>
         <ChakraProvider theme={theme}>
             <Navbar/>
 

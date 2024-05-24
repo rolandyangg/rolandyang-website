@@ -5,9 +5,13 @@ import { BsFillGearFill, BsCalendar, BsGearFill } from 'react-icons/bs' // BsCal
 import theme from "../theme"
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
+import { Helmet } from 'react-helmet'
 
 export default function About() {
     return (<>
+        <Helmet>
+            <title>roland yang | about me</title>
+        </Helmet>
         <ChakraProvider theme={theme}>
 
             <Navbar/>
