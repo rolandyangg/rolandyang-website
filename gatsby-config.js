@@ -13,6 +13,9 @@
 // METADATA TUTORIAL
 // https://www.digitalocean.com/community/tutorials/how-to-boost-seo-using-gatsby-s-seo-component-and-gatsby-react-helmet
 
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+ })
 module.exports = {
   siteMetadata: {
     title: "Roland Yang",
@@ -45,5 +48,23 @@ module.exports = {
       },
     },
     'gatsby-plugin-react-helmet',
+    {
+      resolve: `gatsby-plugin-google-gtag`, // https://inspirezone.tech/gatsby-google-analytics-step-by-step-guide/
+      options: {
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingIds: [
+          process.env.GA_ID, // Google Analytics / GA
+        ],
+        // This object is used for configuration specific to this plugin
+        pluginConfig: {
+          // Puts tracking script in the head instead of the body
+          head: true,
+          // Setting this parameter is also optional
+          respectDNT: true,
+          // Avoids sending pageview hits from custom paths
+          exclude: ["/preview/**", "/do-not-track/me/too/"],
+        },
+      },
+    },
   ],
 }
