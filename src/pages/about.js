@@ -54,7 +54,7 @@ export default function About() {
                             <ListItem>data management systems (CS 143)</ListItem>
                             <ListItem>programming languages (CS 131)</ListItem>
                             <Link href="https://github.com/rolandyangg/CS111" textDecoration="underline" isExternal><ListItem>operating systems principles (CS 111)</ListItem></Link>
-                            <Link href="https://github.com/rolandyangg/CS35L" textDecoration="underline" isExternal><ListItem>software construction lab (CS 35)</ListItem></Link>
+                            <Link href="https://github.com/rolandyangg/CS35L" textDecoration="underline" isExternal><ListItem>software construction lab (CS 35L)</ListItem></Link>
                             <ListItem>intro to computer organization (CS 33)</ListItem>
                             <ListItem>data structures in c++ (CS 32)</ListItem>
                             <ListItem>object-oriented programming in c++ (CS 31)</ListItem>
