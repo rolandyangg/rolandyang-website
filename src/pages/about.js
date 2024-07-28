@@ -53,12 +53,14 @@ export default function About() {
                     <Box justify="center" py="10px" fontSize="xl">
                         <Text fontWeight="bold" fontSize="2xl">computer science</Text>
                         <UnorderedList>
-                            <ListItem><ListIcon as={BsFillGearFill}/>data mining (CS 145)</ListItem>
-                            <ListItem><ListIcon as={BsFillGearFill}/>web applications (CS 144)</ListItem>
+                            <ListItem><ListIcon as={BsCalendar}/>introduction to computer graphics (CS 174A)</ListItem>
+                            <Link href="https://github.com/wzsmith/cs145-pst" textDecoration="underline" isExternal><ListItem>data mining (CS 145)</ListItem></Link>
+                            <ListItem>web applications (CS 144)</ListItem>
                             <ListItem>data management systems (CS 143)</ListItem>
                             <ListItem>programming languages (CS 131)</ListItem>
                             <Link href="https://github.com/rolandyangg/CS111" textDecoration="underline" isExternal><ListItem>operating systems principles (CS 111)</ListItem></Link>
                             <Link href="https://github.com/rolandyangg/CS35L" textDecoration="underline" isExternal><ListItem>software construction lab (CS 35L)</ListItem></Link>
+                            <ListItem><ListIcon as={BsCalendar}/>logic design of digital systems (CS M15A)</ListItem>
                             <ListItem>intro to computer organization (CS 33)</ListItem>
                             <ListItem>data structures in c++ (CS 32)</ListItem>
                             <ListItem>object-oriented programming in c++ (CS 31)</ListItem>
@@ -75,7 +77,7 @@ export default function About() {
                         <br/>
                         <Text fontWeight="bold" fontSize="2xl">business</Text>
                         <UnorderedList>
-                            <ListItem><ListIcon as={BsFillGearFill}/>real estate finance and investments (MGMT 170)</ListItem>
+                            <ListItem>real estate finance and investments (MGMT 170)</ListItem>
                             <ListItem>intro to technology management and economics (ENGR 110)</ListItem>
                         </UnorderedList>
                         <br/>
@@ -86,7 +88,8 @@ export default function About() {
                         <br/>                
                         <Text fontWeight="bold" fontSize="2xl">miscellaneous</Text>
                         <UnorderedList>
-                            <ListItem><ListIcon as={BsFillGearFill}/>intro to geographic information systems (GEO 7)</ListItem>
+                            <ListItem><ListIcon as={BsCalendar}/>anime (JAPAN 75)</ListItem>
+                            <ListItem>intro to geographic information systems (GEO 7)</ListItem>
                             <ListItem>languages and cultures of asia (ASIA 30)</ListItem>
                             <ListItem>introduction to architectural studies (ARCH&UD 30)</ListItem>
                             <ListItem>intro machine learning (ENGR 96)</ListItem>
@@ -111,7 +114,7 @@ export default function About() {
                                 <Text>Bachelors of Science in Computer Science</Text>
                                 <Text>Los Angeles, CA</Text>
                             </Flex>
-                            <Text mb="10px">(GPA: 3.882/4.0)</Text>
+                            <Text mb="10px">(GPA: 3.881/4.0)</Text>
                             <Text fontSize="lg">DevX (Developer), Upsilon Pi Epsilon, LA Hacks (Sponsorships Team Organizer), Marching Band, Assocation of Chinese Americans (ACA), Association for Computing Machinery (ACM) Intramural Volleyball & Dodgeball</Text>
                         </Box>
                         
@@ -141,7 +144,7 @@ export default function About() {
                     <Divider/>
 
                     {/* Hiding this for a little... 👀 */}
-                    {/* <Box justify="center" py="10px" fontSize="xl" w="90%">
+                    <Box justify="center" py="10px" fontSize="xl" w="90%">
                         <Box>
                             <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
                                 <Text fontWeight="bold" fontSize="2xl">Amazon 📦</Text>
@@ -151,11 +154,31 @@ export default function About() {
                                 <Text>Software Development Engineer Intern</Text>
                                 <Text>Sunnyvale, CA</Text>
                             </Flex>
-                            <Text mt="10px" fontSize="lg">Incoming 2024 Summer Intern.</Text>
+                            <Text mt="10px" fontSize="lg">Ring Smart Replies - Migrating Ring Doorbell Auto Response Service's Database from AppConfig to DynamoDB.</Text>
+                            <Accordion border="transparent" allowToggle>
+                                <AccordionItem>
+                                    <AccordionButton>
+                                        <Box as="span" flex='1' textAlign='right'>
+                                         click to see some zon flics...
+                                        </Box>
+                                        <AccordionIcon />
+                                    </AccordionButton>
+                                    <AccordionPanel p={2}>
+                                        <Flex justify="center" flexWrap="wrap" align="center">
+                                            <Center mx="7px" my="10px">
+                                                <Image alt='Sunnyvale Office' src="sunnyvale.png" borderRadius="lg" maxW="225px"/>
+                                            </Center>
+                                            <Center mx="7px" my="10px">
+                                                <Image alt='Spheres Office in Seattle' src="spheres.png" borderRadius="lg" maxW="260px"/>
+                                            </Center>
+                                        </Flex>
+                                    </AccordionPanel>
+                                </AccordionItem>
+                            </Accordion>
                         </Box>
                     </Box>
 
-                    <Divider m="20px"/> */}
+                    <Divider m="20px"/>
 
                     <Box justify="center" py="10px" fontSize="xl" w="90%">
                         <Box>
@@ -287,7 +310,7 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                                                 </VStack>
                                             </Center>
                                             <Center mx="10px" my="10px">
-                                                <Image alt='Roland Yang' src="flaminggrill1.jpeg" borderRadius="lg" maxW="250px"/>
+                                                <Image alt='Flaming Grill' src="flaminggrill1.jpeg" borderRadius="lg" maxW="250px"/>
                                             </Center>
                                         </Flex>
                                     </AccordionPanel>
@@ -326,7 +349,7 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                                             </UnorderedList>
                                             </Center>
                                             <Center mx="10px" my="10px">
-                                                <Image alt='Roland Yang' src="oakcrestleadershipwilderness.jpeg" borderRadius="lg" maxW="250px"/>
+                                                <Image alt='Oak Crest LIT' src="oakcrestleadershipwilderness.jpeg" borderRadius="lg" maxW="250px"/>
                                             </Center>
                                         </Flex>
                                     </AccordionPanel>
@@ -359,8 +382,9 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                     <Divider/>
                     <Box justify="center" py="10px" fontSize={{base: "md", lg: "xl"}}>
                         <UnorderedList>
-                            <ListItem>10x hackathon project wins</ListItem>
+                            <ListItem>11x hackathon project wins</ListItem>
                             <UnorderedList>
+                                <ListItem>3rd Place Best in Showcase (Virtual) @ Amazon Intern Emerging Innovators Challenge</ListItem>
                                 <ListItem>Gode Chain Challenge @ LA Hacks 2023</ListItem>
                                 <ListItem>1st Place Overall, Best Design & Best use of Google Cloud @ RevolutionUC 2021</ListItem>
                                 <ListItem>Most Interactive Project & Top 12 Overall @ Vizathon 2021</ListItem>
@@ -388,7 +412,7 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                     <Box justify="center" py="10px" fontSize={{base: "md", lg: "xl"}} maxW="800px">
                         <UnorderedList>
                             <ListItem>some video games i play: fortnite, valorant, fall guys, roblox, slime rancher, minecraft, osu 🎮</ListItem>
-                            <ListItem>random artists i have been listening to and enjoying recently: ive, tyler the creator, porter robinson, laufey 🎵</ListItem>
+                            <ListItem>random artists i have been listening to and enjoying recently: zedd, illit, tyler the creator, porter robinson, laufey, kendrick lamar 🎵</ListItem>
                             <ListItem>favorite web games to play in class: connections, sexaginta~quattuordle, 2048, shellshock.io, contexto, surviv.io 💻</ListItem>
                             {/** https://64ordle.au/ https://bongo.cat/ https://play2048.co/ https://shellshock.io/ https://contexto.me/*/}
                             <ListItem>sony vegas > premiere (because i'm too lazy to learn premiere) 🎥</ListItem>
@@ -406,13 +430,13 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                                     <AccordionPanel p={2}>
                                         <Flex justify="center" flexWrap="wrap" align="center">
                                             <Center mx="7px" my="10px">
-                                                <Image alt='Roland Yang' src="quadsphoto.jpeg" borderRadius="lg" maxW="225px"/>
+                                                <Image alt='UCLA Quads' src="quadsphoto.jpeg" borderRadius="lg" maxW="225px"/>
                                             </Center>
                                             <Center mx="7px" my="10px">
-                                                <Image alt='Roland Yang' src="hsband.jpeg" borderRadius="lg" maxW="260px"/>
+                                                <Image alt='BRHS Band' src="hsband.jpeg" borderRadius="lg" maxW="260px"/>
                                             </Center>
                                             <Center mx="7px" my="10px">
-                                                <Image alt='Roland Yang' src="bassbreakaftercropped.jpg" borderRadius="lg" maxW="250px"/>
+                                                <Image alt='Pacific Crest 2023' src="bassbreakaftercropped.jpg" borderRadius="lg" maxW="250px"/>
                                             </Center>
                                         </Flex>
                                     </AccordionPanel>
