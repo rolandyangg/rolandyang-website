@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { ChakraProvider, Icon, Box, Flex, VStack, Accordion, AccordionItem, AccordionButton, AccordionIcon, AccordionPanel, ListIcon, Link, Text, Heading, Image, Center, Divider, UnorderedList, ListItem } from '@chakra-ui/react'
 import { FaDev, FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa'
-import { BsFillGearFill, BsCalendar, BsGearFill } from 'react-icons/bs' // BsCalendar for planned classes
+import { BsFillGearFill, BsCalendar } from 'react-icons/bs' // BsCalendar for planned classes
 import theme from "../theme"
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
@@ -24,10 +24,10 @@ export default function About() {
                         <Center mx="20px" mb="20px" mt="10px" maxW="650px">
                             <Text fontSize="xl">
                                 Hi, my name is Roland Yang! I’m a Junior studying computer science at UCLA.
-                                I'm interested in leveraging computing to create a difference.
+                                I'm interested in software engineering, data engineering, and product management.
                                 <br></br>
                                 <br></br>
-                                I was born and raised in central New Jersey. In my free time, I enjoy drumming, playing volleyball, playing video games (no surprise, REAL unique for a CS major), video editing, and chilling with my cats! 🥁🏐🎮🎥👨‍💻🐱
+                                I was born and raised in central New Jersey. In my free time, I enjoy drumming, playing volleyball, hiking, playing video games (no surprise, REAL unique for a CS major), video editing, and chilling with my cats! 🥁🏐🥾🎮🎥👨‍💻🐱
                                 <br></br>
                                 <br></br>
                                 Feel free to connect with me on any platform!
@@ -53,14 +53,13 @@ export default function About() {
                     <Box justify="center" py="10px" fontSize="xl">
                         <Text fontWeight="bold" fontSize="2xl">computer science</Text>
                         <UnorderedList>
-                            <ListItem><ListIcon as={BsCalendar}/>introduction to computer graphics (CS 174A)</ListItem>
                             <Link href="https://github.com/wzsmith/cs145-pst" textDecoration="underline" isExternal><ListItem>data mining (CS 145)</ListItem></Link>
                             <ListItem>web applications (CS 144)</ListItem>
                             <ListItem>data management systems (CS 143)</ListItem>
                             <ListItem>programming languages (CS 131)</ListItem>
                             <Link href="https://github.com/rolandyangg/CS111" textDecoration="underline" isExternal><ListItem>operating systems principles (CS 111)</ListItem></Link>
                             <Link href="https://github.com/rolandyangg/CS35L" textDecoration="underline" isExternal><ListItem>software construction lab (CS 35L)</ListItem></Link>
-                            <ListItem><ListIcon as={BsCalendar}/>logic design of digital systems (CS M15A)</ListItem>
+                            <ListItem><ListIcon as={BsFillGearFill}/>logic design of digital systems (CS M15A)</ListItem>
                             <ListItem>intro to computer organization (CS 33)</ListItem>
                             <ListItem>data structures in c++ (CS 32)</ListItem>
                             <ListItem>object-oriented programming in c++ (CS 31)</ListItem>
@@ -88,7 +87,8 @@ export default function About() {
                         <br/>                
                         <Text fontWeight="bold" fontSize="2xl">miscellaneous</Text>
                         <UnorderedList>
-                            <ListItem><ListIcon as={BsCalendar}/>anime (JAPAN 75)</ListItem>
+                            <ListItem><ListIcon as={BsFillGearFill}/>engineering and society (ENG 183EW)</ListItem>
+                            <ListItem><ListIcon as={BsFillGearFill}/>anime (JAPAN 75)</ListItem>
                             <ListItem>intro to geographic information systems (GEO 7)</ListItem>
                             <ListItem>languages and cultures of asia (ASIA 30)</ListItem>
                             <ListItem>introduction to architectural studies (ARCH&UD 30)</ListItem>
@@ -115,7 +115,7 @@ export default function About() {
                                 <Text>Los Angeles, CA</Text>
                             </Flex>
                             <Text mb="10px">(GPA: 3.881/4.0)</Text>
-                            <Text fontSize="lg">DevX (Developer), Upsilon Pi Epsilon, LA Hacks (Sponsorships Team Organizer), Marching Band, Assocation of Chinese Americans (ACA), Association for Computing Machinery (ACM) Intramural Volleyball & Dodgeball</Text>
+                            <Text fontSize="lg">LA Hacks (Sponsorships Team Organizer), DevX (Developer), Upsilon Pi Epsilon, Marching Band, Assocation of Chinese Americans (ACA), Association for Computing Machinery (ACM) Intramural Volleyball & Dodgeball</Text>
                         </Box>
                         
                         <Divider m="20px"/>
@@ -154,7 +154,7 @@ export default function About() {
                                 <Text>Software Development Engineer Intern</Text>
                                 <Text>Sunnyvale, CA</Text>
                             </Flex>
-                            <Text mt="10px" fontSize="lg">Ring Smart Replies - Migrating Ring Doorbell Auto Response Service's Database from AppConfig to DynamoDB.</Text>
+                            <Text mt="10px" fontSize="lg">Ring Smart Replies - Migration of Ring Doorbell Auto Response Service's Database from AppConfig to DynamoDB.</Text>
                             <Accordion border="transparent" allowToggle>
                                 <AccordionItem>
                                     <AccordionButton>
@@ -267,7 +267,7 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                         <Box>
                             <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
                                 <Text fontWeight="bold" fontSize="2xl">American Young Coder (AYC) Coding School 👨‍🏫</Text>
-                                <Text as='i'>Jan. 2024 - Present</Text>
+                                <Text as='i'>Jan. 2024 - Jun. 2024</Text>
                             </Flex>
                             <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
                                 <Text>Coding Instructor</Text>
@@ -412,12 +412,12 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                     <Box justify="center" py="10px" fontSize={{base: "md", lg: "xl"}} maxW="800px">
                         <UnorderedList>
                             <ListItem>some video games i play: fortnite, valorant, fall guys, roblox, slime rancher, minecraft, osu 🎮</ListItem>
-                            <ListItem>random artists i have been listening to and enjoying recently: zedd, illit, tyler the creator, porter robinson, laufey, kendrick lamar 🎵</ListItem>
+                            <ListItem>random artists i have been listening to and enjoying recently: madeon, tyler the creator, porter robinson, laufey 🎵</ListItem>
                             <ListItem>favorite web games to play in class: connections, sexaginta~quattuordle, 2048, shellshock.io, contexto, surviv.io 💻</ListItem>
                             {/** https://64ordle.au/ https://bongo.cat/ https://play2048.co/ https://shellshock.io/ https://contexto.me/*/}
                             <ListItem>sony vegas > premiere (because i'm too lazy to learn premiere) 🎥</ListItem>
                             <ListItem>the best flavor of ice cream is mint chocolate chip (this is a statement) 🍦</ListItem>
-                            <ListItem>i enjoy doing marching percussion! some of my experiences include the ucla marching band, pow percussion, pacific crest drum and bugle corps, and élan percussion! 🥁</ListItem>
+                            <ListItem>i enjoy doing marching percussion! some of my experiences include the ucla marching band, pulse percussion, pow percussion, pacific crest drum and bugle corps, and élan percussion! 🥁</ListItem>
                         </UnorderedList>
                         <Accordion border="transparent" allowToggle>
                                 <AccordionItem>
