@@ -57,8 +57,12 @@ export default function About() {
                             <ListItem>web applications (CS 144)</ListItem>
                             <ListItem>data management systems (CS 143)</ListItem>
                             <ListItem>programming languages (CS 131)</ListItem>
+                            <ListItem><ListIcon as={BsCalendar}/>algorithms in computational genomics (CS C122)</ListItem>
+                            <ListItem><ListIcon as={BsCalendar}/>computer network fundamentals (CS 118)</ListItem>
                             <Link href="https://github.com/rolandyangg/CS111" textDecoration="underline" isExternal><ListItem>operating systems principles (CS 111)</ListItem></Link>
                             <Link href="https://github.com/rolandyangg/CS35L" textDecoration="underline" isExternal><ListItem>software construction lab (CS 35L)</ListItem></Link>
+                            <ListItem><ListIcon as={BsCalendar}/>computer systems architecture (CS M151B)</ListItem>
+                            <ListItem><ListIcon as={BsCalendar}/>introductory digital design laboratory (CS M152A)</ListItem>
                             <ListItem><ListIcon as={BsFillGearFill}/>logic design of digital systems (CS M15A)</ListItem>
                             <ListItem>intro to computer organization (CS 33)</ListItem>
                             <ListItem>data structures in c++ (CS 32)</ListItem>
@@ -115,7 +119,7 @@ export default function About() {
                                 <Text>Los Angeles, CA</Text>
                             </Flex>
                             <Text mb="10px">(GPA: 3.881/4.0)</Text>
-                            <Text fontSize="lg">LA Hacks (Sponsorships Team Organizer), DevX (Developer), Upsilon Pi Epsilon, Marching Band, Assocation of Chinese Americans (ACA), Association for Computing Machinery (ACM) Intramural Volleyball & Dodgeball</Text>
+                            <Text fontSize="lg">LA Hacks (Sponsorships Team Organizer), Marching Band (Drumline), Theta Chi Fraternity, Upsilon Pi Epsilon Computer Science Honor Society, DevX (Developer), Assocation of Chinese Americans (ACA), Intramural Volleyball & Dodgeball</Text>
                         </Box>
                         
                         <Divider m="20px"/>
