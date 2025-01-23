@@ -27,7 +27,7 @@ export default function About() {
                                 I'm interested in software engineering, data engineering, and product management.
                                 <br></br>
                                 <br></br>
-                                I was born and raised in central New Jersey. In my free time, I enjoy drumming, playing volleyball, hiking, playing video games (no surprise, REAL unique for a CS major), video editing, and chilling with my cats! 🥁🏐🥾🎮🎥👨‍💻🐱
+                                I was born and raised in central New Jersey. In my free time, I enjoy drumming, playing volleyball, hiking, skiing, playing video games (no surprise, REAL unique for a CS major), video editing, and chilling with my cats! 🥁🏐🥾⛷️🎮🎥👨‍💻🐱
                                 <br></br>
                                 <br></br>
                                 Feel free to connect with me on any platform!
@@ -57,13 +57,13 @@ export default function About() {
                             <ListItem>web applications (CS 144)</ListItem>
                             <ListItem>data management systems (CS 143)</ListItem>
                             <ListItem>programming languages (CS 131)</ListItem>
-                            <ListItem><ListIcon as={BsCalendar}/>algorithms in computational genomics (CS C122)</ListItem>
-                            <ListItem><ListIcon as={BsCalendar}/>computer network fundamentals (CS 118)</ListItem>
+                            <ListItem><ListIcon as={BsFillGearFill}/>algorithms in computational genomics (CS C122)</ListItem>
+                            <ListItem><ListIcon as={BsFillGearFill}/>computer network fundamentals (CS 118)</ListItem>
                             <Link href="https://github.com/rolandyangg/CS111" textDecoration="underline" isExternal><ListItem>operating systems principles (CS 111)</ListItem></Link>
                             <Link href="https://github.com/rolandyangg/CS35L" textDecoration="underline" isExternal><ListItem>software construction lab (CS 35L)</ListItem></Link>
-                            <ListItem><ListIcon as={BsCalendar}/>computer systems architecture (CS M151B)</ListItem>
-                            <ListItem><ListIcon as={BsCalendar}/>introductory digital design laboratory (CS M152A)</ListItem>
-                            <ListItem><ListIcon as={BsFillGearFill}/>logic design of digital systems (CS M15A)</ListItem>
+                            <ListItem><ListIcon as={BsFillGearFill}/>computer systems architecture (CS M151B)</ListItem>
+                            <ListItem><ListIcon as={BsFillGearFill}/>introductory digital design laboratory (CS M152A)</ListItem>
+                            <ListItem>logic design of digital systems (CS M15A)</ListItem>
                             <ListItem>intro to computer organization (CS 33)</ListItem>
                             <ListItem>data structures in c++ (CS 32)</ListItem>
                             <ListItem>object-oriented programming in c++ (CS 31)</ListItem>
@@ -91,8 +91,8 @@ export default function About() {
                         <br/>                
                         <Text fontWeight="bold" fontSize="2xl">miscellaneous</Text>
                         <UnorderedList>
-                            <ListItem><ListIcon as={BsFillGearFill}/>engineering and society (ENG 183EW)</ListItem>
-                            <ListItem><ListIcon as={BsFillGearFill}/>anime (JAPAN 75)</ListItem>
+                            <ListItem>engineering and society (ENG 183EW)</ListItem>
+                            <ListItem>anime (JAPAN 75)</ListItem>
                             <ListItem>intro to geographic information systems (GEO 7)</ListItem>
                             <ListItem>languages and cultures of asia (ASIA 30)</ListItem>
                             <ListItem>introduction to architectural studies (ARCH&UD 30)</ListItem>
@@ -118,8 +118,8 @@ export default function About() {
                                 <Text>Bachelors of Science in Computer Science</Text>
                                 <Text>Los Angeles, CA</Text>
                             </Flex>
-                            <Text mb="10px">(GPA: 3.881/4.0)</Text>
-                            <Text fontSize="lg">LA Hacks (Sponsorships Team Organizer), Marching Band (Drumline), Theta Chi Fraternity, Upsilon Pi Epsilon Computer Science Honor Society, DevX (Developer), Assocation of Chinese Americans (ACA), Intramural Volleyball & Dodgeball</Text>
+                            <Text mb="10px">(GPA: 3.896/4.0)</Text>
+                            <Text fontSize="lg">LA Hacks (Sponsorships Team Organizer), Marching Band (Drumline), Theta Chi Fraternity, Upsilon Pi Epsilon Computer Science Honor Society, DevX (Developer), Assocation of Chinese Americans, Intramural Volleyball & Dodgeball</Text>
                         </Box>
                         
                         <Divider m="20px"/>
