@@ -439,7 +439,7 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                     <Box justify="center" py="10px" fontSize={{base: "md", lg: "xl"}} maxW="800px">
                         <UnorderedList>
                             <ListItem>some video games i play: fortnite, valorant, fall guys, roblox, slime rancher, minecraft, osu 🎮</ListItem>
-                            <ListItem>random artists i have been listening to and enjoying recently: madeon, tyler the creator, porter robinson, laufey 🎵</ListItem>
+                            <ListItem>random artists i have been listening to and enjoying recently: knock2, tyler the creator, faye webster, grentperez 🎵</ListItem>
                             <ListItem>favorite web games to play in class: connections, sexaginta~quattuordle, 2048, shellshock.io, contexto, surviv.io 💻</ListItem>
                             {/** https://64ordle.au/ https://bongo.cat/ https://play2048.co/ https://shellshock.io/ https://contexto.me/*/}
                             <ListItem>sony vegas > premiere (because i'm too lazy to learn premiere) 🎥</ListItem>
