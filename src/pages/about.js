@@ -53,11 +53,14 @@ export default function About() {
                     <Box justify="center" py="10px" fontSize="xl">
                         <Text fontWeight="bold" fontSize="2xl">computer science</Text>
                         <UnorderedList>
+                            <ListItem><ListIcon as={BsCalendar}/>human computer interaction (CS 188)</ListItem>
+                            <ListItem><ListIcon as={BsCalendar}/>intro to algorithms and complexity (CS 180)</ListItem>
+                            <ListItem><ListIcon as={BsCalendar}/>intro to computer graphics (CS 174A)</ListItem>
                             <Link href="https://github.com/wzsmith/cs145-pst" textDecoration="underline" isExternal><ListItem>data mining (CS 145)</ListItem></Link>
                             <ListItem>web applications (CS 144)</ListItem>
                             <ListItem>data management systems (CS 143)</ListItem>
                             <ListItem>programming languages (CS 131)</ListItem>
-                            <ListItem><ListIcon as={BsFillGearFill}/>algorithms in computational genomics (CS C122)</ListItem>
+                            <Link href="https://github.com/rolandyangg/C122" textDecoration="underline" isExternal><ListItem><ListIcon as={BsFillGearFill}/>algorithms in computational genomics (CS C122)</ListItem></Link>
                             <ListItem><ListIcon as={BsFillGearFill}/>computer network fundamentals (CS 118)</ListItem>
                             <Link href="https://github.com/rolandyangg/CS111" textDecoration="underline" isExternal><ListItem>operating systems principles (CS 111)</ListItem></Link>
                             <Link href="https://github.com/rolandyangg/CS35L" textDecoration="underline" isExternal><ListItem>software construction lab (CS 35L)</ListItem></Link>
@@ -80,6 +83,7 @@ export default function About() {
                         <br/>
                         <Text fontWeight="bold" fontSize="2xl">business</Text>
                         <UnorderedList>
+                            <ListItem><ListIcon as={BsCalendar}/>engineering of complex systems (ENG 180)</ListItem>
                             <ListItem>real estate finance and investments (MGMT 170)</ListItem>
                             <ListItem>intro to technology management and economics (ENGR 110)</ListItem>
                         </UnorderedList>
@@ -91,6 +95,7 @@ export default function About() {
                         <br/>                
                         <Text fontWeight="bold" fontSize="2xl">miscellaneous</Text>
                         <UnorderedList>
+                            <ListItem><ListIcon as={BsCalendar}/>food studies: ecocultural sustainability and diversity (M25)</ListItem>
                             <ListItem>engineering and society (ENG 183EW)</ListItem>
                             <ListItem>anime (JAPAN 75)</ListItem>
                             <ListItem>intro to geographic information systems (GEO 7)</ListItem>
@@ -100,6 +105,9 @@ export default function About() {
                             <ListItem>symphonic band (MUSC 185F)</ListItem>  
                         </UnorderedList>
                     </Box>
+                    <Center>
+                        <Text fontSize="xl">⭐ bonus: <Link href="https://drive.google.com/drive/folders/1fOyZMKpHuVqZYyb7EaZt1O-udgdlGikA?usp=sharing" textDecoration="underline" isExternal>the roland test bank</Link> 🤓</Text>
+                    </Center>
                 </VStack>
             </Center>
 
@@ -147,7 +155,22 @@ export default function About() {
                     <Text pb="10px">the big boy stuff</Text>
                     <Divider/>
 
-                    {/* Hiding this for a little... 👀 */}
+                    <Box justify="center" py="10px" fontSize="xl" w="90%">
+                        <Box>
+                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
+                                <Text fontWeight="bold" fontSize="2xl">Amazon 📦</Text>
+                                <Text as='i'>Jun. 2025 - Sep. 2025</Text>
+                            </Flex>
+                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
+                                <Text>Software Development Engineer Intern</Text>
+                                <Text>Sunnyvale, CA</Text>
+                            </Flex>
+                            <Text mt="10px" fontSize="lg">I'm going back lol</Text>
+                        </Box>
+                    </Box>
+
+                    <Divider m="20px"/>
+
                     <Box justify="center" py="10px" fontSize="xl" w="90%">
                         <Box>
                             <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
