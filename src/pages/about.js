@@ -5,6 +5,7 @@ import { BsFillGearFill, BsCalendar } from 'react-icons/bs' // BsCalendar for pl
 import theme from "../theme"
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
+import ImageModal from '../components/ImageModal'
 import { Helmet } from 'react-helmet'
 
 export default function About() {
@@ -23,7 +24,7 @@ export default function About() {
                     <Flex justify="center" flexWrap="wrap" align="center">
                         <Center mx="20px" mb="20px" mt="10px" maxW="650px">
                             <Text fontSize="xl">
-                                Hi, my name is Roland Yang! I’m a Junior studying computer science at UCLA.
+                                Hi, my name is Roland Yang! I'm a Junior studying computer science at UCLA.
                                 I'm interested in software engineering, data engineering, and product management.
                                 <br></br>
                                 <br></br>
@@ -34,7 +35,7 @@ export default function About() {
                             </Text>
                         </Center>
                         <Box mx="20px" my="10px" justify="center" align="center">
-                            <Image mb="10px" alt='Roland Yang' src="film_camera_squarephoto.jpeg" borderRadius="lg" maxW="325px"/>
+                            <ImageModal mb="10px" alt='Roland Yang' src="film_camera_squarephoto.jpeg" maxW="325px" />
                             <Text as='i' fontSize="xs">this is a polaroid of me on a trip in taiwan!</Text>
                         </Box>
                     </Flex>
@@ -193,13 +194,13 @@ export default function About() {
                                     <AccordionPanel p={2}>
                                         <Flex justify="center" flexWrap="wrap" align="center">
                                             <Center mx="7px" my="10px">
-                                                <Image alt='Sunnyvale Office' src="sunnyvale.png" borderRadius="lg" maxW="225px"/>
+                                                <ImageModal alt='Sunnyvale Office' src="sunnyvale.png" maxW="225px" />
                                             </Center>
                                             <Center mx="7px" my="10px">
-                                                <Image alt='Spheres Office in Seattle' src="spheres.png" borderRadius="lg" maxW="260px"/>
+                                                <ImageModal alt='Spheres Office in Seattle' src="spheres.png" maxW="260px" />
                                             </Center>
                                             <Center mx="7px" my="10px">
-                                                <Image alt='My mentor Bettie and I' src="mentor.jpg" borderRadius="lg" maxW="200px"/>
+                                                <ImageModal alt='My mentor Bettie and I' src="mentor.jpg" maxW="200px" />
                                             </Center>
                                         </Flex>
                                     </AccordionPanel>
@@ -268,7 +269,7 @@ export default function About() {
                                                     <UnorderedList fontSize="lg" mb="10px">
                                                         <ListItem>Automated data collection and preprocessing in BERT model data pipeline reducing projected time by 5 months
 and expanded amount of classifiable IAB categories by 3x by writing several Python scripts incorporating ScreamingFrog
-SEO and Google’s APIs</ListItem>
+SEO and Google's APIs</ListItem>
                                                         <ListItem>Used Selenium and BeautifulSoup to automatically scape and convert
 content from HTML and VAST creative tags into downloadable files</ListItem>
                                                         <ListItem>Searched for potentially useful data sources by playing with several APIs including Twitter
@@ -315,31 +316,31 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                                     <AccordionPanel p={2}>
                                         <Flex flexWrap="wrap" align="center">
                                             <Box pt="5px" width="100%">
-                                                <Heading pt="5px" fontSize="xlg" pt="5px">2025: Sponsorships Director</Heading>
+                                                <Heading pt="5px" fontSize="xlg">2025: Sponsorships Director</Heading>
                                                 <Flex justify="center" flexWrap="wrap" align="center" pt="5px">
                                                     <Center mx="7px" my="10px">
-                                                        <Image alt='With Jason' src="spons_lahacks.jpg" borderRadius="lg" maxW="280px"/>
-                                                    </Center>
-                                                    <Center mx="7px" my="10px">
-                                                        <Image alt='Group Pic 2025' src="lahacks_group1.JPG" borderRadius="lg" maxW="300px"/>
-                                                    </Center>
-                                                    <Center mx="7px" my="10px">
-                                                        <Image alt='Lettuce Eating Competition' src="lettuceeating.jpeg" borderRadius="lg" maxW="300px"/>
+                                                                                                        <ImageModal alt='With Jason' src="spons_lahacks.jpg" maxW="280px" />
+                                            </Center>
+                                            <Center mx="7px" my="10px">
+                                                <ImageModal alt='Group Pic 2025' src="lahacks_group1.JPG" maxW="300px" />
+                                            </Center>
+                                            <Center mx="7px" my="10px">
+                                                <ImageModal alt='Lettuce Eating Competition' src="lettuceeating.jpeg" maxW="300px" />
                                                     </Center>
                                                 </Flex>
                                             </Box>
                                             <Divider/>
                                             <Box pt="5px" width="100%">
-                                                <Heading pt="5px" fontSize="xlg" pt="5px">2024: Sponsorships Member</Heading>
+                                                <Heading pt="5px" fontSize="xlg">2024: Sponsorships Member</Heading>
                                                 <Flex justify="center" flexWrap="wrap" align="center" pt="5px">
                                                     <Center mx="7px" my="10px">
-                                                        <Image alt='Group Pic 2024' src="teamlahacks2_2024.jpg" borderRadius="lg" maxW="200"/>
-                                                    </Center>
-                                                    <Center mx="7px" my="10px">
-                                                        <Image alt='Money squad' src="teamlahacks_2024.jpg" borderRadius="lg" maxW="280px"/>
-                                                    </Center>
-                                                    <Center mx="7px" my="10px">
-                                                        <Image alt='Spons line 2024' src="spons2024.jpg" borderRadius="lg" maxW="200"/>
+                                                                                                        <ImageModal alt='Group Pic 2024' src="teamlahacks2_2024.jpg" maxW="200px" />
+                                            </Center>
+                                            <Center mx="7px" my="10px">
+                                                <ImageModal alt='Money squad' src="teamlahacks_2024.jpg" maxW="280px" />
+                                            </Center>
+                                            <Center mx="7px" my="10px">
+                                                <ImageModal alt='Spons line 2024' src="spons2024.jpg" maxW="200px" />
                                                     </Center>
                                                 </Flex>
                                             </Box>
@@ -413,7 +414,7 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                                                 </VStack>
                                             </Center>
                                             <Center mx="10px" my="10px">
-                                                <Image alt='Flaming Grill' src="flaminggrill1.jpeg" borderRadius="lg" maxW="250px"/>
+                                                <ImageModal alt='Flaming Grill' src="flaminggrill1.jpeg" maxW="250px" />
                                             </Center>
                                         </Flex>
                                     </AccordionPanel>
@@ -452,7 +453,7 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                                             </UnorderedList>
                                             </Center>
                                             <Center mx="10px" my="10px">
-                                                <Image alt='Oak Crest LIT' src="oakcrestleadershipwilderness.jpeg" borderRadius="lg" maxW="250px"/>
+                                                <ImageModal alt='Oak Crest LIT' src="oakcrestleadershipwilderness.jpeg" maxW="250px" />
                                             </Center>
                                         </Flex>
                                     </AccordionPanel>
@@ -518,7 +519,7 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                             <ListItem>random artists i have been listening to and enjoying recently: chris lake, zedd, rich brian, knock2, laufey 🎵</ListItem>
                             <ListItem>favorite web games to play in class: connections, sexaginta~quattuordle, 2048, shellshock.io, contexto, surviv.io 💻</ListItem>
                             {/** https://64ordle.au/ https://bongo.cat/ https://play2048.co/ https://shellshock.io/ https://contexto.me/*/}
-                            <ListItem>sony vegas > premiere (because i'm too lazy to learn premiere) 🎥</ListItem>
+                            <ListItem>sony vegas {'>'} premiere (because i'm too lazy to learn premiere) 🎥</ListItem>
                             <ListItem>the best flavor of ice cream is mint chocolate chip (this is a statement) 🍦</ListItem>
                             <ListItem>i enjoy doing marching percussion! some of my experiences include the ucla marching band, pulse percussion, pow percussion, pacific crest drum and bugle corps, and élan percussion! 🥁</ListItem>
                         </UnorderedList>
@@ -533,22 +534,22 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                                     <AccordionPanel p={2}>
                                         <Flex justify="center" flexWrap="wrap" align="center">
                                             <Center mx="7px" my="10px">
-                                                <Image alt='UCLA Quads' src="quadsphoto.jpeg" borderRadius="lg" maxW="225px"/>
+                                                <ImageModal alt='UCLA Quads' src="quadsphoto.jpeg" maxW="225px" />
                                             </Center>
                                             <Center mx="7px" my="10px">
-                                                <Image alt='BRHS Band' src="hsband.jpeg" borderRadius="lg" maxW="260px"/>
+                                                <ImageModal alt='BRHS Band' src="hsband.jpeg" maxW="260px" />
                                             </Center>
                                             <Center mx="7px" my="10px">
-                                                <Image alt='Pulse 2025' src="pulseshot.png" borderRadius="lg" maxW="225px"/>
+                                                <ImageModal alt='Pulse 2025' src="pulseshot.png" maxW="225px" />
                                             </Center>
                                             <Center mx="7px" my="10px">
-                                                <Image alt='Pacific Crest 2023' src="bassbreakaftercropped.jpg" borderRadius="lg" maxW="250px"/>
+                                                <ImageModal alt='Pacific Crest 2023' src="bassbreakaftercropped.jpg" maxW="250px" />
                                             </Center>
                                             <Center mx="7px" my="10px">
-                                                <Image alt='POW 2024' src="pow.jpg" borderRadius="lg" maxW="250px"/>
+                                                <ImageModal alt='POW 2024' src="pow.jpg" maxW="250px" />
                                             </Center>
                                             <Center mx="7px" my="10px">
-                                                <Image alt='Elan 2023' src="elan.JPG" borderRadius="lg" maxW="190px"/>
+                                                <ImageModal alt='Elan 2023' src="elan.JPG" maxW="190px" />
                                             </Center>
                                         </Flex>
                                     </AccordionPanel>
