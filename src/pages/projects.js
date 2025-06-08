@@ -10,6 +10,22 @@ import { Helmet } from 'react-helmet'
 const shuffle = arr => [...arr].sort(() => Math.random() - 0.5);
 
 let projects = [
+	{
+		title: "Crossy Bruin",
+		link: "https://github.com/rolandyangg/crossy-bruin",
+		image: "crossybruin.gif",
+		tech: ["Three.js", "Javascript", "Computer Graphics"],
+		award: null,
+		description: "Endless-runner arcade game themed around UCLA student getting to class"
+	},
+	{
+		title: "Notate",
+		link: "https://github.com/rolandyangg/notate",
+		image: "notate_example.jpg",
+		tech: ["React", "Typescript", "Human-Computer Interaction", "Research"],
+		award: null,
+		description: "A lightweight, minimalist text editor designed to make integrating annotations and visuals easier"
+	},
     {
 		title: "Sorting Algorithm Visualizer",
 		link: "https://github.com/rolandyangg/sorting-algorithm-visualizer",

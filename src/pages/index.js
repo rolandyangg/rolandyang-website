@@ -42,11 +42,27 @@ const buttons = [
 
 const featuredProjects = [
 	{
+		title: "Notate",
+		link: "https://github.com/rolandyangg/notate",
+		image: "projects/notate_example.jpg",
+		tech: ["React", "Typescript", "Human-Computer Interaction", "Research"],
+		award: null,
+		description: "A lightweight, minimalist text editor designed to make integrating annotations and visuals easier"
+	},
+	{
 		title: "BruinShare",
 		link: "https://github.com/rolandyangg/BruinShare",
 		image: "projects/bruinsharepreview.png",
 		tech: ["FERN", "Firebase", "Express.js", "React", "Node.js", "AWS", "MaterialUI", "Next.js"],
 		description: "Full-stack centralized ridesharing platform designed for UCLA students"
+	},
+	{
+		title: "Crossy Bruin",
+		link: "https://github.com/rolandyangg/crossy-bruin",
+		image: "projects/crossybruin.gif",
+		tech: ["Three.js", "Javascript", "Computer Graphics"],
+		award: null,
+		description: "Endless-runner arcade game themed around UCLA student getting to class"
 	},
 	{
 		title: "Coding Interview CLI",
@@ -65,27 +81,12 @@ const featuredProjects = [
 		description: "Dynamic website containing interactive data visualizations displaying AAPI hate crime data"
 	},
 	{
-		title: "Pigzj",
-		link: "https://github.com/rolandyangg/Pigzj",
-		image: "projects/PigzjUsage.png",
-		tech: ["Java", "Multithreading", "Compression"],
-		description: "Multithreaded Java implementation of popular gzip compressor (~3x faster compression speed)"
-	},
-	{
 		title: "SecureTheTag",
 		link: "https://devpost.com/software/securethetag",
 		image: "projects/securethetagsample.jpg",
 		tech: ["HTML/CSS", "Bootstrap", "Express", "Node.js", "Google Cloud Platform", "Webscraping"],
 		award: "1st Overall @ RevolutionUC '21",
 		description: "Web application that provides trending Instagram hashtags directly based on user-uploaded images with webscraping and machine learning"
-	},
-	{
-		title: "Peach Party",
-		link: "https://github.com/rolandyangg/peach-party",
-		image: "projects/peachpartyscreenshot.png",
-		tech: ["C++"],
-		award: null,
-		description: "2D two-player video game clone of Mario Party made in C++ exercising OOP Design Principles including Polymorphism and Inheritance"
 	},
 	// {
 	// 	title: "Swing Tic Tac Toe",
@@ -133,7 +134,7 @@ export default function Home() {
 				</Flex>
 			</VStack>
 				</Flex>
-				<Text maxW="90%" justify="center" align="center" pt={5}>currently i am seeking internships related to technology, however all opportunities are greatly appreciated!</Text>
+				<Text maxW="90%" justify="center" align="center" pt={5}>currently i am seeking full-time roles related to software engineering, data engineering, or product management, however all opportunities are greatly appreciated!</Text>
 				<Text maxW="90%" justify="center" align="center">feel free to reach out via any of my provided socials!</Text>
 			</VStack>
 		</Center>

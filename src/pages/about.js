@@ -53,19 +53,19 @@ export default function About() {
                     <Box justify="center" py="10px" fontSize="xl">
                         <Text fontWeight="bold" fontSize="2xl">computer science</Text>
                         <UnorderedList>
-                            <ListItem><ListIcon as={BsCalendar}/>human computer interaction (CS 188)</ListItem>
-                            <ListItem><ListIcon as={BsCalendar}/>intro to algorithms and complexity (CS 180)</ListItem>
-                            <ListItem><ListIcon as={BsCalendar}/>intro to computer graphics (CS 174A)</ListItem>
+                            <ListItem>human computer interaction (CS 188)</ListItem>
+                            <ListItem><ListIcon as={BsFillGearFill}/>intro to algorithms and complexity (CS 180)</ListItem>
+                            <Link href="https://github.com/rolandyangg/CS174A" textDecoration="underline" isExternal><ListItem>intro to computer graphics (CS 174A)</ListItem></Link>
                             <Link href="https://github.com/wzsmith/cs145-pst" textDecoration="underline" isExternal><ListItem>data mining (CS 145)</ListItem></Link>
                             <ListItem>web applications (CS 144)</ListItem>
                             <ListItem>data management systems (CS 143)</ListItem>
                             <ListItem>programming languages (CS 131)</ListItem>
-                            <Link href="https://github.com/rolandyangg/C122" textDecoration="underline" isExternal><ListItem><ListIcon as={BsFillGearFill}/>algorithms in computational genomics (CS C122)</ListItem></Link>
-                            <ListItem><ListIcon as={BsFillGearFill}/>computer network fundamentals (CS 118)</ListItem>
+                            <Link href="https://github.com/rolandyangg/C122" textDecoration="underline" isExternal><ListItem>algorithms in computational genomics (CS C122)</ListItem></Link>
+                            <ListItem>computer network fundamentals (CS 118)</ListItem>
                             <Link href="https://github.com/rolandyangg/CS111" textDecoration="underline" isExternal><ListItem>operating systems principles (CS 111)</ListItem></Link>
                             <Link href="https://github.com/rolandyangg/CS35L" textDecoration="underline" isExternal><ListItem>software construction lab (CS 35L)</ListItem></Link>
-                            <ListItem><ListIcon as={BsFillGearFill}/>computer systems architecture (CS M151B)</ListItem>
-                            <ListItem><ListIcon as={BsFillGearFill}/>introductory digital design laboratory (CS M152A)</ListItem>
+                            <ListItem>computer systems architecture (CS M151B)</ListItem>
+                            <ListItem>introductory digital design laboratory (CS M152A)</ListItem>
                             <ListItem>logic design of digital systems (CS M15A)</ListItem>
                             <ListItem>intro to computer organization (CS 33)</ListItem>
                             <ListItem>data structures in c++ (CS 32)</ListItem>
@@ -83,7 +83,7 @@ export default function About() {
                         <br/>
                         <Text fontWeight="bold" fontSize="2xl">business</Text>
                         <UnorderedList>
-                            <ListItem><ListIcon as={BsCalendar}/>engineering of complex systems (ENG 180)</ListItem>
+                            <ListItem>engineering of complex systems (ENG 180)</ListItem>
                             <ListItem>real estate finance and investments (MGMT 170)</ListItem>
                             <ListItem>intro to technology management and economics (ENGR 110)</ListItem>
                         </UnorderedList>
@@ -95,7 +95,7 @@ export default function About() {
                         <br/>                
                         <Text fontWeight="bold" fontSize="2xl">miscellaneous</Text>
                         <UnorderedList>
-                            <ListItem><ListIcon as={BsCalendar}/>food studies: ecocultural sustainability and diversity (M25)</ListItem>
+                            <ListItem>food studies: ecocultural sustainability and diversity (M25)</ListItem>
                             <ListItem>engineering and society (ENG 183EW)</ListItem>
                             <ListItem>anime (JAPAN 75)</ListItem>
                             <ListItem>intro to geographic information systems (GEO 7)</ListItem>
@@ -120,14 +120,14 @@ export default function About() {
                         <Box>
                             <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
                                 <Text fontWeight="bold" fontSize="2xl">University of California - Los Angeles (UCLA) 🐻</Text>
-                                <Text as='i'>Expected Graduation 2025</Text>
+                                <Text as='i'>Expected Graduation 2026</Text>
                             </Flex>
                             <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
                                 <Text>Bachelors of Science in Computer Science</Text>
                                 <Text>Los Angeles, CA</Text>
                             </Flex>
                             <Text mb="10px">(GPA: 3.896/4.0)</Text>
-                            <Text fontSize="lg">LA Hacks (Sponsorships Team Organizer), Marching Band (Drumline), Theta Chi Fraternity, Upsilon Pi Epsilon Computer Science Honor Society, DevX (Developer), Assocation of Chinese Americans, Intramural Volleyball & Dodgeball</Text>
+                            <Text fontSize="lg">LA Hacks (Executive Director), Marching Band (Quadline Captain), Assocation of Chinese Americans (Sponsorships Chair), Theta Chi Fraternity (Historian), Upsilon Pi Epsilon Computer Science Honor Society, DevX (Developer), MentorSEAS, Intramural Volleyball & Dodgeball</Text>
                         </Box>
                         
                         <Divider m="20px"/>
@@ -197,6 +197,9 @@ export default function About() {
                                             </Center>
                                             <Center mx="7px" my="10px">
                                                 <Image alt='Spheres Office in Seattle' src="spheres.png" borderRadius="lg" maxW="260px"/>
+                                            </Center>
+                                            <Center mx="7px" my="10px">
+                                                <Image alt='My mentor Bettie and I' src="mentor.jpg" borderRadius="lg" maxW="200px"/>
                                             </Center>
                                         </Flex>
                                     </AccordionPanel>
@@ -287,9 +290,82 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
             <Center m={{base: "25px", md: "100px"}}>
                 <VStack border="1px" p="20px" rounded={7} w="95%" maxW="1100px">
                     <Heading pt="10px">odd jobs 👷</Heading>
-                    <Text pb="10px">other "professional" experiences unrelated to cs</Text>
+                    <Text pb="10px">other "professional" experiences</Text>
                     <Divider/>
                     <Box justify="center" py="10px" fontSize="xl" w="90%">
+
+                        <Box>
+                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
+                                <Text fontWeight="bold" fontSize="2xl">LA Hacks 💻</Text>
+                                <Text as='i'>Oct. 2023 - Present</Text>
+                            </Flex>
+                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
+                                <Text>Executive Director (Formerly Sponsorships Director & Sponsorships Member)</Text>
+                                <Text>Los Angeles, CA</Text>
+                            </Flex>
+                            <Text mt="10px" fontSize="lg">Lead organizing Southern California's Largest Collegiate Hackathon hosted at UCLA. Secured $160,000 in corporate and in-kind sponsorships from Fortune 500 Companies and Startups in 2025.</Text>
+                             <Accordion border="transparent" allowToggle>
+                                <AccordionItem>
+                                    <AccordionButton>
+                                        <Box as="span" flex='1' textAlign='right'>
+                                            more...
+                                        </Box>
+                                        <AccordionIcon />
+                                    </AccordionButton>
+                                    <AccordionPanel p={2}>
+                                        <Flex flexWrap="wrap" align="center">
+                                            <Box pt="5px" width="100%">
+                                                <Heading pt="5px" fontSize="xlg" pt="5px">2025: Sponsorships Director</Heading>
+                                                <Flex justify="center" flexWrap="wrap" align="center" pt="5px">
+                                                    <Center mx="7px" my="10px">
+                                                        <Image alt='With Jason' src="spons_lahacks.jpg" borderRadius="lg" maxW="280px"/>
+                                                    </Center>
+                                                    <Center mx="7px" my="10px">
+                                                        <Image alt='Group Pic 2025' src="lahacks_group1.JPG" borderRadius="lg" maxW="300px"/>
+                                                    </Center>
+                                                    <Center mx="7px" my="10px">
+                                                        <Image alt='Lettuce Eating Competition' src="lettuceeating.jpeg" borderRadius="lg" maxW="300px"/>
+                                                    </Center>
+                                                </Flex>
+                                            </Box>
+                                            <Divider/>
+                                            <Box pt="5px" width="100%">
+                                                <Heading pt="5px" fontSize="xlg" pt="5px">2024: Sponsorships Member</Heading>
+                                                <Flex justify="center" flexWrap="wrap" align="center" pt="5px">
+                                                    <Center mx="7px" my="10px">
+                                                        <Image alt='Group Pic 2024' src="teamlahacks2_2024.jpg" borderRadius="lg" maxW="200"/>
+                                                    </Center>
+                                                    <Center mx="7px" my="10px">
+                                                        <Image alt='Money squad' src="teamlahacks_2024.jpg" borderRadius="lg" maxW="280px"/>
+                                                    </Center>
+                                                    <Center mx="7px" my="10px">
+                                                        <Image alt='Spons line 2024' src="spons2024.jpg" borderRadius="lg" maxW="200"/>
+                                                    </Center>
+                                                </Flex>
+                                            </Box>
+                                        </Flex>
+                                        {/* <Flex justify="center" flexWrap="wrap" align="center">
+                                            <Center mx="10px" mb="10px" maxW="525px">
+                                                <VStack>
+                                                <UnorderedList fontSize="lg">
+                                                    <ListItem>Warmly greeted guests and escorted them to designated tables in a professional manner.</ListItem>
+                                                    <ListItem>Managed the distribution of customers across the restaurant for waiters to have equal chances at tips and handled monetary transactions.</ListItem>
+                                                    <ListItem>Provided excellent customer service with friendliness and efficiency in a fast‑paced changing environment.</ListItem>
+                                                    <ListItem>Answered phone calls and listened to customer questions/concerns and directed them to the appropriate resources.</ListItem>
+                                                </UnorderedList>
+                                                <Text fontSize="lg" as='i'>fun fact: I got this job 30 minutes after watching the minions movie in a suit!</Text>
+                                                </VStack>
+                                            </Center>
+                                            <Center mx="10px" my="10px">
+                                                <Image alt='Flaming Grill' src="flaminggrill1.jpeg" borderRadius="lg" maxW="250px"/>
+                                            </Center>
+                                        </Flex> */}
+                                    </AccordionPanel>
+                                </AccordionItem>
+                            </Accordion>
+                        </Box>
+
+                        <Divider m="20px"/>
 
                         <Box>
                             <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
@@ -439,7 +515,7 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                     <Box justify="center" py="10px" fontSize={{base: "md", lg: "xl"}} maxW="800px">
                         <UnorderedList>
                             <ListItem>some video games i play: fortnite, valorant, fall guys, roblox, slime rancher, minecraft, osu 🎮</ListItem>
-                            <ListItem>random artists i have been listening to and enjoying recently: knock2, tyler the creator, faye webster, grentperez 🎵</ListItem>
+                            <ListItem>random artists i have been listening to and enjoying recently: chris lake, zedd, rich brian, knock2, laufey 🎵</ListItem>
                             <ListItem>favorite web games to play in class: connections, sexaginta~quattuordle, 2048, shellshock.io, contexto, surviv.io 💻</ListItem>
                             {/** https://64ordle.au/ https://bongo.cat/ https://play2048.co/ https://shellshock.io/ https://contexto.me/*/}
                             <ListItem>sony vegas > premiere (because i'm too lazy to learn premiere) 🎥</ListItem>
@@ -463,7 +539,16 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                                                 <Image alt='BRHS Band' src="hsband.jpeg" borderRadius="lg" maxW="260px"/>
                                             </Center>
                                             <Center mx="7px" my="10px">
+                                                <Image alt='Pulse 2025' src="pulseshot.png" borderRadius="lg" maxW="225px"/>
+                                            </Center>
+                                            <Center mx="7px" my="10px">
                                                 <Image alt='Pacific Crest 2023' src="bassbreakaftercropped.jpg" borderRadius="lg" maxW="250px"/>
+                                            </Center>
+                                            <Center mx="7px" my="10px">
+                                                <Image alt='POW 2024' src="pow.jpg" borderRadius="lg" maxW="250px"/>
+                                            </Center>
+                                            <Center mx="7px" my="10px">
+                                                <Image alt='Elan 2023' src="elan.JPG" borderRadius="lg" maxW="190px"/>
                                             </Center>
                                         </Flex>
                                     </AccordionPanel>
