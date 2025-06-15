@@ -22,7 +22,7 @@ let projects = [
 		title: "Notate",
 		link: "https://github.com/rolandyangg/notate",
 		image: "notate_example.jpg",
-		tech: ["React", "Typescript", "Human-Computer Interaction", "Research"],
+		tech: ["React", "Typescript", "Human-Computer Interaction", "User Research"],
 		award: null,
 		description: "A lightweight, minimalist text editor designed to make integrating annotations and visuals easier"
 	},

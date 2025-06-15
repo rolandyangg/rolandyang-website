@@ -45,7 +45,7 @@ const featuredProjects = [
 		title: "Notate",
 		link: "https://github.com/rolandyangg/notate",
 		image: "projects/notate_example.jpg",
-		tech: ["React", "Typescript", "Human-Computer Interaction", "Research"],
+		tech: ["React", "Typescript", "Human-Computer Interaction", "UserResearch"],
 		award: null,
 		description: "A lightweight, minimalist text editor designed to make integrating annotations and visuals easier"
 	},
@@ -119,7 +119,7 @@ export default function Home() {
 				<Heading fontSize="4xl">my name is <Text bgGradient='linear(to-l, #1ccbe2, #e96dff)'
 	bgClip='text' as="span" >roland yang</Text></Heading>
 				<Text fontSize="xl">welcome to my little website 💻</Text>
-				<Text fontSize="xl">i’m an undergraduate student studying computer science at ucla 🐻👨‍💻. </Text>
+				<Text fontSize="xl">i’m an undergraduate student studying computer science at ucla 🐻 </Text>
 				<Flex direction={{ base: "column", lgg: "row"}} justify="center" align="center" flexWarp="wrap" fontSize="lg" py="10px">
 					<Flex>
 						{buttons[0].map((button, i) => {
@@ -134,7 +134,7 @@ export default function Home() {
 				</Flex>
 			</VStack>
 				</Flex>
-				<Text maxW="90%" justify="center" align="center" pt={5}>currently i am seeking full-time roles related to software engineering, data engineering, or product management, however all opportunities are greatly appreciated!</Text>
+				<Text maxW="90%" justify="center" align="center" pt={5}>i am seeking full-time roles related to software engineering, data engineering, or product management, however all opportunities are greatly appreciated!</Text>
 				<Text maxW="90%" justify="center" align="center">feel free to reach out via any of my provided socials!</Text>
 			</VStack>
 		</Center>
