@@ -64,13 +64,21 @@ const featuredProjects = [
 		award: null,
 		description: "Endless-runner arcade game themed around UCLA student getting to class"
 	},
+	// {
+	// 	title: "Coding Interview CLI",
+	// 	link: "https://github.com/rolandyangg/interview-cli",
+	// 	image: "projects/codinginterviewsample.png",
+	// 	tech: ["Javascript", "Node.js", "Firebase"],
+	// 	award: null,
+	// 	description: "Command Line Interface designed for creating, designing, assigning, and taking live coding interviews"
+	// },
 	{
-		title: "Coding Interview CLI",
-		link: "https://github.com/rolandyangg/interview-cli",
-		image: "projects/codinginterviewsample.png",
-		tech: ["Javascript", "Node.js", "Firebase"],
+		title: "ACA Family Tree",
+		link: "https://github.com/rolandyangg/aca-family-tree",
+		image: "projects/aca_family.png",
+		tech: ["React", "Javascript", "Graphs", "react-flow", "Data Structures"],
 		award: null,
-		description: "Command Line Interface designed for creating, designing, assigning, and taking live coding interviews"
+		description: "Interactive Family Tree visualizations for the Association of Chinese Americans at UCLA staff members, dating back to 2014"
 	},
 	{
 		title: "vizAsianHate",
@@ -163,7 +171,7 @@ export default function Home() {
 			<Flex direction={{ base: "column", md: "row"}} justify="space-between" align="center" flexWarp="wrap" w="100%" maxW="800px">
 				<VStack my="10px">
 					<Heading>contact</Heading>
-					<Text>i promise i'm a nice person 🥺</Text>
+					<Text>i promise i'm a nice person</Text>
 				</VStack>
 				<VStack align="start" fontSize="xl" my="10px" flexWrap="nowrap">
 					<Link href="mailto:rolandyang@gmail.com"><Icon as={FaEnvelope} mx="5px"/>rolandyang@gmail.com</Link>

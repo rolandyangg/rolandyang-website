@@ -183,7 +183,7 @@ export default function About() {
                                 <Text>Sunnyvale, CA</Text>
                             </Flex>
                             <Text mt="10px" fontSize="lg">Ring Smart Replies - Migration of Ring Doorbell Auto Response Service's Database from AppConfig to DynamoDB.</Text>
-                            <Accordion border="transparent" allowToggle>
+                            <Accordion border="transparent" allowToggle defaultIndex={[0]}>
                                 <AccordionItem>
                                     <AccordionButton>
                                         <Box as="span" flex='1' textAlign='right'>
@@ -305,7 +305,7 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                                 <Text>Los Angeles, CA</Text>
                             </Flex>
                             <Text mt="10px" fontSize="lg">Lead organizing Southern California's Largest Collegiate Hackathon hosted at UCLA. Secured $160,000 in corporate and in-kind sponsorships from Fortune 500 Companies and Startups in 2025.</Text>
-                             <Accordion border="transparent" allowToggle>
+                             <Accordion border="transparent" allowToggle defaultIndex={[0]}>
                                 <AccordionItem>
                                     <AccordionButton>
                                         <Box as="span" flex='1' textAlign='right'>
@@ -523,7 +523,7 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                             <ListItem>the best flavor of ice cream is mint chocolate chip (this is a statement) 🍦</ListItem>
                             <ListItem>i enjoy doing marching percussion! some of my experiences include the ucla marching band, pulse percussion, pow percussion, pacific crest drum and bugle corps, and élan percussion! 🥁</ListItem>
                         </UnorderedList>
-                        <Accordion border="transparent" allowToggle>
+                        <Accordion border="transparent" allowToggle defaultIndex={[0]}>
                                 <AccordionItem>
                                     <AccordionButton>
                                         <Box as="span" flex='1' textAlign='right'>

@@ -11,6 +11,14 @@ const shuffle = arr => [...arr].sort(() => Math.random() - 0.5);
 
 let projects = [
 	{
+		title: "ACA Family Tree",
+		link: "https://github.com/rolandyangg/aca-family-tree",
+		image: "aca_family.png",
+		tech: ["React", "Javascript", "Graphs", "react-flow", "Data Structures"],
+		award: null,
+		description: "Interactive Family Tree visualizations for the Association of Chinese Americans at UCLA staff members, dating back to 2014"
+	},
+	{
 		title: "Crossy Bruin",
 		link: "https://github.com/rolandyangg/crossy-bruin",
 		image: "crossybruin.gif",
