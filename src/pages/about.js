@@ -55,12 +55,14 @@ export default function About() {
                         <Text fontWeight="bold" fontSize="2xl">computer science</Text>
                         <UnorderedList>
                             <ListItem>human computer interaction (CS 188)</ListItem>
-                            <ListItem><ListIcon as={BsFillGearFill}/>intro to algorithms and complexity (CS 180)</ListItem>
+                            <ListItem>intro to algorithms and complexity (CS 180)</ListItem>
                             <Link href="https://github.com/rolandyangg/CS174A" textDecoration="underline" isExternal><ListItem>intro to computer graphics (CS 174A)</ListItem></Link>
+                            <ListItem><ListIcon as={BsFillGearFill}/>fundamentals of artificial intelligence (CS 161)</ListItem>
                             <Link href="https://github.com/wzsmith/cs145-pst" textDecoration="underline" isExternal><ListItem>data mining (CS 145)</ListItem></Link>
                             <ListItem>web applications (CS 144)</ListItem>
                             <ListItem>data management systems (CS 143)</ListItem>
                             <ListItem>programming languages (CS 131)</ListItem>
+                            <ListItem><ListIcon as={BsFillGearFill}/>software engineering (CS 130)</ListItem>
                             <Link href="https://github.com/rolandyangg/C122" textDecoration="underline" isExternal><ListItem>algorithms in computational genomics (CS C122)</ListItem></Link>
                             <ListItem>computer network fundamentals (CS 118)</ListItem>
                             <Link href="https://github.com/rolandyangg/CS111" textDecoration="underline" isExternal><ListItem>operating systems principles (CS 111)</ListItem></Link>
@@ -91,6 +93,7 @@ export default function About() {
                         <br/>
                         <Text fontWeight="bold" fontSize="2xl">science</Text>
                         <UnorderedList>
+                            <ListItem><ListIcon as={BsFillGearFill}/>oscillations, waves, electric and magnetic Fields (PHYSICS 1B)</ListItem>
                             <ListItem>mechanics physics lab (PHYSICS 4AL)</ListItem>
                         </UnorderedList>   
                         <br/>                
@@ -166,7 +169,46 @@ export default function About() {
                                 <Text>Software Development Engineer Intern</Text>
                                 <Text>Sunnyvale, CA</Text>
                             </Flex>
-                            <Text mt="10px" fontSize="lg">I'm going back lol</Text>
+                            <Text mt="10px" fontSize="lg">Ring Pioneer Cloud - Smart Video Descriptions Notifcation Titles Hero Classifications.</Text>
+                            <Accordion border="transparent" allowToggle defaultIndex={[0]}>
+                                <AccordionItem>
+                                    <AccordionButton>
+                                        <Box as="span" flex='1' textAlign='right'>
+                                            click to see some zon flics...
+                                        </Box>
+                                        <AccordionIcon />
+                                    </AccordionButton>
+                                    {/* <AccordionPanel p={2}>
+                                        <Flex justify="center" flexWrap="wrap" align="center">
+                                            <Center mx="10px" mb="10px" maxW="525px">
+                                                <VStack>
+                                                <UnorderedList fontSize="lg">
+                                                    <ListItem>Improved Ring notification titles by integrating a multi-label AI hero guardrail model deployed on AWS EC2/ECR, enriching alerts for 500K+ premium users and reducing event misclassification by up to 60%</ListItem>
+                                                    <ListItem>Redesigned API contracts across 5+ cross-team services using Python, Docker, Postman enabling downsteam propagation of new data with 100% backwards compatibility</ListItem>
+                                                    <ListItem>Prototyped new “Notable Activity” notification type, extending Ring’s notifications to flag unusual safety events</ListItem>
+                                                </UnorderedList>
+                                                </VStack>
+                                            </Center>
+                                            <Center mx="10px" my="10px">
+                                                <ImageModal alt='Amazon 2025' src="amazon2025.jpg" maxW="250px" />
+                                            </Center>
+                                        </Flex>
+                                    </AccordionPanel> */}
+                                    <AccordionPanel p={2}>
+                                        <Flex justify="center" flexWrap="wrap" align="center">
+                                            <Center mx="7px" my="10px">
+                                                <ImageModal alt='Sunnyvale Office 2025' src="amazon2025.jpg" maxW="225px" />
+                                            </Center>
+                                            <Center mx="7px" my="10px">
+                                                <ImageModal alt='Cubicle coloring' src="cubicle_markers.jpg" maxW="200px" />
+                                            </Center>
+                                            <Center mx="7px" my="10px">
+                                                <ImageModal alt='My poor water bottle' src="zonbottle.jpg" maxW="200px" />
+                                            </Center>
+                                        </Flex>
+                                    </AccordionPanel>
+                                </AccordionItem>
+                            </Accordion>
                         </Box>
                     </Box>
 
@@ -187,14 +229,14 @@ export default function About() {
                                 <AccordionItem>
                                     <AccordionButton>
                                         <Box as="span" flex='1' textAlign='right'>
-                                         click to see some zon flics...
+                                         click to see some more zon flics...
                                         </Box>
                                         <AccordionIcon />
                                     </AccordionButton>
                                     <AccordionPanel p={2}>
                                         <Flex justify="center" flexWrap="wrap" align="center">
                                             <Center mx="7px" my="10px">
-                                                <ImageModal alt='Sunnyvale Office' src="sunnyvale.png" maxW="225px" />
+                                                <ImageModal alt='Sunnyvale Office 2024' src="sunnyvale.png" maxW="225px" />
                                             </Center>
                                             <Center mx="7px" my="10px">
                                                 <ImageModal alt='Spheres Office in Seattle' src="spheres.png" maxW="260px" />
