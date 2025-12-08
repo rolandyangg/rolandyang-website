@@ -55,7 +55,9 @@ export default function About() {
                         <Text fontWeight="bold" fontSize="2xl">computer science</Text>
                         <UnorderedList>
                             <ListItem>human computer interaction (CS 188)</ListItem>
+                            <ListItem><ListIcon as={BsCalendar}/>theory of computing (CS 181)</ListItem>
                             <ListItem>intro to algorithms and complexity (CS 180)</ListItem>
+                            <ListItem><ListIcon as={BsCalendar}/>computer animation (CS C174C)</ListItem>
                             <Link href="https://github.com/rolandyangg/CS174A" textDecoration="underline" isExternal><ListItem>intro to computer graphics (CS 174A)</ListItem></Link>
                             <ListItem><ListIcon as={BsFillGearFill}/>fundamentals of artificial intelligence (CS 161)</ListItem>
                             <Link href="https://github.com/wzsmith/cs145-pst" textDecoration="underline" isExternal><ListItem>data mining (CS 145)</ListItem></Link>
@@ -93,6 +95,7 @@ export default function About() {
                         <br/>
                         <Text fontWeight="bold" fontSize="2xl">science</Text>
                         <UnorderedList>
+                            <ListItem><ListIcon as={BsCalendar}/>electrodynamics, optics, and special relativity (PHYSICS 1C)</ListItem>
                             <ListItem><ListIcon as={BsFillGearFill}/>oscillations, waves, electric and magnetic Fields (PHYSICS 1B)</ListItem>
                             <ListItem>mechanics physics lab (PHYSICS 4AL)</ListItem>
                         </UnorderedList>   
@@ -131,7 +134,7 @@ export default function About() {
                                 <Text>Los Angeles, CA</Text>
                             </Flex>
                             <Text mb="10px">(GPA: 3.896/4.0)</Text>
-                            <Text fontSize="lg">LA Hacks (Executive Director), Marching Band (Quadline Captain), Assocation of Chinese Americans (Sponsorships Chair), Theta Chi Fraternity (Historian), Upsilon Pi Epsilon Computer Science Honor Society, DevX (Developer), MentorSEAS, Intramural Volleyball & Dodgeball</Text>
+                            <Text fontSize="lg">LA Hacks (Executive Director), Marching Band (Quadline Captain), Assocation of Chinese Americans (Sponsorships Chair), Theta Chi Fraternity (Historian), Chinese American Culture Night (Sponsorship Chair), Upsilon Pi Epsilon Computer Science Honor Society, DevX (Developer), MentorSEAS, Intramural Volleyball & Dodgeball</Text>
                         </Box>
                         
                         <Divider m="20px"/>
@@ -158,6 +161,22 @@ export default function About() {
                     <Heading pt="10px">work experience 💼</Heading>
                     <Text pb="10px">the big boy stuff</Text>
                     <Divider/>
+
+                    <Box justify="center" py="10px" fontSize="xl" w="90%">
+                        <Box>
+                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
+                                <Text fontWeight="bold" fontSize="2xl">Anduril</Text>
+                                <Text as='i'>Aug. 2026 - Present</Text>
+                            </Flex>
+                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
+                                <Text>Software Engineer</Text>
+                                <Text>Costa Mesa, CA</Text>
+                            </Flex>
+                            <Text mt="10px" fontSize="lg">Incoming Summer 2026</Text>
+                        </Box>
+                    </Box>
+
+                    <Divider m="20px"/>
 
                     <Box justify="center" py="10px" fontSize="xl" w="90%">
                         <Box>
