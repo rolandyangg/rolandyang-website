@@ -24,11 +24,11 @@ export default function About() {
                     <Flex justify="center" flexWrap="wrap" align="center">
                         <Center mx="20px" mb="20px" mt="10px" maxW="650px">
                             <Text fontSize="xl">
-                                Hi, my name is Roland Yang! I'm a Junior studying computer science at UCLA.
+                                Hi, my name is Roland Yang! I'm a Senior studying computer science at UCLA.
                                 I'm interested in software engineering, data engineering, and product management.
                                 <br></br>
                                 <br></br>
-                                I was born and raised in central New Jersey. In my free time, I enjoy drumming, playing volleyball, hiking, skiing, playing video games (no surprise, REAL unique for a CS major), video editing, and chilling with my cats! 🥁🏐🥾⛷️🎮🎥👨‍💻🐱
+                                I was born and raised in central New Jersey. In my free time, I enjoy drumming, playing volleyball, hiking, skiing, playing video games, DJing, video editing, and chilling with my cats! 🥁🏐🥾⛷️🎮🎥👨‍💻🐱
                                 <br></br>
                                 <br></br>
                                 Feel free to connect with me on any platform!
@@ -54,17 +54,17 @@ export default function About() {
                     <Box justify="center" py="10px" fontSize="xl">
                         <Text fontWeight="bold" fontSize="2xl">computer science</Text>
                         <UnorderedList>
-                            <ListItem>human computer interaction (CS 188)</ListItem>
-                            <ListItem><ListIcon as={BsCalendar}/>theory of computing (CS 181)</ListItem>
+                            <Link href="https://github.com/rolandyangg/notate" textDecoration="underline" ixExternal><ListItem>human computer interaction (CS 188)</ListItem></Link>
+                            <ListItem><ListIcon as={BsFillGearFill}/>theory of computing (CS 181)</ListItem>
                             <ListItem>intro to algorithms and complexity (CS 180)</ListItem>
-                            <ListItem><ListIcon as={BsCalendar}/>computer animation (CS C174C)</ListItem>
+                            <ListItem><ListIcon as={BsFillGearFill}/>computer animation (CS C174C)</ListItem>
                             <Link href="https://github.com/rolandyangg/CS174A" textDecoration="underline" isExternal><ListItem>intro to computer graphics (CS 174A)</ListItem></Link>
-                            <ListItem><ListIcon as={BsFillGearFill}/>fundamentals of artificial intelligence (CS 161)</ListItem>
+                            <ListItem>fundamentals of artificial intelligence (CS 161)</ListItem>
                             <Link href="https://github.com/wzsmith/cs145-pst" textDecoration="underline" isExternal><ListItem>data mining (CS 145)</ListItem></Link>
                             <ListItem>web applications (CS 144)</ListItem>
                             <ListItem>data management systems (CS 143)</ListItem>
                             <ListItem>programming languages (CS 131)</ListItem>
-                            <ListItem><ListIcon as={BsFillGearFill}/>software engineering (CS 130)</ListItem>
+                            <ListItem>software engineering (CS 130)</ListItem>
                             <Link href="https://github.com/rolandyangg/C122" textDecoration="underline" isExternal><ListItem>algorithms in computational genomics (CS C122)</ListItem></Link>
                             <ListItem>computer network fundamentals (CS 118)</ListItem>
                             <Link href="https://github.com/rolandyangg/CS111" textDecoration="underline" isExternal><ListItem>operating systems principles (CS 111)</ListItem></Link>
@@ -95,8 +95,8 @@ export default function About() {
                         <br/>
                         <Text fontWeight="bold" fontSize="2xl">science</Text>
                         <UnorderedList>
-                            <ListItem><ListIcon as={BsCalendar}/>electrodynamics, optics, and special relativity (PHYSICS 1C)</ListItem>
-                            <ListItem><ListIcon as={BsFillGearFill}/>oscillations, waves, electric and magnetic Fields (PHYSICS 1B)</ListItem>
+                            <ListItem><ListIcon as={BsFillGearFill}/>electrodynamics, optics, and special relativity (PHYSICS 1C)</ListItem>
+                            <ListItem>oscillations, waves, electric and magnetic Fields (PHYSICS 1B)</ListItem>
                             <ListItem>mechanics physics lab (PHYSICS 4AL)</ListItem>
                         </UnorderedList>   
                         <br/>                
@@ -109,7 +109,8 @@ export default function About() {
                             <ListItem>languages and cultures of asia (ASIA 30)</ListItem>
                             <ListItem>introduction to architectural studies (ARCH&UD 30)</ListItem>
                             <ListItem>intro machine learning (ENGR 96)</ListItem>
-                            <ListItem>symphonic band (MUSC 185F)</ListItem>  
+                            <ListItem>symphonic band (MUSC 185F)</ListItem>
+                            <ListItem>the disc jockey as performer (MSC IND 117)</ListItem>  
                         </UnorderedList>
                     </Box>
                     <Center>
@@ -159,7 +160,7 @@ export default function About() {
             <Center m={{base: "25px", md: "100px"}}>
                 <VStack border="1px" p="20px" rounded={7} w="95%" maxW="1100px">
                     <Heading pt="10px">work experience 💼</Heading>
-                    <Text pb="10px">the big boy stuff</Text>
+                    <Text pb="10px">career work</Text>
                     <Divider/>
 
                     <Box justify="center" py="10px" fontSize="xl" w="90%">
@@ -276,7 +277,7 @@ export default function About() {
                         <Box>
                             <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
                                 <Text fontWeight="bold" fontSize="2xl">Golshani Lab 🧠</Text>
-                                <Text as='i'>Mar. 2024 - Present</Text>
+                                <Text as='i'>Mar. 2024 - Dec. 2024</Text>
                             </Flex>
                             <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
                                 <Text>Undergraduate Research Assistant</Text>
@@ -314,7 +315,7 @@ export default function About() {
                                 <Text>Software Engineer Intern</Text>
                                 <Text>Remote</Text>
                             </Flex>
-                            <Text mt="10px" fontSize="lg">As a Slingshot Fellow, worked on a variety of projects helping out a CMU-based Startup. Most of my work involved using Python to analyze & process data and/or automate numerous different tasks. Still informally help out on the side from time to time.</Text>
+                            <Text mt="10px" fontSize="lg">As a Slingshot Fellow, worked on a variety of projects helping out a CMU-based Startup. Most of my work involved using Python to analyze & process data and/or automate numerous different tasks. Still informally help out on the side from time to time. (RIP Slingshot)</Text>
                              <Accordion border="transparent" allowToggle>
                                 <AccordionItem>
                                     <AccordionButton>
@@ -365,7 +366,7 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                                 <Text>Executive Director (Formerly Sponsorships Director & Sponsorships Member)</Text>
                                 <Text>Los Angeles, CA</Text>
                             </Flex>
-                            <Text mt="10px" fontSize="lg">Lead organizing Southern California's Largest Collegiate Hackathon hosted at UCLA. Secured $160,000 in corporate and in-kind sponsorships from Fortune 500 Companies and Startups in 2025.</Text>
+                            <Text mt="10px" fontSize="lg">Lead organizing Southern California's Largest Collegiate Hackathon- 50+ organizers and 1300+ hackers. Secured $160,000 in corporate and in-kind sponsorships from Fortune 500 Companies and Startups in 2025.</Text>
                              <Accordion border="transparent" allowToggle defaultIndex={[0]}>
                                 <AccordionItem>
                                     <AccordionButton>
@@ -581,41 +582,41 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                             <ListItem>favorite web games to play in class: connections, sexaginta~quattuordle, 2048, shellshock.io, contexto, surviv.io 💻</ListItem>
                             {/** https://64ordle.au/ https://bongo.cat/ https://play2048.co/ https://shellshock.io/ https://contexto.me/*/}
                             <ListItem>sony vegas {'>'} premiere (because i'm too lazy to learn premiere) 🎥</ListItem>
-                            <ListItem>the best flavor of ice cream is mint chocolate chip (this is a statement) 🍦</ListItem>
+                            <ListItem>the best flavor of ice cream is mint chocolate chip 🍦</ListItem>
                             <ListItem>i enjoy doing marching percussion! some of my experiences include the ucla marching band, pulse percussion, pow percussion, pacific crest drum and bugle corps, and élan percussion! 🥁</ListItem>
                         </UnorderedList>
                         <Accordion border="transparent" allowToggle defaultIndex={[0]}>
-                                <AccordionItem>
-                                    <AccordionButton>
-                                        <Box as="span" flex='1' textAlign='right'>
-                                         💂 click to see some band photos...
-                                        </Box>
-                                        <AccordionIcon />
-                                    </AccordionButton>
-                                    <AccordionPanel p={2}>
-                                        <Flex justify="center" flexWrap="wrap" align="center">
-                                            <Center mx="7px" my="10px">
-                                                <ImageModal alt='UCLA Quads' src="quadsphoto.jpeg" maxW="225px" />
-                                            </Center>
-                                            <Center mx="7px" my="10px">
-                                                <ImageModal alt='BRHS Band' src="hsband.jpeg" maxW="260px" />
-                                            </Center>
-                                            <Center mx="7px" my="10px">
-                                                <ImageModal alt='Pulse 2025' src="pulseshot.png" maxW="225px" />
-                                            </Center>
-                                            <Center mx="7px" my="10px">
-                                                <ImageModal alt='Pacific Crest 2023' src="bassbreakaftercropped.jpg" maxW="250px" />
-                                            </Center>
-                                            <Center mx="7px" my="10px">
-                                                <ImageModal alt='POW 2024' src="pow.jpg" maxW="250px" />
-                                            </Center>
-                                            <Center mx="7px" my="10px">
-                                                <ImageModal alt='Elan 2023' src="elan.JPG" maxW="190px" />
-                                            </Center>
-                                        </Flex>
-                                    </AccordionPanel>
-                                </AccordionItem>
-                            </Accordion>
+                            <AccordionItem>
+                                <AccordionButton>
+                                    <Box as="span" flex='1' textAlign='right'>
+                                        💂 click to see some band photos...
+                                    </Box>
+                                    <AccordionIcon />
+                                </AccordionButton>
+                                <AccordionPanel p={2}>
+                                    <Flex justify="center" flexWrap="wrap" align="center">
+                                        <Center mx="7px" my="10px">
+                                            <ImageModal alt='UCLA Quads' src="quadsphoto.jpeg" maxW="225px" />
+                                        </Center>
+                                        <Center mx="7px" my="10px">
+                                            <ImageModal alt='BRHS Band' src="hsband.jpeg" maxW="260px" />
+                                        </Center>
+                                        <Center mx="7px" my="10px">
+                                            <ImageModal alt='Pulse 2025' src="pulseshot.png" maxW="225px" />
+                                        </Center>
+                                        <Center mx="7px" my="10px">
+                                            <ImageModal alt='Pacific Crest 2023' src="bassbreakaftercropped.jpg" maxW="250px" />
+                                        </Center>
+                                        <Center mx="7px" my="10px">
+                                            <ImageModal alt='POW 2024' src="pow.jpg" maxW="250px" />
+                                        </Center>
+                                        <Center mx="7px" my="10px">
+                                            <ImageModal alt='Elan 2023' src="elan.JPG" maxW="190px" />
+                                        </Center>
+                                    </Flex>
+                                </AccordionPanel>
+                            </AccordionItem>
+                        </Accordion>
                     </Box>
                 </VStack>
             </Center>

@@ -126,7 +126,7 @@ export default function Home() {
 				<Heading fontSize="5xl">hey 👋</Heading>
 				<Heading fontSize="4xl">my name is <Text bgGradient='linear(to-l, #1ccbe2, #e96dff)'
 	bgClip='text' as="span" >roland yang</Text></Heading>
-				<Text fontSize="xl">welcome to my little website 💻</Text>
+				<Text fontSize="xl">welcome to my website 💻</Text>
 				<Text fontSize="xl">i’m an undergraduate student studying computer science at ucla 🐻 </Text>
 				<Flex direction={{ base: "column", lgg: "row"}} justify="center" align="center" flexWarp="wrap" fontSize="lg" py="10px">
 					<Flex>
@@ -171,7 +171,6 @@ export default function Home() {
 			<Flex direction={{ base: "column", md: "row"}} justify="space-between" align="center" flexWarp="wrap" w="100%" maxW="800px">
 				<VStack my="10px">
 					<Heading>contact</Heading>
-					<Text>i promise i'm a nice person</Text>
 				</VStack>
 				<VStack align="start" fontSize="xl" my="10px" flexWrap="nowrap">
 					<Link href="mailto:rolandyang@gmail.com"><Icon as={FaEnvelope} mx="5px"/>rolandyang@gmail.com</Link>
