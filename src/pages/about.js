@@ -163,7 +163,8 @@ export default function About() {
                     <Text pb="10px">career work</Text>
                     <Divider/>
 
-                    <Box justify="center" py="10px" fontSize="xl" w="90%">
+                    {/* Privacy */}
+                    {/* <Box justify="center" py="10px" fontSize="xl" w="90%">
                         <Box>
                             <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
                                 <Text fontWeight="bold" fontSize="2xl">Anduril</Text>
@@ -177,7 +178,7 @@ export default function About() {
                         </Box>
                     </Box>
 
-                    <Divider m="20px"/>
+                    <Divider m="20px"/> */}
 
                     <Box justify="center" py="10px" fontSize="xl" w="90%">
                         <Box>
