@@ -150,7 +150,7 @@ export default function Home() {
 		</Center>
 
 		<Center justify="center" p={{base: "50px", mdd: "100px"}}>
-			<VStack align="left">
+			<VStack align="left" maxWidth="1300px">
 				<Text fontSize="xl">
 					<b>currently</b> directing <Link href="https://lahacks.com" isExternal style={{ textDecoration: 'underline' }}>la hacks</Link> the largest collegiate hackathon in southern california, leading the <Link href="https://acabruins.org/" isExternal style={{ textDecoration: 'underline' }}>association of chinese americans</Link> internship program, and wrapping up my cs degree at ucla</Text>
 				<Text fontSize="xl">
