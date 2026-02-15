@@ -127,7 +127,7 @@ export default function Home() {
 				<Heading fontSize="4xl">my name is <Text bgGradient='linear(to-l, #1ccbe2, #e96dff)'
 	bgClip='text' as="span" >roland yang</Text></Heading>
 				<Text fontSize="xl">welcome to my website 💻</Text>
-				<Text fontSize="xl">i’m an undergraduate student studying computer science at ucla 🐻 </Text>
+				<Text fontSize="xl">senior computer science student at ucla building software and communities 🐻</Text>
 				<Flex direction={{ base: "column", lgg: "row"}} justify="center" align="center" flexWarp="wrap" fontSize="lg" py="10px">
 					<Flex>
 						{buttons[0].map((button, i) => {
@@ -141,9 +141,25 @@ export default function Home() {
 					</Flex>
 				</Flex>
 			</VStack>
-				</Flex>
-				<Text maxW="90%" justify="center" align="center" pt={5}>i am seeking full-time roles related to software engineering, data engineering, or product management, however all opportunities are greatly appreciated!</Text>
-				<Text maxW="90%" justify="center" align="center">feel free to reach out via any of my provided socials!</Text>
+			</Flex>
+			</VStack>
+		</Center>
+
+		<Center>
+			<Divider p="30px" borderColor="whiteAlpha.500" w="1300px"/>
+		</Center>
+
+		<Center justify="center" p={{base: "50px", mdd: "100px"}}>
+			<VStack align="left">
+				<Text fontSize="xl">
+					<b>currently</b> directing <Link href="https://lahacks.com" isExternal style={{ textDecoration: 'underline' }}>la hacks</Link> the largest collegiate hackathon in southern california, leading the <Link href="https://acabruins.org/" isExternal style={{ textDecoration: 'underline' }}>association of chinese americans</Link> internship program, and wrapping up my cs degree at ucla</Text>
+				<Text fontSize="xl">
+					<b>previously</b> a 2x amazon sde intern, <Link href="https://devpost.com/rolandyang" isExternal style={{ textDecoration: 'underline' }}>11x hackathon winner</Link>, and the <Link href="https://www.instagram.com/reel/DP0XL2BETKo/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" isExternal style={{ textDecoration: 'underline' }}>only person to have ever unboxed a labubu in the middle of the rose bowl</Link> </Text>
+				<Text fontSize="xl">
+					<b>on the side</b> learning the yangqin, continuing to drum, practicing DJing, exploring socal, renting out my foldable table, and building small software projects</Text>
+				<Text fontSize="md" opacity={0.7} mt={3}>
+					exploring full-time opportunities in software engineering, data, and product.
+				</Text>
 			</VStack>
 		</Center>
 

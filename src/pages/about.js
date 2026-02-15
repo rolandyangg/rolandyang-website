@@ -28,7 +28,7 @@ export default function About() {
                                 I'm interested in software engineering, data engineering, and product management.
                                 <br></br>
                                 <br></br>
-                                I was born and raised in central New Jersey. In my free time, I enjoy drumming, playing volleyball, hiking, skiing, playing video games, DJing, video editing, and chilling with my cats! 🥁🏐🥾⛷️🎮🎥👨‍💻🐱
+                                I was born and raised in central New Jersey. Outside of work, I enjoy drumming, playing volleyball, hiking, skiing, playing video games, DJing, video editing, and chilling with my cats! 🥁🏐🥾⛷️🎮🎥👨‍💻🐱
                                 <br></br>
                                 <br></br>
                                 Feel free to connect with me on any platform!
