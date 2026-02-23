@@ -571,7 +571,7 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
             </Center>
 
             {/** HOBBIES */}
-            <Center m={{base: "25px", md: "100px"}}>
+            <Center m={{base: "25px", md: "100px"}} id="misc">
                 <VStack border="1px" p="20px" rounded={7} w="95%" maxW="1100px">
                     <Heading pt="10px">misc. stuff 🎨</Heading>
                     <Text pb="10px">diversity</Text>
@@ -579,12 +579,19 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                     <Box justify="center" py="10px" fontSize={{base: "md", lg: "xl"}} maxW="800px">
                         <UnorderedList>
                             <ListItem>some video games i play: fortnite, valorant, fall guys, roblox, slime rancher, minecraft, osu 🎮</ListItem>
-                            <ListItem>random artists i have been listening to and enjoying recently: chris lake, zedd, rich brian, knock2, laufey 🎵</ListItem>
-                            <ListItem>favorite web games to play in class: connections, sexaginta~quattuordle, 2048, shellshock.io, contexto, surviv.io 💻</ListItem>
+                            <ListItem>random artists i have been listening to and enjoying recently: lamp, laufey, it's murph, chris lake, green day, zedd 🎵</ListItem>
+                            <ListItem>favorite web games to play in class: sexaginta~quattuordle, 2048, shellshock.io, connections, contexto, surviv.io 💻</ListItem>
                             {/** https://64ordle.au/ https://bongo.cat/ https://play2048.co/ https://shellshock.io/ https://contexto.me/*/}
-                            <ListItem>sony vegas {'>'} premiere (because i'm too lazy to learn premiere) 🎥</ListItem>
-                            <ListItem>the best flavor of ice cream is mint chocolate chip 🍦</ListItem>
+                            <ListItem>ENTP</ListItem>
+                            <ListItem>fav flavor of ice cream is mint chocolate chip 🍦</ListItem>
+                            <ListItem>there is a viral <Link href="https://www.instagram.com/reel/DQ2pJIAkooE/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" isExternal style={{ textDecoration: 'underline' }}>instagram reel</Link> of me out there squatting while expressing gratitude...</ListItem>
+                            <ListItem>nj -> socal 📍</ListItem>
+                            <ListItem>i can hit a mean fortnite wiggle emote</ListItem>
+                            <ListItem>favorite snacks: nerd gummy clusters (partially trauma bonded to this), trufruit, mike and ikes, acai with a lot of granola and nutella 🍬</ListItem>
                             <ListItem>i enjoy doing marching percussion! some of my experiences include the ucla marching band, pulse percussion, pow percussion, pacific crest drum and bugle corps, and élan percussion! 🥁</ListItem>
+                            <UnorderedList>
+                                <ListItem fontSize="md">my sophomore year of college, i accidentally ended up on taiwanese news after giving some kids my drumsticks after performing in taiwan</ListItem>
+                            </UnorderedList>
                         </UnorderedList>
                         <Accordion border="transparent" allowToggle defaultIndex={[0]}>
                             <AccordionItem>
@@ -599,9 +606,9 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                                         <Center mx="7px" my="10px">
                                             <ImageModal alt='UCLA Quads' src="quadsphoto.jpeg" maxW="225px" />
                                         </Center>
-                                        <Center mx="7px" my="10px">
+                                        {/* <Center mx="7px" my="10px">
                                             <ImageModal alt='BRHS Band' src="hsband.jpeg" maxW="260px" />
-                                        </Center>
+                                        </Center> */}
                                         <Center mx="7px" my="10px">
                                             <ImageModal alt='Pulse 2025' src="pulseshot.png" maxW="225px" />
                                         </Center>
@@ -609,10 +616,13 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                                             <ImageModal alt='Pacific Crest 2023' src="bassbreakaftercropped.jpg" maxW="250px" />
                                         </Center>
                                         <Center mx="7px" my="10px">
+                                            <ImageModal alt='Elan 2023' src="elan.JPG" maxW="190px" />
+                                        </Center>
+                                        <Center mx="7px" my="10px">
                                             <ImageModal alt='POW 2024' src="pow.jpg" maxW="250px" />
                                         </Center>
                                         <Center mx="7px" my="10px">
-                                            <ImageModal alt='Elan 2023' src="elan.JPG" maxW="190px" />
+                                            <ImageModal alt='Elan 2023' src="taiwan_drum.jpg" maxW="190px" />
                                         </Center>
                                     </Flex>
                                 </AccordionPanel>

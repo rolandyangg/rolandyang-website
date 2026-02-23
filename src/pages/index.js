@@ -157,7 +157,10 @@ export default function Home() {
 					<b>previously</b> a 2x amazon sde intern, <Link href="https://devpost.com/rolandyang" isExternal style={{ textDecoration: 'underline' }}>11x hackathon winner</Link>, and the <Link href="https://www.instagram.com/reel/DP0XL2BETKo/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" isExternal style={{ textDecoration: 'underline' }}>only person to have ever unboxed a labubu in the middle of the rose bowl</Link> </Text>
 				<Text fontSize="xl">
 					<b>on the side</b> learning the yangqin, continuing to drum, practicing DJing, exploring socal, renting out my foldable table, and building small software projects</Text>
-				<Text fontSize="md" opacity={0.7} mt={3}>
+				<GatsbyLink to="/about/#misc"><Text fontSize="xl" color="whiteAlpha.700" _hover={{color: "white"}}>
+					more about me...
+				</Text></GatsbyLink>
+				<Text fontSize="sm" opacity={0.7} mt={3}>
 					exploring full-time opportunities in software engineering, data, and product.
 				</Text>
 			</VStack>
