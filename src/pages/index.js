@@ -152,7 +152,7 @@ export default function Home() {
 		<Center justify="center" p={{base: "50px", mdd: "100px"}}>
 			<VStack align="left" maxWidth="1300px">
 				<Text fontSize="xl">
-					<b>currently</b> directing <Link href="https://lahacks.com" isExternal style={{ textDecoration: 'underline' }}>la hacks</Link> the largest collegiate hackathon in southern california, leading the <Link href="https://acabruins.org/" isExternal style={{ textDecoration: 'underline' }}>association of chinese americans</Link> internship program, and wrapping up my cs degree at ucla</Text>
+					<b>currently</b> directing <Link href="https://lahacks.com" isExternal style={{ textDecoration: 'underline' }}>la hacks</Link>, the largest collegiate hackathon in southern california, leading the <Link href="https://acabruins.org/" isExternal style={{ textDecoration: 'underline' }}>association of chinese americans</Link> internship program, and wrapping up my cs degree at ucla</Text>
 				<Text fontSize="xl">
 					<b>previously</b> a 2x amazon sde intern, <Link href="https://devpost.com/rolandyang" isExternal style={{ textDecoration: 'underline' }}>11x hackathon winner</Link>, and the <Link href="https://www.instagram.com/reel/DP0XL2BETKo/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" isExternal style={{ textDecoration: 'underline' }}>only person to have ever unboxed a labubu in the middle of the rose bowl</Link> </Text>
 				<Text fontSize="xl">
