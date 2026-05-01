@@ -134,7 +134,7 @@ export default function About() {
                                 <Text>Bachelors of Science in Computer Science</Text>
                                 <Text>Los Angeles, CA</Text>
                             </Flex>
-                            <Text mb="10px">(GPA: 3.896/4.0)</Text>
+                            <Text mb="10px">(GPA: 3.84/4.0)</Text>
                             <Text fontSize="lg">LA Hacks (Executive Director), Marching Band (Quadline Captain), Assocation of Chinese Americans (Sponsorships Chair), Theta Chi Fraternity (Historian), Chinese American Culture Night (Sponsorship Chair), Upsilon Pi Epsilon Computer Science Honor Society, DevX (Developer), MentorSEAS, Intramural Volleyball & Dodgeball</Text>
                         </Box>
                         
