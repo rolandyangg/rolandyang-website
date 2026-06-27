@@ -11,6 +11,22 @@ const shuffle = arr => [...arr].sort(() => Math.random() - 0.5);
 
 let projects = [
 	{
+		title: "backmusic",
+		link: "https://github.com/rolandyangg/backmusic_extension",
+		image: "backmusic.gif",
+		tech: ["React", "Spicetify", "Claude 🤡"],
+		award: null,
+		description: "Highly Customizable Audio-Visualizer Spotify Backdrop"
+	},
+	{
+		title: "branchline",
+		link: "https://www.branchline.org/",
+		image: "branchline.png",
+		tech: ["React", "Drizzle", "Neo", "Clerk", "JavaScript", "react-flow", "Next.js"],
+		award: null,
+		description: "A web application that allows people and organizations to easily create and customize rich lineage/family trees and host them online"
+	},
+	{
 		title: "ACA Family Tree",
 		link: "https://github.com/rolandyangg/aca-family-tree",
 		image: "aca_family.png",

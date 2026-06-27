@@ -128,14 +128,14 @@ export default function About() {
                         <Box>
                             <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
                                 <Text fontWeight="bold" fontSize="2xl">University of California - Los Angeles (UCLA) 🐻</Text>
-                                <Text as='i'>Expected Graduation 2026</Text>
+                                <Text as='i'>2022 - 2026</Text>
                             </Flex>
                             <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
                                 <Text>Bachelors of Science in Computer Science</Text>
                                 <Text>Los Angeles, CA</Text>
                             </Flex>
-                            <Text mb="10px">(GPA: 3.896/4.0)</Text>
-                            <Text fontSize="lg">LA Hacks (Executive Director), Marching Band (Quadline Captain), Assocation of Chinese Americans (Sponsorships Chair), Theta Chi Fraternity (Historian), Chinese American Culture Night (Sponsorship Chair), Upsilon Pi Epsilon Computer Science Honor Society, DevX (Developer), MentorSEAS, Intramural Volleyball & Dodgeball</Text>
+                            <Text mb="10px">(GPA: 3.842/4.0)</Text>
+                            <Text fontSize="lg">LA Hacks (Executive Director), Marching Band (Quadline Captain), Assocation of Chinese Americans (Sponsorships Chair + Intern Coord), Theta Chi Fraternity (Historian), Chinese American Culture Night (Sponsorship Chair), Upsilon Pi Epsilon Computer Science Honor Society, DevX (Developer), MentorSEAS, Intramural Volleyball & Dodgeball</Text>
                         </Box>
                         
                         <Divider m="20px"/>
@@ -354,7 +354,7 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
             <Center m={{base: "25px", md: "100px"}}>
                 <VStack border="1px" p="20px" rounded={7} w="95%" maxW="1100px">
                     <Heading pt="10px">odd jobs 👷</Heading>
-                    <Text pb="10px">other "professional" experiences</Text>
+                    <Text pb="10px">other experiences</Text>
                     <Divider/>
                     <Box justify="center" py="10px" fontSize="xl" w="90%">
 
@@ -379,10 +379,25 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                                     <AccordionPanel p={2}>
                                         <Flex flexWrap="wrap" align="center">
                                             <Box pt="5px" width="100%">
+                                                <Heading pt="5px" fontSize="xlg">2026: Executive Director</Heading>
+                                                <Flex justify="center" flexWrap="wrap" align="center" pt="5px">
+                                            <Center mx="7px" my="10px">
+                                                <ImageModal alt='Yapping at a workshop' src="lahackstalking.JPG" maxW="280px" />
+                                            </Center>
+                                            <Center mx="7px" my="10px">
+                                                <ImageModal alt='Group Pic 2026' src="lahacksgroupzoomed.jpg" maxW="300px" />
+                                            </Center>
+                                            <Center mx="7px" my="10px">
+                                                <ImageModal alt='Puppy corner' src="dog.jpg" maxW="190px" />
+                                                    </Center>
+                                                </Flex>
+                                            </Box>
+                                            <Divider/>
+                                            <Box pt="5px" width="100%">
                                                 <Heading pt="5px" fontSize="xlg">2025: Sponsorships Director</Heading>
                                                 <Flex justify="center" flexWrap="wrap" align="center" pt="5px">
-                                                    <Center mx="7px" my="10px">
-                                                                                                        <ImageModal alt='With Jason' src="spons_lahacks.jpg" maxW="280px" />
+                                            <Center mx="7px" my="10px">
+                                                <ImageModal alt='With Jason' src="spons_lahacks.jpg" maxW="280px" />
                                             </Center>
                                             <Center mx="7px" my="10px">
                                                 <ImageModal alt='Group Pic 2025' src="lahacks_group1.JPG" maxW="300px" />

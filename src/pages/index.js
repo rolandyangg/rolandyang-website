@@ -42,10 +42,18 @@ const buttons = [
 
 const featuredProjects = [
 	{
+		title: "branchline",
+		link: "https://www.branchline.org/",
+		image: "projects/branchline.png",
+		tech: ["React", "Drizzle", "Neo", "Clerk", "JavaScript", "react-flow", "Next.js"],
+		award: null,
+		description: "A web application that allows people and organizations to easily create and customize rich lineage/family trees and host them online"
+	},
+	{
 		title: "Notate",
 		link: "https://github.com/rolandyangg/notate",
 		image: "projects/notate_example.jpg",
-		tech: ["React", "Typescript", "Human-Computer Interaction", "UserResearch"],
+		tech: ["React", "Typescript", "Human-Computer Interaction", "User Research"],
 		award: null,
 		description: "A lightweight, minimalist text editor designed to make integrating annotations and visuals easier"
 	},
@@ -72,13 +80,21 @@ const featuredProjects = [
 	// 	award: null,
 	// 	description: "Command Line Interface designed for creating, designing, assigning, and taking live coding interviews"
 	// },
-	{
-		title: "ACA Family Tree",
-		link: "https://github.com/rolandyangg/aca-family-tree",
-		image: "projects/aca_family.png",
-		tech: ["React", "Javascript", "Graphs", "react-flow", "Data Structures"],
+	// {
+	// 	title: "ACA Family Tree",
+	// 	link: "https://github.com/rolandyangg/aca-family-tree",
+	// 	image: "projects/aca_family.png",
+	// 	tech: ["React", "Javascript", "Graphs", "react-flow", "Data Structures"],
+	// 	award: null,
+	// 	description: "Interactive Family Tree visualizations for the Association of Chinese Americans at UCLA staff members, dating back to 2014"
+	// },
+		{
+		title: "backmusic",
+		link: "https://github.com/rolandyangg/backmusic_extension",
+		image: "projects/backmusic.gif",
+		tech: ["React", "Spicetify", "Claude 🤡"],
 		award: null,
-		description: "Interactive Family Tree visualizations for the Association of Chinese Americans at UCLA staff members, dating back to 2014"
+		description: "Highly Customizable Audio-Visualizer Spotify Backdrop"
 	},
 	{
 		title: "vizAsianHate",
@@ -88,14 +104,14 @@ const featuredProjects = [
 		award: "Most Interactive @ Vizathon '22",
 		description: "Dynamic website containing interactive data visualizations displaying AAPI hate crime data"
 	},
-	{
-		title: "SecureTheTag",
-		link: "https://devpost.com/software/securethetag",
-		image: "projects/securethetagsample.jpg",
-		tech: ["HTML/CSS", "Bootstrap", "Express", "Node.js", "Google Cloud Platform", "Webscraping"],
-		award: "1st Overall @ RevolutionUC '21",
-		description: "Web application that provides trending Instagram hashtags directly based on user-uploaded images with webscraping and machine learning"
-	},
+	// {
+	// 	title: "SecureTheTag",
+	// 	link: "https://devpost.com/software/securethetag",
+	// 	image: "projects/securethetagsample.jpg",
+	// 	tech: ["HTML/CSS", "Bootstrap", "Express", "Node.js", "Google Cloud Platform", "Webscraping"],
+	// 	award: "1st Overall @ RevolutionUC '21",
+	// 	description: "Web application that provides trending Instagram hashtags directly based on user-uploaded images with webscraping and machine learning"
+	// },
 	// {
 	// 	title: "Swing Tic Tac Toe",
 	// 	link: "https://github.com/rolandyangg/tic-tac-toe",
