@@ -24,7 +24,7 @@ export default function About() {
                     <Flex justify="center" flexWrap="wrap" align="center">
                         <Center mx="20px" mb="20px" mt="10px" maxW="650px">
                             <Text fontSize="xl">
-                                Hi, my name is Roland Yang! I'm a Senior studying computer science at UCLA.
+                                Hi, my name is Roland Yang! I'm a software engineer who recently graduated from UCLA with a degree in Computer Science.
                                 I'm interested in software engineering, data engineering, and product management.
                                 <br></br>
                                 <br></br>
@@ -55,9 +55,9 @@ export default function About() {
                         <Text fontWeight="bold" fontSize="2xl">computer science</Text>
                         <UnorderedList>
                             <Link href="https://github.com/rolandyangg/notate" textDecoration="underline" ixExternal><ListItem>human computer interaction (CS 188)</ListItem></Link>
-                            <ListItem><ListIcon as={BsFillGearFill}/>theory of computing (CS 181)</ListItem>
+                            <ListItem>theory of computing (CS 181)</ListItem>
                             <ListItem>intro to algorithms and complexity (CS 180)</ListItem>
-                            <ListItem><ListIcon as={BsFillGearFill}/>computer animation (CS C174C)</ListItem>
+                            <ListItem>computer animation (CS C174C)</ListItem>
                             <Link href="https://github.com/rolandyangg/CS174A" textDecoration="underline" isExternal><ListItem>intro to computer graphics (CS 174A)</ListItem></Link>
                             <ListItem>fundamentals of artificial intelligence (CS 161)</ListItem>
                             <Link href="https://github.com/wzsmith/cs145-pst" textDecoration="underline" isExternal><ListItem>data mining (CS 145)</ListItem></Link>
@@ -95,7 +95,7 @@ export default function About() {
                         <br/>
                         <Text fontWeight="bold" fontSize="2xl">science</Text>
                         <UnorderedList>
-                            <ListItem><ListIcon as={BsFillGearFill}/>electrodynamics, optics, and special relativity (PHYSICS 1C)</ListItem>
+                            <ListItem>electrodynamics, optics, and special relativity (PHYSICS 1C)</ListItem>
                             <ListItem>oscillations, waves, electric and magnetic Fields (PHYSICS 1B)</ListItem>
                             <ListItem>mechanics physics lab (PHYSICS 4AL)</ListItem>
                         </UnorderedList>   
