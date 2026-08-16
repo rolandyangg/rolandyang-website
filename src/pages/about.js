@@ -35,8 +35,8 @@ export default function About() {
                             </Text>
                         </Center>
                         <Box mx="20px" my="10px" justify="center" align="center">
-                            <ImageModal mb="10px" alt='Roland Yang' src="film_camera_squarephoto.jpeg" maxW="325px" />
-                            <Text as='i' fontSize="xs">this is a polaroid of me on a trip in taiwan!</Text>
+                            <ImageModal mb="10px" alt='Roland Yang' src="wilderness-crop-2.jpg" maxW="325px" />
+                            <Text as='i' fontSize="xs">film pic of me on a trip in alaska!</Text>
                         </Box>
                     </Flex>
                 </VStack>

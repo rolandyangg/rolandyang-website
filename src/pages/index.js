@@ -168,11 +168,11 @@ export default function Home() {
 		<Center justify="center" p={{base: "50px", mdd: "100px"}}>
 			<VStack align="left" maxWidth="1300px">
 				<Text fontSize="xl">
-					<b>currently</b> traveling, settling in socal, starting work as a software engineer at anduril</Text>
+					<b>currently</b> settling in socal, starting work as a software engineer</Text>
 				<Text fontSize="xl">
 					<b>previously</b> ucla computer science graduate, a 2x amazon sde intern, <Link href="https://devpost.com/rolandyang" isExternal style={{ textDecoration: 'underline' }}>11x hackathon winner</Link>, and the <Link href="https://www.instagram.com/reel/DP0XL2BETKo/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" isExternal style={{ textDecoration: 'underline' }}>only person to have ever unboxed a labubu in the middle of the rose bowl</Link> </Text>
 				<Text fontSize="xl">
-					<b>on the side</b> trying to keep up with ai, learning how to bartend, and building small software projects</Text>
+					<b>on the side</b> getting back into volleyball, running, teaching drums</Text>
 				<GatsbyLink to="/about/#misc"><Text fontSize="xl" color="whiteAlpha.700" _hover={{color: "white"}}>
 					more about me...
 				</Text></GatsbyLink>
