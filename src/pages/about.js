@@ -361,7 +361,7 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                         <Box>
                             <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
                                 <Text fontWeight="bold" fontSize="2xl">LA Hacks 💻</Text>
-                                <Text as='i'>Oct. 2023 - Present</Text>
+                                <Text as='i'>Oct. 2023 - Jun. 2026</Text>
                             </Flex>
                             <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
                                 <Text>Executive Director (Formerly Sponsorships Director & Sponsorships Member)</Text>
@@ -439,6 +439,47 @@ API, Reddit API, Google Ads API, and Zyte API</ListItem>
                                                 <Image alt='Flaming Grill' src="flaminggrill1.jpeg" borderRadius="lg" maxW="250px"/>
                                             </Center>
                                         </Flex> */}
+                                    </AccordionPanel>
+                                </AccordionItem>
+                            </Accordion>
+                        </Box>
+
+                        <Divider m="20px"/>
+
+                        <Box>
+                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
+                                <Text fontWeight="bold" fontSize="2xl">Association of Chinese Americans (ACA) 🇨🇳</Text>
+                                <Text as='i'>May. 2025 - Jun. 2026</Text>
+                            </Flex>
+                            <Flex justify="space-between" align="center" w="100%" flexWrap="wrap">
+                                <Text>Sponsorships Director + Intern Coordinator</Text>
+                                <Text>Los Angeles, CA</Text>
+                            </Flex>
+                            <Text mt="10px" fontSize="lg">a very chinese time in my life lol</Text>
+                             <Accordion border="transparent" allowToggle defaultIndex={[0]}>
+                                <AccordionItem>
+                                    <AccordionButton>
+                                        <Box as="span" flex='1' textAlign='right'>
+                                            more...
+                                        </Box>
+                                        <AccordionIcon />
+                                    </AccordionButton>
+                                    <AccordionPanel p={2}>
+                                        <Flex flexWrap="wrap" align="center">
+                                            <Box pt="5px" width="100%">
+                                                <Flex justify="center" flexWrap="wrap" align="center" pt="5px">
+                                            <Center mx="7px" my="10px">
+                                                <ImageModal alt='Horse Staff 2025-2026' src="aca1.jpg" maxW="280px" />
+                                            </Center>
+                                            <Center mx="7px" my="10px">
+                                                <ImageModal alt='i luv my interns <3 baaaa baaaa' src="InternRetreat.jpg" maxW="300px" />
+                                            </Center>
+                                            <Center mx="7px" my="10px">
+                                                <ImageModal alt='speech!!!' src="yap.JPG" maxW="270px" />
+                                            </Center>
+                                                </Flex>
+                                            </Box>
+                                        </Flex>
                                     </AccordionPanel>
                                 </AccordionItem>
                             </Accordion>
