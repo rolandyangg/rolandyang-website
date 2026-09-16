@@ -90,13 +90,13 @@ let projects = [
 		award: "1st Overall @ RevolutionUC '21",
 		description: "Web application that provides trending Instagram hashtags directly based on user-uploaded images with webscraping and machine learning"
 	},
-	// {
-	// 	title: "Swing Tic Tac Toe",
-	// 	link: "https://github.com/rolandyangg/tic-tac-toe",
-	// 	image: "tictactoegif.gif",
-	// 	tech: ["Java", "Swing"],
-	// 	award: null
-	// },
+	{
+		title: "Swing Tic Tac Toe",
+		link: "https://github.com/rolandyangg/tic-tac-toe",
+		image: "tictactoegif.gif",
+		tech: ["Java", "Swing"],
+		award: null
+	},
     // {
 	// 	title: "Trie CLI",
 	// 	link: "https://github.com/rolandyangg/trie-system",
