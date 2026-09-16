@@ -1,9 +1,10 @@
 import * as React from 'react'
-import { ChakraProvider, Icon, Flex, VStack, Button, Link, Text, Heading, Image, Center, Divider } from '@chakra-ui/react'
+import { ChakraProvider, Icon, Box, Flex, VStack, Button, Link, Text, Heading, Image, Center, Divider, Modal, ModalOverlay, ModalContent, ModalBody, ModalCloseButton, useDisclosure } from '@chakra-ui/react'
 import { FaDev, FaGithub, FaEnvelope, FaLinkedin, FaFolderOpen } from 'react-icons/fa'
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
 import ProjectCard from '../components/projectcard'
+import UnderlineLink from '../components/underlinelink'
 import theme from '../theme'
 import { Link as GatsbyLink } from 'gatsby'
 import { Helmet } from 'react-helmet'
@@ -123,6 +124,28 @@ const featuredProjects = [
 
 // https://chakra-ui.com/docs/components/flex
 export default function Home() {
+  const { isOpen: isTofuOpen, onOpen: onTofuOpen, onClose: onTofuClose } = useDisclosure()
+
+  // only close when the click lands outside the video itself
+  const handleTofuOverlayClick = (e) => {
+    if (e.target === e.currentTarget) {
+      onTofuClose()
+    }
+  }
+
+  // try to play with sound, fall back to muted if the browser blocks autoplay
+  const handleTofuVideoRef = (el) => {
+    if (!el) return
+    el.muted = false
+    const played = el.play()
+    if (played) {
+      played.catch(() => {
+        el.muted = true
+        el.play().catch(() => {})
+      })
+    }
+  }
+
   return (
 	<>
 	<Helmet>
@@ -136,8 +159,23 @@ export default function Home() {
 			<VStack spacing={3}>
 			<Flex direction={{ base: "column", mdd: "row"}} justify="center" align="center" flexWarp="wrap">
 			<Center mx="30px" my="20px">
-				<Image alt='Roland Yang' src="/hsgradpic.jpeg" borderRadius="lg" maxW="350px"/>
+				<Box position="relative" maxW="350px" w="100%">
+					<Image alt='Roland Yang' src="/hsgradpic.jpeg" borderRadius="lg" w="100%"/>
+					{/** easter egg: click tofu 🐱 */}
+					<Box position="absolute" left="45%" top="46%" w="30%" h="27%" cursor="pointer" onClick={onTofuOpen}/>
+				</Box>
 			</Center>
+
+			{/** TOFU EASTER EGG MODAL */}
+			<Modal isOpen={isTofuOpen} onClose={onTofuClose} isCentered size="full" lockScroll={false} returnFocusOnClose={false}>
+				<ModalOverlay bg="rgba(0, 0, 0, 0.85)" onClick={handleTofuOverlayClick}/>
+				<ModalContent bg="transparent" boxShadow="none" maxW="100vw" m={0} onClick={handleTofuOverlayClick}>
+					<ModalCloseButton color="white" zIndex={2}/>
+					<ModalBody display="flex" justifyContent="center" alignItems="center" p={4} onClick={handleTofuOverlayClick}>
+						<video ref={handleTofuVideoRef} src="/tofuaigeneratedvideo.mp4" controls autoPlay playsInline onEnded={onTofuClose} style={{ maxHeight: "90vh", maxWidth: "100%", borderRadius: "8px" }}/>
+					</ModalBody>
+				</ModalContent>
+			</Modal>
 			<VStack mx="30px" align="left" maxW="600px">
 				<Heading fontSize="5xl">hey 👋</Heading>
 				<Heading fontSize="4xl">my name is <Text bgGradient='linear(to-l, #1ccbe2, #e96dff)'
@@ -170,11 +208,11 @@ export default function Home() {
 				<Text fontSize="xl">
 					<b>currently</b> settling in socal, starting work as a software engineer</Text>
 				<Text fontSize="xl">
-					<b>previously</b> ucla computer science graduate, a 2x amazon sde intern, <Link href="https://devpost.com/rolandyang" isExternal style={{ textDecoration: 'underline' }}>11x hackathon winner</Link>, and the <Link href="https://www.instagram.com/reel/DP0XL2BETKo/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" isExternal style={{ textDecoration: 'underline' }}>only person to have ever unboxed a labubu in the middle of the rose bowl</Link> </Text>
+					<b>previously</b> ucla computer science graduate, a 2x amazon sde intern, <UnderlineLink href="https://devpost.com/rolandyang">11x hackathon winner</UnderlineLink>, and the <UnderlineLink href="https://www.instagram.com/reel/DP0XL2BETKo/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">only person to have ever unboxed a labubu in the middle of the rose bowl</UnderlineLink> </Text>
 				<Text fontSize="xl">
 					<b>on the side</b> getting back into volleyball, running, teaching drums</Text>
-				<GatsbyLink to="/about/#misc"><Text fontSize="xl" color="whiteAlpha.700" _hover={{color: "white"}}>
-					more about me...
+				<GatsbyLink to="/about"><Text fontSize="xl" mt="20px" color="whiteAlpha.700" _hover={{color: "white", "& > span": {transform: "translateX(5px)"}}}>
+					more about me <Text as="span" display="inline-block" transition="transform 0.2s ease-out">→</Text>
 				</Text></GatsbyLink>
 				{/* <Text fontSize="sm" opacity={0.7} mt={3}>
 					exploring full-time opportunities in software engineering, data, and product.

@@ -11,7 +11,7 @@ export default function Footer() {
         <Center justify="center" p="50px" color="whiteAlpha.700">
             <VStack>
                 <Text>❤️ made by roland yang ❤️</Text>
-                <Link href="https://github.com/rolandyangg/rolandyang-website" isExternal><Icon as={FaGithub}/></Link>
+                <Link href="https://github.com/rolandyangg/rolandyang-website" isExternal _hover={{color: "white"}}><Icon as={FaGithub}/></Link>
             </VStack>
         </Center>
     </>)
