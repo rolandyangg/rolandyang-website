@@ -7,11 +7,12 @@ import Footer from '../components/footer'
 import ProjectCard from '../components/projectcard'
 import { Helmet } from 'react-helmet'
 
-const shuffle = arr => [...arr].sort(() => Math.random() - 0.5);
+// const shuffle = arr => [...arr].sort(() => Math.random() - 0.5); // projects are date-sorted now
 
 let projects = [
 	{
 		title: "backmusic",
+		date: "2026-06-17",
 		link: "https://github.com/rolandyangg/backmusic_extension",
 		image: "backmusic.gif",
 		tech: ["React", "Spicetify", "Claude 🤡"],
@@ -20,6 +21,7 @@ let projects = [
 	},
 	{
 		title: "branchline",
+		date: "2026-02-03",
 		link: "https://www.branchline.org/",
 		image: "branchline.png",
 		tech: ["React", "Drizzle", "Neo", "Clerk", "JavaScript", "react-flow", "Next.js"],
@@ -28,6 +30,7 @@ let projects = [
 	},
 	{
 		title: "ACA Family Tree",
+		date: "2025-06-16",
 		link: "https://github.com/rolandyangg/aca-family-tree",
 		image: "aca_family.png",
 		tech: ["React", "Javascript", "Graphs", "react-flow", "Data Structures"],
@@ -36,6 +39,7 @@ let projects = [
 	},
 	{
 		title: "Crossy Bruin",
+		date: "2025-05-09",
 		link: "https://github.com/rolandyangg/crossy-bruin",
 		image: "crossybruin.gif",
 		tech: ["Three.js", "Javascript", "Computer Graphics"],
@@ -44,6 +48,7 @@ let projects = [
 	},
 	{
 		title: "Notate",
+		date: "2025-05-16",
 		link: "https://github.com/rolandyangg/notate",
 		image: "notate_example.jpg",
 		tech: ["React", "Typescript", "Human-Computer Interaction", "User Research"],
@@ -52,6 +57,7 @@ let projects = [
 	},
     {
 		title: "Sorting Algorithm Visualizer",
+		date: "2023-01-01",
 		link: "https://github.com/rolandyangg/sorting-algorithm-visualizer",
 		image: "bubblesortsample.gif",
 		tech: ["C++", "SFML"],
@@ -60,6 +66,7 @@ let projects = [
 	},
 	{
 		title: "Coding Interview CLI",
+		date: "2021-03-31",
 		link: "https://github.com/rolandyangg/interview-cli",
 		image: "codinginterviewsample.png",
 		tech: ["Javascript", "Node.js", "Firebase"],
@@ -68,14 +75,16 @@ let projects = [
 	},
 	{
 		title: "vizAsianHate",
+		date: "2021-07-30",
 		link: "https://devpost.com/software/stop-aapi-hate-dashboard",
 		image: "vizasianhatesample.jpg",
 		tech: ["React", "Next.js", "ChakraUI", "Vercel", "APIs"],
-		award: "Most Interactive @ Vizathon '22",
+		award: "Most Interactive @ Vizathon '21",
 		description: "Dynamic website containing interactive data visualizations displaying AAPI hate crime data"
 	},
 	{
 		title: "NoMoAcne",
+		date: "2021-02-13",
 		link: "https://devpost.com/software/nomoacne",
 		image: "nomoacnesample.png",
 		tech: ["HTML/CSS", "Bootstrap", "Express", "Node.js", "Google Cloud Platform", "Clarifai"],
@@ -84,6 +93,7 @@ let projects = [
 	},
 	{
 		title: "SecureTheTag",
+		date: "2021-02-20",
 		link: "https://devpost.com/software/securethetag",
 		image: "securethetagsample.jpg",
 		tech: ["HTML/CSS", "Bootstrap", "Express", "Node.js", "Google Cloud Platform", "Webscraping"],
@@ -92,6 +102,7 @@ let projects = [
 	},
 	{
 		title: "Swing Tic Tac Toe",
+		date: "2020-03-15",
 		link: "https://github.com/rolandyangg/tic-tac-toe",
 		image: "tictactoegif.gif",
 		tech: ["Java", "Swing"],
@@ -106,6 +117,7 @@ let projects = [
 	// },
     {
 		title: "ProfessorAI",
+		date: "2021-03-23",
 		link: "https://devpost.com/software/name-xazq3o",
 		image: "professoraisample.png",
 		tech: ["HTML/CSS", "Bootstrap", "Express", "Node.js", "Google Cloud Platform", "APIs", "NLP"],
@@ -114,6 +126,7 @@ let projects = [
 	},
     {
 		title: "CorgiCuisine",
+		date: "2021-03-06",
 		link: "https://devpost.com/software/corgifeeds",
 		image: "corgicuisinesample.png",
 		tech: ["Arduino", "C++"],
@@ -122,6 +135,7 @@ let projects = [
 	},
     {
 		title: "Personal Website",
+		date: "2022-12-24",
 		link: "https://github.com/rolandyangg/rolandyang-website",
 		image: "personalwebsitesample.png",
 		tech: ["React", "Gatsby", "ChakraUI", "Netlify"],
@@ -130,6 +144,7 @@ let projects = [
 	},
     {
 		title: "PDF Anonymizer",
+		date: "2021-04-05",
 		link: "https://github.com/rolandyangg/pdf-anonymize",
 		image: "pdfanonymizersample.png",
 		tech: ["Python"],
@@ -138,6 +153,7 @@ let projects = [
 	},
 	{
 		title: "Peach Party",
+		date: "2023-03-06",
 		link: "https://github.com/rolandyangg/peach-party",
 		image: "peachpartyscreenshot.png",
 		tech: ["C++"],
@@ -146,6 +162,7 @@ let projects = [
 	},
 	{
 		title: "ChainChimp",
+		date: "2023-04-22",
 		link: "https://github.com/rolandyangg/chainchimp",
 		image: "chainchimplanding.png",
 		tech: ["React", "Solidity", "Blockchain", "Web3"],
@@ -154,6 +171,7 @@ let projects = [
 	},
 	{
 		title: "Pnetphlix",
+		date: "2023-04-05",
 		link: "https://github.com/rolandyangg/pnetphlix",
 		image: "pnetphlixphoto.png",
 		tech: ["C++", "Data Structures"],
@@ -162,6 +180,7 @@ let projects = [
 	},
 	{
 		title: "BruinShare",
+		date: "2023-05-01",
 		link: "https://github.com/rolandyangg/BruinShare",
 		image: "bruinsharepreview.png",
 		tech: ["FERN", "Firebase", "Express.js", "React", "Node.js", "AWS", "MaterialUI", "Next.js"],
@@ -169,6 +188,7 @@ let projects = [
 	},
 	{
 		title: "Pigzj",
+		date: "2024-02-20",
 		link: "https://github.com/rolandyangg/Pigzj",
 		image: "PigzjUsage.png",
 		tech: ["Java", "Multithreading", "Compression"],
@@ -176,7 +196,7 @@ let projects = [
 	}
 ]
 
-projects = shuffle(projects); 
+projects = [...projects].sort((a, b) => b.date.localeCompare(a.date)); // newest first
 
 export default function Projects() {
     return (<>
@@ -189,9 +209,9 @@ export default function Projects() {
             <Center justify="center" p={{base: "25px", md: "100px"}}>
                 <VStack>
                     <Flex justify="space-between" align="center" flexWrap="wrap" w="90%" maxW="1200px">
-                        <Link href="https://github.com/rolandyangg" isExternal><Icon boxSize={8} as={FaGithub}/></Link>
+                        <Link href="https://github.com/rolandyangg" isExternal display="inline-block" transition="transform 0.2s ease-out" _hover={{transform: "translateY(-3px)"}}><Icon boxSize={8} as={FaGithub}/></Link>
                         <Heading mb="15px" mx="10px">projects</Heading>
-                        <Link href="https://devpost.com/rolandyang" isExternal><Icon boxSize={8} as={FaDev}/></Link>
+                        <Link href="https://devpost.com/rolandyang" isExternal display="inline-block" transition="transform 0.2s ease-out" _hover={{transform: "translateY(-3px)"}}><Icon boxSize={8} as={FaDev}/></Link>
                     </Flex>
                     <Flex justify="center" align="center" flexWrap="wrap" maxW="1200px">
                         {projects.map((project, i) => {
