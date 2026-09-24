@@ -33,7 +33,7 @@ export default function About() {
                                 I'm driven by turning ideas into experiences that resonate with others. Whether through software, events, videos, or other creative work, I find fulfillment in bringing things to life that connect people, encourage growth, or simply give others something to enjoy.
                                 <br></br>
                                 <br></br>
-                                I was born and raised in central New Jersey. Outside of work, I enjoy drumming, playing volleyball, hiking, skiing, playing video games, DJing, video editing, and chilling with my cats! 🥁🏐🥾⛷️🎮🎥👨‍💻🐱
+                                I was born and raised in central New Jersey. Outside of work and academics, I enjoy drumming, playing volleyball, hiking, skiing, video editing, bartending, doomscrolling instagram reels, dystopian pop culture, ocassionally philosophizing, dilly-dalling, and chilling with my cats! 🥁🏐🥾⛷️🎥🍺👨‍💻🐱
                                 <br></br>
                                 <br></br>
                                 Feel free to <UnderlineLink href="#socials" textDecoration="none">connect</UnderlineLink> with me on any platform! I'd love to chat!
