@@ -11,6 +11,15 @@ import { Helmet } from 'react-helmet'
 
 let projects = [
 	{
+		title: "TurboBroccoli",
+		date: "2026-10-02",
+		link: "https://github.com/rolandyangg/turbo-broccoli",
+		image: "/projects/turbobroccoli.png",
+		tech: ["AI Agents", "Playwright", "QA Automation", "React", "TypeScript", "Node.js"],
+		award: null,
+		description: "An AI-powered QA toolkit that automatically identifies, reproduces, and fixes UI bugs in web app codebases across browsers and devices"
+	},
+	{
 		title: "backmusic",
 		date: "2026-06-17",
 		link: "https://github.com/rolandyangg/backmusic_extension",

@@ -98,13 +98,21 @@ const featuredProjects = [
 		description: "Highly Customizable Audio-Visualizer Spotify Backdrop"
 	},
 	{
-		title: "vizAsianHate",
-		link: "https://devpost.com/software/stop-aapi-hate-dashboard",
-		image: "projects/vizasianhatesample.jpg",
-		tech: ["React", "Next.js", "ChakraUI", "Vercel", "APIs"],
-		award: "Most Interactive @ Vizathon '22",
-		description: "Dynamic website containing interactive data visualizations displaying AAPI hate crime data"
+		title: "TurboBroccoli",
+		link: "https://github.com/rolandyangg/turbo-broccoli",
+		image: "/projects/turbobroccoli.png",
+		tech: ["AI Agents", "Playwright", "QA Automation", "React", "TypeScript", "Node.js"],
+		award: null,
+		description: "An AI-powered QA toolkit that automatically identifies, reproduces, and fixes UI bugs in web app codebases across browsers and devices"
 	},
+	// {
+	// 	title: "vizAsianHate",
+	// 	link: "https://devpost.com/software/stop-aapi-hate-dashboard",
+	// 	image: "projects/vizasianhatesample.jpg",
+	// 	tech: ["React", "Next.js", "ChakraUI", "Vercel", "APIs"],
+	// 	award: "Most Interactive @ Vizathon '22",
+	// 	description: "Dynamic website containing interactive data visualizations displaying AAPI hate crime data"
+	// },
 	// {
 	// 	title: "SecureTheTag",
 	// 	link: "https://devpost.com/software/securethetag",
